@@ -207,8 +207,8 @@
       "name": "debug_text",
       "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
       "width": 0,
-      "x": 197,
-      "y": 16,
+      "x": 247,
+      "y": 41,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,6 +228,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 265,
+      "layer": "",
+      "name": "Score",
+      "persistentUuid": "bdb1ac94-6f44-4dc4-b5ad-ee1795eac93b",
+      "width": 1173,
+      "x": -593,
+      "y": 1142,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -237,18 +253,6 @@
       "name": "carreau_sol_1",
       "tags": "",
       "texture": "New image5",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "tags": "",
-      "texture": "",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -891,7 +895,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "hero_score",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -935,13 +946,13 @@
           "UnlimitedCapacity": true
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 5000,
           "deceleration": 1000000,
           "maxSpeed": 1000,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown",
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4476,6 +4487,37 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 0,
+          "MarginBottom": 0,
+          "MarginLeft": 0,
+          "MarginRight": 0
+        }
+      ],
+      "string": "Score : \n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 200,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -4550,6 +4592,16 @@
             "hero.X()",
             "=",
             "hero.Y() - 100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "\"Score : \" + \nToString(hero.Variable(hero_score))"
           ]
         }
       ]
@@ -4971,6 +5023,17 @@
             "=",
             "\"Idle\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "hero",
+            "hero_score",
+            "=",
+            "hero.Variable(hero_score) + 1 "
+          ]
         }
       ]
     },
@@ -5012,10 +5075,28 @@
         },
         {
           "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "hero"
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game over screen\"",
+            ""
           ]
         }
       ]
@@ -5059,7 +5140,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "HUD",
+      "name": "Messages",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -5118,6 +5199,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
     },
     {
       "name": "TopDownMovement",
