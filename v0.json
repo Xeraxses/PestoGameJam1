@@ -63,7 +63,47 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brick3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "821a1cde78a58eae605bc09ebb4b3d91b1d1bda569cea742ff74470a0068dc2e_tiled_Brick3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/821a1cde78a58eae605bc09ebb4b3d91b1d1bda569cea742ff74470a0068dc2e_tiled_Brick3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1cf57c625136bd94bbd1b106efb62ff9133a7982fc612863e77692889dae8f68_Bomb Guy_Door Out_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Bomb Guy/1cf57c625136bd94bbd1b106efb62ff9133a7982fc612863e77692889dae8f68_Bomb Guy_Door Out_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3e3fb0b9d33af1facae0ab7197e74be3c525a50b1a931a17311a11e07fe260e9_Bomb Guy_Door In_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Bomb Guy/3e3fb0b9d33af1facae0ab7197e74be3c525a50b1a931a17311a11e07fe260e9_Bomb Guy_Door In_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -95,8 +135,179 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1028,
+          "layer": "",
+          "name": "carreau_sol_1",
+          "persistentUuid": "02e0ff71-e97c-498b-9ed0-0af3de9fe539",
+          "width": 1656,
+          "x": 130,
+          "y": 24,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 138,
+          "layer": "",
+          "name": "hero",
+          "persistentUuid": "2211d773-62b7-44e5-9a40-8d4e2ac9b61b",
+          "width": 131,
+          "x": 890,
+          "y": 526,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_sol_1",
+          "tags": "",
+          "texture": "821a1cde78a58eae605bc09ebb4b3d91b1d1bda569cea742ff74470a0068dc2e_tiled_Brick3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "hero",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 2000,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 2000,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 1000,
+              "movementAngleOffset": -45,
+              "name": "TopDownMovement",
+              "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "PixelIsometry"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "1cf57c625136bd94bbd1b106efb62ff9133a7982fc612863e77692889dae8f68_Bomb Guy_Door Out_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 50,
+                            "y": 4
+                          },
+                          {
+                            "x": 50,
+                            "y": 58
+                          },
+                          {
+                            "x": 2,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Moving",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3e3fb0b9d33af1facae0ab7197e74be3c525a50b1a931a17311a11e07fe260e9_Bomb Guy_Door In_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 50,
+                            "y": 4
+                          },
+                          {
+                            "x": 50,
+                            "y": 58
+                          },
+                          {
+                            "x": 2,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -110,12 +321,21 @@
               ]
             }
           ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+                "value": "CentreCamera"
               },
               "parameters": [
+                "",
+                "hero",
+                "",
+                "",
                 ""
               ]
             }
@@ -151,7 +371,36 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
