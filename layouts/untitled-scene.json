@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15911838846838605,
+    "zoomFactor": 0.2531414001298631,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,8 +30,10 @@
       "depth": 1,
       "height": 2002,
       "layer": "",
+      "locked": true,
       "name": "carreau_sol_1",
       "persistentUuid": "eba8db4e-5753-48d4-9818-983766a56cae",
+      "sealed": true,
       "width": 3196,
       "x": -665,
       "y": -469,
@@ -177,8 +179,8 @@
       "name": "hero",
       "persistentUuid": "d4a41da8-cbd5-4cf9-b144-a2da213d5bd5",
       "width": 200,
-      "x": 3,
-      "y": 9,
+      "x": 309,
+      "y": 478,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -188,30 +190,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 163,
+      "height": 282,
       "layer": "",
       "name": "vampire",
-      "persistentUuid": "27c885f3-181d-41ba-8946-53273a0beb76",
-      "width": 130,
-      "x": 1371,
-      "y": 180,
+      "persistentUuid": "f0035192-1c58-4135-9381-0264018ba37d",
+      "width": 233,
+      "x": 865,
+      "y": 384,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 178,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "40b3d19c-01d5-40b5-bcb7-6e86e9e304d4",
-      "width": 155,
-      "x": 1107,
-      "y": 640,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -339,7 +325,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
       "name": "vampire",
       "tags": "",
@@ -347,7 +333,28 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "Idle",
@@ -375,12 +382,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -411,12 +418,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -459,12 +466,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -495,12 +502,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -531,12 +538,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -567,12 +574,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -603,12 +610,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -639,12 +646,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -675,12 +682,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -711,12 +718,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -747,12 +754,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -783,12 +790,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -4320,6 +4327,73 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 70,
+      "emitterForceMax": 500,
+      "emitterForceMin": 100,
+      "flow": 100,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "flamme",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -15,
+      "particleAngle2": 15,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 145,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 241,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 0.75,
+      "particleLifeTimeMin": 0.10000000149011612,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 5,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0.05,
+      "rendererParam2": 0.75,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": 50,
+      "textureParticleName": "Flame.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 50,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Effect",
+          "doubleParameters": {
+            "brightness": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0,
+          "BounceCount": 0
+        }
+      ]
     }
   ],
   "events": [
@@ -4341,6 +4415,150 @@
             "value": "PlayerAuthentication::DisplayAuthenticationBanner"
           },
           "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "f"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "flamme",
+            "hero.CenterX() + 100",
+            "hero.CenterY()",
+            "\"Layer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "vampire",
+            "flamme",
+            "5",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "vampire",
+            "Animation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "hero",
+            "=",
+            "500",
+            "=",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "vampire",
+            "=",
+            "820",
+            "=",
+            "585"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "vampire",
+            "hero",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "hero",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "flamme",
+            "carreau_sol_1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "carreau_sol_1",
             ""
           ]
         }
@@ -4655,6 +4873,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
     },
     {
       "name": "Effect",

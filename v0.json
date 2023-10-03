@@ -1554,6 +1554,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/0247e402f9ad2fd79e7c33eced0214c2e67e3b810efccda1e9fc7583456e893e_Captain_Scare Run_9.png",
           "name": "Captain_Scare Run_9.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flame.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/1785fe4d24c3d35cdb2c10a1570a42c12a7e0585225c75837dde5e682a90d487_Flame.png",
+          "name": "Flame.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1568,7 +1581,16 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
