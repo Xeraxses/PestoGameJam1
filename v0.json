@@ -189,6 +189,1371 @@
         "name": "New image14",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/0615ad22b091acf37e0f736bc45c0a538aeb5cfb5a3dca4e48adcd312259a735_Monster_Fire_1.png",
+          "name": "Monster_Fire_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/1934a1153e3dc9d4549dc26b6f9410861b38e3dfcb612614f76b1f6d1259ee23_Monster_Fire_10.png",
+          "name": "Monster_Fire_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/59da57b9866ffd65a3bee24efbf81b4b392b2f5be8e8cf575414d3e338773363_Monster_Fire_2.png",
+          "name": "Monster_Fire_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/c1ee78a05b896e024a99bbd38af0ed33282eb99959f9aa961b58f19ce7bb5209_Monster_Fire_3.png",
+          "name": "Monster_Fire_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/279b50f3abac77536d51ee3c996dfabc6b5d3ee33bd076a3bf8929148fd0b7f6_Monster_Fire_4.png",
+          "name": "Monster_Fire_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/8f728379dfbe2a0bc3e292000756a24481b979628e644285597f84b753730488_Monster_Fire_5.png",
+          "name": "Monster_Fire_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/a024ac02b7ed5f9e021ba1f496fd8f98e6c96cb366d69da57c82ecc29715b9e4_Monster_Fire_6.png",
+          "name": "Monster_Fire_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/7c5e6d522387e288bf7fcc4c2118bd0f75dbdb006574b0501b73b7e2cb3e8e8d_Monster_Fire_7.png",
+          "name": "Monster_Fire_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/15a1d278920b7f3c16da02b785ea1293db1046a543cd9ce997a83d4d5fef33bb_Monster_Fire_8.png",
+          "name": "Monster_Fire_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Fire_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/4036054ef2db5306cd19bb29ea79d6e205768d81f10495c02e02fb38f14d6b18_Monster_Fire_9.png",
+          "name": "Monster_Fire_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/eb5920b535de7494f5853ffd4af66c1e27b75f68ab1d26f0be152b6600ff5fcf_Monster_Idle_1.png",
+          "name": "Monster_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Enemy/d8b86c8b67bbd826b2db08852fbb128fbcfda519ecb85f53e8dbc0d317cceed8_Monster_Idle_2.png",
+          "name": "Monster_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/405e0c978f74908a5cfb4c47659f0ea06e752f26271e122b15b6502bd0c06145_Captain_Attack_1.png",
+          "name": "Captain_Attack_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/d6fc7c437e280280e2260d1b563cacb4e61a1731b924fa25de129c82b296743b_Captain_Attack_2.png",
+          "name": "Captain_Attack_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/898fcad086964a4fc65fb137dc4e8a2c9cccfc5504ed8ac277f31a0f1e08e458_Captain_Attack_3.png",
+          "name": "Captain_Attack_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/898fcad086964a4fc65fb137dc4e8a2c9cccfc5504ed8ac277f31a0f1e08e458_Captain_Attack_4.png",
+          "name": "Captain_Attack_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/24cd350a047af63ed36910e391f4284ffb45dc53620c1b2d12355718b8f8079a_Captain_Attack_5.png",
+          "name": "Captain_Attack_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c4e1356bcaaa0e9faa9dc5d8b9a03730438d1030fc6b567659f98bf7101cd8c5_Captain_Attack_6.png",
+          "name": "Captain_Attack_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Attack_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/87645273d81e4d31db64fd3488b4d8000c4aab83dae7aca0227a876eadd30025_Captain_Attack_7.png",
+          "name": "Captain_Attack_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Ground_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/d0a99f5c98544bc2c029a48efc2fd444744a409ca2e4923c2e055500358641b4_Captain_Dead Ground_1.png",
+          "name": "Captain_Dead Ground_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Ground_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/d0a99f5c98544bc2c029a48efc2fd444744a409ca2e4923c2e055500358641b4_Captain_Dead Ground_2.png",
+          "name": "Captain_Dead Ground_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Ground_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/bd5997c295b228d83192382fba64f2c8e027c081acc820013b74497a128b69c3_Captain_Dead Ground_3.png",
+          "name": "Captain_Dead Ground_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Ground_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Ground_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/01b4098a37db0aa9edb3c0e25f4e336a795b3d380c9c04a5990ac4a72859a7fd_Captain_Dead Ground_4.png",
+          "name": "Captain_Dead Ground_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1ea115fe88a3ef5083d407f16195f93b433acd135a9b4829c6b980d6e56379c0_Captain_Dead Hit_1.png",
+          "name": "Captain_Dead Hit_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1ea115fe88a3ef5083d407f16195f93b433acd135a9b4829c6b980d6e56379c0_Captain_Dead Hit_2.png",
+          "name": "Captain_Dead Hit_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1ea115fe88a3ef5083d407f16195f93b433acd135a9b4829c6b980d6e56379c0_Captain_Dead Hit_3.png",
+          "name": "Captain_Dead Hit_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/434bd511e86ef4ac0d5826b9a4f313592ace2393f79e5f221da256011adc7cd0_Captain_Dead Hit_4.png",
+          "name": "Captain_Dead Hit_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/434bd511e86ef4ac0d5826b9a4f313592ace2393f79e5f221da256011adc7cd0_Captain_Dead Hit_5.png",
+          "name": "Captain_Dead Hit_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Dead Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Dead Hit_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/92c0d986f08399b8f33dce0141c57158d7a784edede19faa6ea16d8e6f00f853_Captain_Dead Hit_6.png",
+          "name": "Captain_Dead Hit_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Fall_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ddc9677ebb493bf6b484cef3862ca323f606176e5540f33976400228043c1ade_Captain_Fall_1.png",
+          "name": "Captain_Fall_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Fall_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c09bf4a3fd08394dd3fef40072498c76c380924515abbdcbe0f6d8baf1ab471f_Captain_Fall_2.png",
+          "name": "Captain_Fall_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Ground_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/923b846771d1f318b6de8060ae85bb6fd4a041ece3596e1874ea59447ed63060_Captain_Ground_1.png",
+          "name": "Captain_Ground_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Ground_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/923b846771d1f318b6de8060ae85bb6fd4a041ece3596e1874ea59447ed63060_Captain_Ground_2.png",
+          "name": "Captain_Ground_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Ground_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ed54e1e3a5408dbad1cb63aed91e3599e6d9b33f128599e7b43e290e9d5c2496_Captain_Ground_3.png",
+          "name": "Captain_Ground_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ceee4005ee9958b8d5a14aa2793d94975637f4a8a1d8ba29ff5e4d2aacbea581_Captain_Hit_1.png",
+          "name": "Captain_Hit_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ceee4005ee9958b8d5a14aa2793d94975637f4a8a1d8ba29ff5e4d2aacbea581_Captain_Hit_2.png",
+          "name": "Captain_Hit_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ceee4005ee9958b8d5a14aa2793d94975637f4a8a1d8ba29ff5e4d2aacbea581_Captain_Hit_3.png",
+          "name": "Captain_Hit_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ab15d18b84f4ecc52b3819f759c110a8858957a1f826ca459e9e0be048ec4b69_Captain_Hit_4.png",
+          "name": "Captain_Hit_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/ab15d18b84f4ecc52b3819f759c110a8858957a1f826ca459e9e0be048ec4b69_Captain_Hit_5.png",
+          "name": "Captain_Hit_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/af35599fa88e4b2390760faac2d36e3d3f807e50c9434039d50d862d3d0dd8b8_Captain_Hit_6.png",
+          "name": "Captain_Hit_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/854e81c9cea6e06b15ff1a76744a14d76ed8b026a3e6a8dddc40e58ae23e6ab3_Captain_Hit_7.png",
+          "name": "Captain_Hit_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Hit_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Hit_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/f2f0ad491fffc48521d726fa646e4746ee85260c7ed54090fa79d9fcf01249de_Captain_Hit_8.png",
+          "name": "Captain_Hit_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_1.png",
+          "name": "Captain_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_10.png",
+          "name": "Captain_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/3ebc20c728f86ea4c3fc56aaa0d796d3a297d98840a1e23632f7afcdc98e8c0c_Captain_Idle_11.png",
+          "name": "Captain_Idle_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/9addf72c51b0c42bfaf5d5b36245cbb4c7b8e69fbe16b88139c76163d37fa698_Captain_Idle_12.png",
+          "name": "Captain_Idle_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/9addf72c51b0c42bfaf5d5b36245cbb4c7b8e69fbe16b88139c76163d37fa698_Captain_Idle_13.png",
+          "name": "Captain_Idle_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_14.png",
+          "name": "Captain_Idle_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_15.png",
+          "name": "Captain_Idle_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_16.png",
+          "name": "Captain_Idle_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_17.png",
+          "name": "Captain_Idle_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_18.png",
+          "name": "Captain_Idle_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_19.png",
+          "name": "Captain_Idle_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_2.png",
+          "name": "Captain_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_20.png",
+          "name": "Captain_Idle_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_21.png",
+          "name": "Captain_Idle_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_22.png",
+          "name": "Captain_Idle_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_23.png",
+          "name": "Captain_Idle_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/c84579da1ffec62abe0fc9a6f3f5c9248bfe6e30b4614ac3e1c9a01f20832186_Captain_Idle_24.png",
+          "name": "Captain_Idle_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/4d0af982d48f08a7cbaacb8abc04fe4c6f100f18cf7ec15b35563fb7e6b5a134_Captain_Idle_25.png",
+          "name": "Captain_Idle_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/0bb7dc5aac8794eacfe7d44f2f786801571c16b9b1d8aa2c92975a0e2bd3cbd3_Captain_Idle_26.png",
+          "name": "Captain_Idle_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1d7f9223b63f9db9919a76bae30d3f46a9768ede7eaa68b46e0b193207bb14f0_Captain_Idle_27.png",
+          "name": "Captain_Idle_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/788751159a3c4130ea444f49a9696ae9a65a6ce87e7e31b7e03c3ffbfbd9acbe_Captain_Idle_28.png",
+          "name": "Captain_Idle_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/8f17ed2c81613bc8fce5b7a662940007084986ed3ede907d907921e065191f11_Captain_Idle_29.png",
+          "name": "Captain_Idle_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_3.png",
+          "name": "Captain_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/8f17ed2c81613bc8fce5b7a662940007084986ed3ede907d907921e065191f11_Captain_Idle_30.png",
+          "name": "Captain_Idle_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/e4fb0521171813f68868e7d12600862c93b97f2312cf36a187efa7cd3619c3ce_Captain_Idle_31.png",
+          "name": "Captain_Idle_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/36ad0db9d914952c11196f86a6bd7c45fddb5b62be9db904154f32b52d3e0ebf_Captain_Idle_32.png",
+          "name": "Captain_Idle_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_4.png",
+          "name": "Captain_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_5.png",
+          "name": "Captain_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_6.png",
+          "name": "Captain_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_7.png",
+          "name": "Captain_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_8.png",
+          "name": "Captain_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/408b7ccb27daddea901b69d84481f5b88b3c54d659092b5641b1efc03b0099f7_Captain_Idle_9.png",
+          "name": "Captain_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Jump Anticipation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Jump Anticipation.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/eda199af899349d596347e0f0b5f8f789ef96f45b255ad79594f65548fe6380f_Captain_Jump Anticipation.png",
+          "name": "Captain_Jump Anticipation.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/978053267b84b94f3fc217b7fedc54a89c5b21c9fcdb2a77a915c26af44c547b_Captain_Jump_1.png",
+          "name": "Captain_Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/978053267b84b94f3fc217b7fedc54a89c5b21c9fcdb2a77a915c26af44c547b_Captain_Jump_2.png",
+          "name": "Captain_Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/a66b8acf04fb3ccb625856e4b7e0f7355a190b2ef221febd3ade87ae0bce0fdf_Captain_Jump_3.png",
+          "name": "Captain_Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Jump_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/877b06c126de78f24bd0b2f678165fdccd59dc47f0310f20531355c992e5db67_Captain_Jump_4.png",
+          "name": "Captain_Jump_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/8d1a4a9a1905a41563a64e5c316e36cb9b4dcd339c47ca5fe6e2baa535a1859d_Captain_Run_1.png",
+          "name": "Captain_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/6dbb0f86897d69061bf3dec42a8cfa11ab8bdf80ea5becf4bddf33834e88762d_Captain_Run_10.png",
+          "name": "Captain_Run_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/6dbb0f86897d69061bf3dec42a8cfa11ab8bdf80ea5becf4bddf33834e88762d_Captain_Run_11.png",
+          "name": "Captain_Run_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/42b7b396980b60ce5c11455722cc3b14523c0ef429ae659f5135b6d085db8ce9_Captain_Run_12.png",
+          "name": "Captain_Run_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1a94479f2e2b32f8476c40f9326e1d8e561d4d7a907fc698b10301d5357bed93_Captain_Run_13.png",
+          "name": "Captain_Run_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1a94479f2e2b32f8476c40f9326e1d8e561d4d7a907fc698b10301d5357bed93_Captain_Run_14.png",
+          "name": "Captain_Run_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/9016814df76e14e66def8ee5e054d89176658088ce93848a1f6fd38e3dd7adb6_Captain_Run_2.png",
+          "name": "Captain_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/9016814df76e14e66def8ee5e054d89176658088ce93848a1f6fd38e3dd7adb6_Captain_Run_3.png",
+          "name": "Captain_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/9016814df76e14e66def8ee5e054d89176658088ce93848a1f6fd38e3dd7adb6_Captain_Run_4.png",
+          "name": "Captain_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/1cf03ca8d2c64e2eed35cdd8dcf3dd195003c7eda4f6a7c532b44bdb085e7577_Captain_Run_5.png",
+          "name": "Captain_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/5102ed86bf4d3fdc06b33c5e10e6cc0ac98c9d9a476085451156770db2b5136d_Captain_Run_6.png",
+          "name": "Captain_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/5102ed86bf4d3fdc06b33c5e10e6cc0ac98c9d9a476085451156770db2b5136d_Captain_Run_7.png",
+          "name": "Captain_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/43b00205d51d0c03b5739b1c1964b76dfc98f3c67b80792cd2216d5d2f1ffd21_Captain_Run_8.png",
+          "name": "Captain_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/6dbb0f86897d69061bf3dec42a8cfa11ab8bdf80ea5becf4bddf33834e88762d_Captain_Run_9.png",
+          "name": "Captain_Run_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/b00d54a39a2c045d7d596a8284f43dac7d5a4e2c9d26ac74d01bab2bcebecf0f_Captain_Scare Run_1.png",
+          "name": "Captain_Scare Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/f8f76cc113908c4cb521d2268181efd6994550ed308d34e7d330f9942337015e_Captain_Scare Run_10.png",
+          "name": "Captain_Scare Run_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/d7e1bba6fb13b2124e9d60ba08567d68437ce37521c232ae67aa99011f1e106a_Captain_Scare Run_11.png",
+          "name": "Captain_Scare Run_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/d7e1bba6fb13b2124e9d60ba08567d68437ce37521c232ae67aa99011f1e106a_Captain_Scare Run_12.png",
+          "name": "Captain_Scare Run_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/e89fb764b40d0768d3d6a0d796fa9a0e175da5fe6ba3b6e8e860f3d504177bde_Captain_Scare Run_2.png",
+          "name": "Captain_Scare Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/e89fb764b40d0768d3d6a0d796fa9a0e175da5fe6ba3b6e8e860f3d504177bde_Captain_Scare Run_3.png",
+          "name": "Captain_Scare Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/0074e0f1659fed0c4fc3809e3a2de37bacfd9b4fda99bee754687b83a4517c65_Captain_Scare Run_4.png",
+          "name": "Captain_Scare Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/900c3f0549128a663e7a4a60cb8294b45ea7d0e578be70c93f8425cdbe529a3f_Captain_Scare Run_5.png",
+          "name": "Captain_Scare Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/900c3f0549128a663e7a4a60cb8294b45ea7d0e578be70c93f8425cdbe529a3f_Captain_Scare Run_6.png",
+          "name": "Captain_Scare Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/5775ff5c91ada0be38552b37b33ee1fe7eec687c430540b4a580dba1eba62969_Captain_Scare Run_7.png",
+          "name": "Captain_Scare Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/0247e402f9ad2fd79e7c33eced0214c2e67e3b810efccda1e9fc7583456e893e_Captain_Scare Run_8.png",
+          "name": "Captain_Scare Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captain_Scare Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captain_Scare Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Captain/0247e402f9ad2fd79e7c33eced0214c2e67e3b810efccda1e9fc7583456e893e_Captain_Scare Run_9.png",
+          "name": "Captain_Scare Run_9.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -366,6 +1731,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 220,
+          "layer": "",
+          "name": "hero",
+          "persistentUuid": "d4a41da8-cbd5-4cf9-b144-a2da213d5bd5",
+          "width": 200,
+          "x": 3,
+          "y": 9,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 163,
+          "layer": "",
+          "name": "vampire",
+          "persistentUuid": "27c885f3-181d-41ba-8946-53273a0beb76",
+          "width": 130,
+          "x": 1622,
+          "y": 225,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 178,
+          "layer": "",
+          "name": "vampire",
+          "persistentUuid": "40b3d19c-01d5-40b5-bcb7-6e86e9e304d4",
+          "width": 155,
+          "x": 1107,
+          "y": 640,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -488,6 +1901,3989 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
+          "name": "vampire",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fire",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Monster_Fire_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 37
+                          },
+                          {
+                            "x": 77,
+                            "y": 118
+                          },
+                          {
+                            "x": 13,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed74b0bbec772fac8ebac986ade5096a96cfe1e45b5337a530597095853522aa",
+          "name": "hero",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0313,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Idle_32.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0714,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Run_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Ground_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Ground_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Ground_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Jump_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Jump_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Jump_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Fall_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Fall_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Hit_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1429,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Attack_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead Ground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Ground_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Ground_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Ground_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Ground_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Dead Hit_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump Anticipation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Jump Anticipation.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Scare Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0833,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Captain_Scare Run_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 5
+                          },
+                          {
+                            "x": 59,
+                            "y": 72
+                          },
+                          {
+                            "x": 11,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -578,16 +5974,32 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
         },
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
