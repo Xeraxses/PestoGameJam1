@@ -684,18 +684,6 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
-      "tags": "",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
       "name": "carreau_mur_haut_1",
       "tags": "",
       "texture": "New image7",
@@ -790,6 +778,475 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
+      "name": "vampire",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "ed74b0bbec772fac8ebac986ade5096a96cfe1e45b5337a530597095853522aa",
       "name": "hero",
@@ -843,6 +1300,8 @@
           "BulletSpeedVariance": 0
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -852,9 +1311,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 500,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -4900,475 +5357,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
-      "name": "vampire",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Idle_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Idle_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Fire",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "additive": false,
       "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
       "destroyWhenNoParticles": true,
@@ -5465,366 +5453,365 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "curseur_et_lance_flamme",
+      "folded": true,
+      "name": "collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "events": [
         {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "hero",
-            "MouseX",
-            "=",
-            "CursorX()"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_haut_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_haut_1",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "hero",
-            "MouseY",
-            "=",
-            "CursorY()"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_bas_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_bas_1",
+                ""
+              ]
+            }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_droite_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_droite_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_gauche_1",
+                ""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::Fire"
-          },
-          "parameters": [
-            "hero",
-            "FireBullet",
-            "hero.PointX(\"depart_flammes\")",
-            "hero.PointY(\"depart_flammes\")",
-            "flamme",
-            "hero.Angle()",
-            "550",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "vampire",
-            "flamme",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "vampire",
-            "Animation",
-            "=",
-            "\"Fire\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "RotateTowardPosition"
-          },
-          "parameters": [
-            "hero",
-            "hero.Variable(MouseX)",
-            "hero.Variable(MouseY)",
-            "0",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "collisions",
+      "folded": true,
+      "name": "curseur_et_lance_flamme",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "MouseX",
+                "=",
+                "CursorX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "MouseY",
+                "=",
+                "CursorY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::Fire"
+              },
+              "parameters": [
+                "hero",
+                "FireBullet",
+                "hero.PointX(\"depart_flammes\")",
+                "hero.PointY(\"depart_flammes\")",
+                "flamme",
+                "hero.Angle()",
+                "550",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "flamme",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "hero",
+                "hero.Variable(MouseX)",
+                "hero.Variable(MouseY)",
+                "0",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_haut_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_haut_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_bas_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_bas_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_droite_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_droite_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_haut_droit_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_haut_droit_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_bas_droit_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_bas_droit_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_bas_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_bas_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_haut_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_haut_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
