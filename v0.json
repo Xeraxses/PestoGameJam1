@@ -1747,6 +1747,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "vampire",
+          "persistentUuid": "9806f221-a228-43ba-aea6-7cdfd1878c64",
+          "width": 0,
+          "x": 1438,
+          "y": 734,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2350,6 +2365,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 2000,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -2359,9 +2376,7 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 1000,
               "movementAngleOffset": -45,
-              "name": "TopDownMovement",
               "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "PixelIsometry"
             }
           ],
