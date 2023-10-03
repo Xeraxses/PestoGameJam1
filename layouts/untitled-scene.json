@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15911838846838605,
+    "zoomFactor": 0.2531414001298631,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,8 +30,10 @@
       "depth": 1,
       "height": 2002,
       "layer": "",
+      "locked": true,
       "name": "carreau_sol_1",
       "persistentUuid": "eba8db4e-5753-48d4-9818-983766a56cae",
+      "sealed": true,
       "width": 3196,
       "x": -665,
       "y": -469,
@@ -177,9 +179,25 @@
       "name": "hero",
       "persistentUuid": "d4a41da8-cbd5-4cf9-b144-a2da213d5bd5",
       "width": 200,
-      "x": 3,
-      "y": 9,
+      "x": 527,
+      "y": 444,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 282,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "f0035192-1c58-4135-9381-0264018ba37d",
+      "width": 233,
+      "x": 849,
+      "y": 406,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -190,11 +208,461 @@
       "height": 0,
       "layer": "",
       "name": "vampire",
-      "persistentUuid": "27c885f3-181d-41ba-8946-53273a0beb76",
-      "width": 130,
-      "x": 1371,
-      "y": 180,
-      "zOrder": 11,
+      "persistentUuid": "a2bebbc0-bcb4-40df-895e-212b1640e53d",
+      "width": 0,
+      "x": 624,
+      "y": 695,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "d5ad5275-e8a8-450e-b503-1b16c5fd8f30",
+      "width": 0,
+      "x": 737,
+      "y": 680,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "a3eed7d6-9059-48e7-8bfd-236bc773c9ee",
+      "width": 0,
+      "x": 452,
+      "y": 612,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "003b3ceb-a65d-47c9-9c86-732e1f8c84cc",
+      "width": 0,
+      "x": 526,
+      "y": 693,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "188ca5e0-ec66-489e-b2ae-146930523a26",
+      "width": 0,
+      "x": 758,
+      "y": 283,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "7fe0455b-8f4b-4e09-a512-5112cbc9ae55",
+      "width": 0,
+      "x": 819,
+      "y": 611,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "19fc9b81-b77a-4f19-9829-b67c002d0ee8",
+      "width": 0,
+      "x": 841,
+      "y": 401,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "44302de2-ab68-451b-be68-1ca52d3efa35",
+      "width": 0,
+      "x": 408,
+      "y": 520,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "15398001-fbde-4f94-a1b1-48226ea9ef3a",
+      "width": 0,
+      "x": 428,
+      "y": 414,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "dce0a08f-2858-4505-86ec-37e6b60f82fb",
+      "width": 0,
+      "x": 480,
+      "y": 318,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "cfa4b26a-dc39-46a9-9093-f1f2449e3b4a",
+      "width": 0,
+      "x": 578,
+      "y": 263,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "e63bb811-7967-4930-a144-e797cca62d4c",
+      "width": 0,
+      "x": 665,
+      "y": 220,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "1f3f9164-e317-497e-9366-71c17cb3a9ab",
+      "width": 0,
+      "x": 1195,
+      "y": 532,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "5963d3c0-94e3-4c41-ae77-3daa7cf66f81",
+      "width": 0,
+      "x": 1060,
+      "y": 275,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "a0d318de-7492-490b-b5df-eac57c6f1959",
+      "width": 0,
+      "x": 349,
+      "y": 401,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "642f912d-e2c9-4a6b-87e0-ac8b74f74774",
+      "width": 0,
+      "x": 337,
+      "y": 500,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "557fd5bb-ddea-4a37-8c78-97e753b624b2",
+      "width": 0,
+      "x": 345,
+      "y": 603,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "951479be-b25f-4e79-bac5-1f2132391855",
+      "width": 0,
+      "x": 535,
+      "y": 622,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "fb23d08f-51c0-4699-92bf-bcb680010a06",
+      "width": 0,
+      "x": 626,
+      "y": 622,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "dde999be-eb87-4a5a-977e-195ad885778a",
+      "width": 0,
+      "x": 721,
+      "y": 579,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "ef4acc80-1ac4-4a6d-bb28-a116df472998",
+      "width": 0,
+      "x": 725,
+      "y": 480,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "9fd72e87-333a-4f01-8ab0-08e2d7e4e8cc",
+      "width": 0,
+      "x": 677,
+      "y": 385,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "d0d6016f-7ea1-4708-a7f0-e7c5a1fc16d8",
+      "width": 0,
+      "x": 583,
+      "y": 334,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "4c8ea874-72a3-4ee7-9cc8-8fdaeca23df7",
+      "width": 0,
+      "x": 476,
+      "y": 381,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "11cf520e-51af-4c82-abcd-88aa080d1e03",
+      "width": 0,
+      "x": 468,
+      "y": 504,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "0951ff72-da72-4f5e-8109-e2fc50210786",
+      "width": 0,
+      "x": 1325,
+      "y": 492,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "2f33d628-0748-4216-be63-f0951b0fb59c",
+      "width": 0,
+      "x": 1061,
+      "y": 413,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "a1c32baa-6b36-4888-92e3-442ff8704ace",
+      "width": 0,
+      "x": 1096,
+      "y": 500,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "828e937b-941a-476a-b14f-e2b7e9f1363b",
+      "width": 0,
+      "x": 1373,
+      "y": 358,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "769e5c2a-4344-4909-94d4-5d5a17872814",
+      "width": 0,
+      "x": 1286,
+      "y": 231,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "5e2e9f25-ebad-4fa4-ad5c-b26c631d2dac",
+      "width": 0,
+      "x": 1151,
+      "y": 216,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -356,7 +824,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
       "name": "vampire",
       "tags": "",
@@ -456,12 +924,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -492,12 +960,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -540,12 +1008,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -576,12 +1044,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -612,12 +1080,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -648,12 +1116,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -684,12 +1152,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -720,12 +1188,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -756,12 +1224,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -792,12 +1260,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -828,12 +1296,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -864,12 +1332,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 13.5,
+                        "y": 64.5
                       },
                       {
-                        "x": 77,
-                        "y": 37
+                        "x": 77.5,
+                        "y": 64.5
                       },
                       {
                         "x": 77,
@@ -901,6 +1369,18 @@
           "name": "hero_score",
           "type": "number",
           "value": 0
+        }, 
+        {
+          "folded": true,
+          "name": "MouseX",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "MouseY",
+          "type": "string",
+          "value": ""
         }
       ],
       "effects": [],
@@ -959,6 +1439,36 @@
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
           "ignoreDefaultControls": false
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
         }
       ],
       "animations": [
@@ -973,7 +1483,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1009,7 +1525,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1045,7 +1567,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1081,7 +1609,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1117,7 +1651,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1153,7 +1693,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1189,7 +1735,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1225,7 +1777,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_8.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1261,7 +1819,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_9.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1297,7 +1861,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_10.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1333,7 +1903,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_11.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1369,7 +1945,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_12.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1405,7 +1987,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_13.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1441,7 +2029,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_14.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1477,7 +2071,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_15.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1513,7 +2113,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_16.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1549,7 +2155,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_17.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1585,7 +2197,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_18.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1621,7 +2239,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_19.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1657,7 +2281,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_20.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1693,7 +2323,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_21.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1729,7 +2365,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_22.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1765,7 +2407,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_23.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1801,7 +2449,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_24.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1837,7 +2491,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_25.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1873,7 +2533,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_26.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1909,7 +2575,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_27.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1945,7 +2617,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_28.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1981,7 +2659,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_29.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2017,7 +2701,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_30.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2053,7 +2743,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_31.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2089,7 +2785,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_32.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2137,7 +2839,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2173,7 +2881,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2209,7 +2923,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2245,7 +2965,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2281,7 +3007,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2317,7 +3049,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2353,7 +3091,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2389,7 +3133,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_8.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2425,7 +3175,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_9.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2461,7 +3217,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_10.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2497,7 +3259,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_11.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2533,7 +3301,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_12.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2569,7 +3343,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_13.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2605,7 +3385,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_14.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2653,7 +3439,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2689,7 +3481,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2725,7 +3523,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2773,7 +3577,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2809,7 +3619,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2845,7 +3661,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2881,7 +3703,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2929,7 +3757,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Fall_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2965,7 +3799,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Fall_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3013,7 +3853,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3049,7 +3895,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3085,7 +3937,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3121,7 +3979,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3157,7 +4021,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3193,7 +4063,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3229,7 +4105,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3265,7 +4147,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_8.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3313,7 +4201,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3349,7 +4243,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3385,7 +4285,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3421,7 +4327,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3457,7 +4369,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3493,7 +4411,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3529,7 +4453,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3577,7 +4507,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3613,7 +4549,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3649,7 +4591,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3685,7 +4633,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3733,7 +4687,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3769,7 +4729,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3805,7 +4771,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3841,7 +4813,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3877,7 +4855,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3913,7 +4897,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3961,7 +4951,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump Anticipation.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4009,7 +5005,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4045,7 +5047,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4081,7 +5089,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4117,7 +5131,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4153,7 +5173,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4189,7 +5215,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4225,7 +5257,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4261,7 +5299,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_8.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4297,7 +5341,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_9.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4333,7 +5383,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_10.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4369,7 +5425,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_11.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4405,7 +5467,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_12.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 65.5,
+                      "y": 48
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4441,6 +5509,73 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 70,
+      "emitterForceMax": 350,
+      "emitterForceMin": 100,
+      "flow": 100,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "flamme",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -15,
+      "particleAngle2": 15,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 145,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 241,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 0.75,
+      "particleLifeTimeMin": 0.10000000149011612,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 5,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0.05,
+      "rendererParam2": 0.75,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": 50,
+      "textureParticleName": "Flame.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Effect",
+          "doubleParameters": {
+            "brightness": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0,
+          "BounceCount": 0
         }
       ]
     },
@@ -4782,6 +5917,126 @@
               "parameters": [
                 "hero",
                 "coin_mur_haut_gauche_1",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "curseur_et_lance_flamme",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "MouseX",
+                "=",
+                "CursorX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "MouseY",
+                "=",
+                "CursorY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::Fire"
+              },
+              "parameters": [
+                "hero",
+                "FireBullet",
+                "hero.PointX(\"depart_flammes\")",
+                "hero.PointY(\"depart_flammes\")",
+                "flamme",
+                "hero.Angle()",
+                "550",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "flamme",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "hero",
+                "hero.Variable(MouseX)",
+                "hero.Variable(MouseY)",
+                "0",
                 ""
               ]
             }
@@ -5195,6 +6450,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",

@@ -1570,6 +1570,19 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Flame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flame.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/1785fe4d24c3d35cdb2c10a1570a42c12a7e0585225c75837dde5e682a90d487_Flame.png",
+          "name": "Flame.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/tiled_Ground1.png",
         "kind": "image",
         "metadata": "",
@@ -1581,6 +1594,7 @@
           "name": "gdevelop-asset-store"
         }
       }
+      
     ],
     "resourceFolders": []
   },
@@ -1635,6 +1649,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
