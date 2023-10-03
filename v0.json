@@ -63,7 +63,134 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image11.png\"}",
+        "name": "New image11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image14",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -90,13 +217,279 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.15911838846838605,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2002,
+          "layer": "",
+          "name": "carreau_sol_1",
+          "persistentUuid": "eba8db4e-5753-48d4-9818-983766a56cae",
+          "width": 3196,
+          "x": -665,
+          "y": -469,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 10,
+          "height": 252,
+          "layer": "",
+          "name": "carreau_mur_haut_1",
+          "persistentUuid": "3e44cf2d-ca5c-4976-809e-843fb074c763",
+          "width": 3198,
+          "x": -666,
+          "y": -720,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2006,
+          "layer": "",
+          "name": "carreau_mur_droite_1",
+          "persistentUuid": "13e19e89-a81d-4aee-9dee-d9cf0dd68e05",
+          "width": 250,
+          "x": 2530,
+          "y": -470,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 252,
+          "layer": "",
+          "name": "carreau_mur_bas_1",
+          "persistentUuid": "67c7f69e-a93c-4157-acab-a0259d58113b",
+          "width": 3199,
+          "x": -669,
+          "y": 1533,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2007,
+          "layer": "",
+          "name": "carreau_mur_gauche_1",
+          "persistentUuid": "3ac383e5-0c21-4625-8cc8-3625330b24dc",
+          "width": 251,
+          "x": -916,
+          "y": -473,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 249,
+          "layer": "",
+          "name": "coin_mur_haut_droit_1",
+          "persistentUuid": "9bca5ec4-83d6-45d7-a717-a082f6793a27",
+          "width": 255,
+          "x": 2531,
+          "y": -719,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 251,
+          "layer": "",
+          "name": "coin_mur_bas_droit_1",
+          "persistentUuid": "c45405eb-5936-454c-91ef-a02fdd7fd23c",
+          "width": 251,
+          "x": 2530,
+          "y": 1534,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 252,
+          "layer": "",
+          "name": "coin_mur_bas_gauche_1",
+          "persistentUuid": "5418bda9-1b98-489b-92b8-c5adf453c811",
+          "width": 250,
+          "x": -916,
+          "y": 1533,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "",
+          "name": "coin_mur_haut_gauche_1",
+          "persistentUuid": "549b011b-0001-46e3-8661-56ff3ff5f96b",
+          "width": 250,
+          "x": -916,
+          "y": -722,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_sol_1",
+          "tags": "",
+          "texture": "New image5",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_mur_haut_1",
+          "tags": "",
+          "texture": "New image7",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "coin_mur_haut_droit_1",
+          "tags": "",
+          "texture": "New image11",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "coin_mur_bas_droit_1",
+          "tags": "",
+          "texture": "New image12",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "coin_mur_bas_gauche_1",
+          "tags": "",
+          "texture": "New image13",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "coin_mur_haut_gauche_1",
+          "tags": "",
+          "texture": "New image14",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_mur_droite_1",
+          "tags": "",
+          "texture": "New image8",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_mur_bas_1",
+          "tags": "",
+          "texture": "New image9",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "carreau_mur_gauche_1",
+          "tags": "",
+          "texture": "New image10",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -149,9 +542,54 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
