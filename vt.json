@@ -1,5 +1,5 @@
 {
-  "firstLayout": "niveau_0",
+  "firstLayout": "generation_scene_1",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -1557,45 +1557,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu Popup Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Menu Popup Background.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/UI/f8a4d79730d5c85f35ebf6e58016946cade303bed9fcb50e5b8e1f24a7386dbb_Menu Popup Background.png",
-          "name": "Menu Popup Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flame.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flame.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/1785fe4d24c3d35cdb2c10a1570a42c12a7e0585225c75837dde5e682a90d487_Flame.png",
-          "name": "Flame.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Ground1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "80d36287203659748c8c5fb3c075225705ebcaabd379cdde9f1a3c5b68ab7ab5_tiled_Ground1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/80d36287203659748c8c5fb3c075225705ebcaabd379cdde9f1a3c5b68ab7ab5_tiled_Ground1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/New image15.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -1705,75 +1666,21 @@
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "tags": "",
-      "texture": "80d36287203659748c8c5fb3c075225705ebcaabd379cdde9f1a3c5b68ab7ab5_tiled_Ground1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-over-screen"
+      "referenceTo": "/layouts/generation_scene_1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/niveau_0"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/title-screen"
+      "referenceTo": "/layouts/untitled-scene"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/popup"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/bounce"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/firebullet"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/health"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
-    }
-  ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

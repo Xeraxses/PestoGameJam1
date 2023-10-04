@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "generation_95scene_951",
+  "name": "generation_scene_1",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2531414001298631,
+    "zoomFactor": 0.30887412163426636,
     "windowMask": false
   },
   "objectsGroups": [
@@ -84,698 +84,15 @@
       ]
     }
   ],
-  "variables": [],
-  "instances": [
+  "variables": [
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2002,
-      "layer": "",
-      "locked": true,
-      "name": "carreau_sol_1",
-      "persistentUuid": "eba8db4e-5753-48d4-9818-983766a56cae",
-      "sealed": true,
-      "width": 3196,
-      "x": -665,
-      "y": -469,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 10,
-      "height": 252,
-      "layer": "",
-      "name": "carreau_mur_haut_1",
-      "persistentUuid": "3e44cf2d-ca5c-4976-809e-843fb074c763",
-      "width": 3198,
-      "x": -666,
-      "y": -720,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2006,
-      "layer": "",
-      "name": "carreau_mur_droite_1",
-      "persistentUuid": "13e19e89-a81d-4aee-9dee-d9cf0dd68e05",
-      "width": 250,
-      "x": 2530,
-      "y": -470,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 252,
-      "layer": "",
-      "name": "carreau_mur_bas_1",
-      "persistentUuid": "67c7f69e-a93c-4157-acab-a0259d58113b",
-      "width": 3199,
-      "x": -669,
-      "y": 1533,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2007,
-      "layer": "",
-      "name": "carreau_mur_gauche_1",
-      "persistentUuid": "3ac383e5-0c21-4625-8cc8-3625330b24dc",
-      "width": 251,
-      "x": -916,
-      "y": -473,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 249,
-      "layer": "",
-      "name": "coin_mur_haut_droit_1",
-      "persistentUuid": "9bca5ec4-83d6-45d7-a717-a082f6793a27",
-      "width": 255,
-      "x": 2531,
-      "y": -719,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 251,
-      "layer": "",
-      "name": "coin_mur_bas_droit_1",
-      "persistentUuid": "c45405eb-5936-454c-91ef-a02fdd7fd23c",
-      "width": 251,
-      "x": 2530,
-      "y": 1534,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 252,
-      "layer": "",
-      "name": "coin_mur_bas_gauche_1",
-      "persistentUuid": "5418bda9-1b98-489b-92b8-c5adf453c811",
-      "width": 250,
-      "x": -916,
-      "y": 1533,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 250,
-      "layer": "",
-      "name": "coin_mur_haut_gauche_1",
-      "persistentUuid": "549b011b-0001-46e3-8661-56ff3ff5f96b",
-      "width": 250,
-      "x": -916,
-      "y": -722,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 220,
-      "layer": "",
-      "name": "hero",
-      "persistentUuid": "d4a41da8-cbd5-4cf9-b144-a2da213d5bd5",
-      "width": 200,
-      "x": 527,
-      "y": 444,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 282,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "f0035192-1c58-4135-9381-0264018ba37d",
-      "width": 233,
-      "x": 849,
-      "y": 406,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a2bebbc0-bcb4-40df-895e-212b1640e53d",
-      "width": 0,
-      "x": 624,
-      "y": 695,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "d5ad5275-e8a8-450e-b503-1b16c5fd8f30",
-      "width": 0,
-      "x": 737,
-      "y": 680,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a3eed7d6-9059-48e7-8bfd-236bc773c9ee",
-      "width": 0,
-      "x": 452,
-      "y": 612,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "003b3ceb-a65d-47c9-9c86-732e1f8c84cc",
-      "width": 0,
-      "x": 526,
-      "y": 693,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "188ca5e0-ec66-489e-b2ae-146930523a26",
-      "width": 0,
-      "x": 758,
-      "y": 283,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "7fe0455b-8f4b-4e09-a512-5112cbc9ae55",
-      "width": 0,
-      "x": 819,
-      "y": 611,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "19fc9b81-b77a-4f19-9829-b67c002d0ee8",
-      "width": 0,
-      "x": 841,
-      "y": 401,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "44302de2-ab68-451b-be68-1ca52d3efa35",
-      "width": 0,
-      "x": 408,
-      "y": 520,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "15398001-fbde-4f94-a1b1-48226ea9ef3a",
-      "width": 0,
-      "x": 428,
-      "y": 414,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "dce0a08f-2858-4505-86ec-37e6b60f82fb",
-      "width": 0,
-      "x": 480,
-      "y": 318,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "cfa4b26a-dc39-46a9-9093-f1f2449e3b4a",
-      "width": 0,
-      "x": 578,
-      "y": 263,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "e63bb811-7967-4930-a144-e797cca62d4c",
-      "width": 0,
-      "x": 665,
-      "y": 220,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "1f3f9164-e317-497e-9366-71c17cb3a9ab",
-      "width": 0,
-      "x": 1195,
-      "y": 532,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "5963d3c0-94e3-4c41-ae77-3daa7cf66f81",
-      "width": 0,
-      "x": 1060,
-      "y": 275,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a0d318de-7492-490b-b5df-eac57c6f1959",
-      "width": 0,
-      "x": 349,
-      "y": 401,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "642f912d-e2c9-4a6b-87e0-ac8b74f74774",
-      "width": 0,
-      "x": 337,
-      "y": 500,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "557fd5bb-ddea-4a37-8c78-97e753b624b2",
-      "width": 0,
-      "x": 345,
-      "y": 603,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "951479be-b25f-4e79-bac5-1f2132391855",
-      "width": 0,
-      "x": 535,
-      "y": 622,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "fb23d08f-51c0-4699-92bf-bcb680010a06",
-      "width": 0,
-      "x": 626,
-      "y": 622,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "dde999be-eb87-4a5a-977e-195ad885778a",
-      "width": 0,
-      "x": 721,
-      "y": 579,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "ef4acc80-1ac4-4a6d-bb28-a116df472998",
-      "width": 0,
-      "x": 725,
-      "y": 480,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "9fd72e87-333a-4f01-8ab0-08e2d7e4e8cc",
-      "width": 0,
-      "x": 677,
-      "y": 385,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "d0d6016f-7ea1-4708-a7f0-e7c5a1fc16d8",
-      "width": 0,
-      "x": 583,
-      "y": 334,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "4c8ea874-72a3-4ee7-9cc8-8fdaeca23df7",
-      "width": 0,
-      "x": 476,
-      "y": 381,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "11cf520e-51af-4c82-abcd-88aa080d1e03",
-      "width": 0,
-      "x": 468,
-      "y": 504,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "0951ff72-da72-4f5e-8109-e2fc50210786",
-      "width": 0,
-      "x": 1325,
-      "y": 492,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "2f33d628-0748-4216-be63-f0951b0fb59c",
-      "width": 0,
-      "x": 1061,
-      "y": 413,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a1c32baa-6b36-4888-92e3-442ff8704ace",
-      "width": 0,
-      "x": 1096,
-      "y": 500,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "828e937b-941a-476a-b14f-e2b7e9f1363b",
-      "width": 0,
-      "x": 1373,
-      "y": 358,
-      "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "769e5c2a-4344-4909-94d4-5d5a17872814",
-      "width": 0,
-      "x": 1286,
-      "y": 231,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "5e2e9f25-ebad-4fa4-ad5c-b26c631d2dac",
-      "width": 0,
-      "x": 1151,
-      "y": 216,
-      "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "debug_text",
-      "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
-      "width": 0,
-      "x": 247,
-      "y": 41,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "player_health",
-      "persistentUuid": "1b1f01ca-098d-4a3f-9463-da1ba1508c39",
-      "width": 0,
-      "x": 17,
-      "y": -150,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 265,
-      "layer": "",
-      "name": "Score",
-      "persistentUuid": "bdb1ac94-6f44-4dc4-b5ad-ee1795eac93b",
-      "width": 1173,
-      "x": -593,
-      "y": 1142,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "folded": true,
+      "name": "nombre_de_salle",
+      "type": "number",
+      "value": 0
     }
   ],
+  "instances": [],
   "objects": [
     {
       "assetStoreId": "",
@@ -886,79 +203,15 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
       "name": "vampire",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "vampire_nb",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "vampire_health",
-          "type": "number",
-          "value": 10
-        }
-      ],
+      "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Bounce",
-          "type": "Bounce::Bounce",
-          "OldX": 0,
-          "OldY": 0,
-          "OldForceAngle": 0,
-          "OldForceLength": 0,
-          "NormalAngle": 0,
-          "BounceCount": 0
-        },
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 10,
-          "CurrentHealth": 0,
-          "MaxHealth": 2,
-          "DamageCooldown": 0,
-          "IsHealthJustDamaged": false,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "AllowOverHealing": false,
-          "HitAtLeastOnce": false,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 0,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ChanceToDodge": 0,
-          "DamageToBeApplied": 0,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0,
-          "IsJustDodged": false,
-          "ShieldDamageTaken": 0,
-          "HealToBeApplied": 0
-        },
-        {
-          "name": "ObjectSpawner",
-          "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
-          "OffsetX": 0,
-          "OffsetY": 0,
-          "JustSpawnedAnObject": false,
-          "MaxQuantityReached": false,
-          "MaxQuantity": 10,
-          "SpawnerCapacity": 0,
-          "UnlimitedCapacity": true
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Idle",
@@ -986,12 +239,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1022,12 +275,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1070,12 +323,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1106,12 +359,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1142,12 +395,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1178,12 +431,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1214,12 +467,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1250,12 +503,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1286,12 +539,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1322,12 +575,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1358,12 +611,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1394,12 +647,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
-                        "y": 64.5
+                        "x": 13,
+                        "y": 37
                       },
                       {
-                        "x": 77.5,
-                        "y": 64.5
+                        "x": 77,
+                        "y": 37
                       },
                       {
                         "x": 77,
@@ -1425,114 +678,9 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "hero_score",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "MouseX",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "folded": true,
-          "name": "MouseY",
-          "type": "string",
-          "value": ""
-        }
-      ],
+      "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "FireBullet",
-          "type": "FireBullet::FireBullet",
-          "FireCooldown": 0,
-          "HasJustFired": false,
-          "FiringArc": 45,
-          "BulletQuantity": 1,
-          "AngleVariance": 0,
-          "RotateBullet": true,
-          "AmmoQuantity": 0,
-          "ShotsPerReload": 0,
-          "ReloadDuration": 1,
-          "MaxAmmo": 0,
-          "ShotsBeforeNextReload": 0,
-          "TotalShotsFired": 0,
-          "TotalBulletsCreated": 0,
-          "StartingAmmo": 0,
-          "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": true,
-          "ReloadInProgress": false,
-          "HeatIncreasePerShot": 0,
-          "HeatLevel": 0,
-          "AutomaticReloading": true,
-          "OverheatDuration": 0,
-          "LinearCoolingRate": 0.1,
-          "ExponentialCoolingRate": 0.3,
-          "BulletLayer": "",
-          "RandomizedAngle": 0,
-          "BulletSpeedVariance": 0
-        },
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 10,
-          "CurrentHealth": 0,
-          "MaxHealth": 100,
-          "DamageCooldown": 0,
-          "IsHealthJustDamaged": false,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "AllowOverHealing": false,
-          "HitAtLeastOnce": false,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 0,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ChanceToDodge": 0,
-          "DamageToBeApplied": 0,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0,
-          "IsJustDodged": false,
-          "ShieldDamageTaken": 0,
-          "HealToBeApplied": 0
-        },
-        {
-          "name": "ObjectSpawner",
-          "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 3,
-          "OffsetX": 150,
-          "OffsetY": 150,
-          "JustSpawnedAnObject": false,
-          "MaxQuantityReached": false,
-          "MaxQuantity": 5,
-          "SpawnerCapacity": 0,
-          "UnlimitedCapacity": true
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 5000,
-          "deceleration": 1000000,
-          "maxSpeed": 1000,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown",
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "ignoreDefaultControls": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Idle",
@@ -1545,13 +693,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1587,13 +729,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1629,13 +765,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1671,13 +801,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1713,13 +837,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1755,13 +873,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1797,13 +909,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_7.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1839,13 +945,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_8.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1881,13 +981,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_9.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1923,13 +1017,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_10.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1965,13 +1053,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_11.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2007,13 +1089,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_12.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2049,13 +1125,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_13.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2091,13 +1161,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_14.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2133,13 +1197,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_15.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2175,13 +1233,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_16.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2217,13 +1269,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_17.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2259,13 +1305,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_18.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2301,13 +1341,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_19.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2343,13 +1377,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_20.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2385,13 +1413,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_21.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2427,13 +1449,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_22.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2469,13 +1485,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_23.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2511,13 +1521,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_24.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2553,13 +1557,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_25.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2595,13 +1593,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_26.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2637,13 +1629,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_27.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2679,13 +1665,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_28.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2721,13 +1701,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_29.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2763,13 +1737,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_30.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2805,13 +1773,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_31.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2847,13 +1809,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Idle_32.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2901,13 +1857,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2943,13 +1893,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2985,13 +1929,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3027,13 +1965,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3069,13 +2001,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3111,13 +2037,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3153,13 +2073,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_7.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3195,13 +2109,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_8.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3237,13 +2145,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_9.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3279,13 +2181,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_10.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3321,13 +2217,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_11.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3363,13 +2253,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_12.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3405,13 +2289,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_13.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3447,13 +2325,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Run_14.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3501,13 +2373,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3543,13 +2409,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3585,13 +2445,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Ground_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3639,13 +2493,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3681,13 +2529,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3723,13 +2565,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3765,13 +2601,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3819,13 +2649,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Fall_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3861,13 +2685,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Fall_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3909,19 +2727,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3957,13 +2769,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3999,13 +2805,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4041,13 +2841,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4083,13 +2877,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4125,13 +2913,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4167,13 +2949,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_7.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4209,13 +2985,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Hit_8.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4263,13 +3033,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4305,13 +3069,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4347,13 +3105,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4389,13 +3141,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4431,13 +3177,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4473,13 +3213,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4515,13 +3249,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Attack_7.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4563,19 +3291,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4611,13 +3333,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4653,13 +3369,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4695,13 +3405,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Ground_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4749,13 +3453,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4791,13 +3489,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4833,13 +3525,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4875,13 +3561,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4917,13 +3597,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4959,13 +3633,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Dead Hit_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5013,13 +3681,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Jump Anticipation.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5067,13 +3729,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_1.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5109,13 +3765,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_2.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5151,13 +3801,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_3.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5193,13 +3837,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_4.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5235,13 +3873,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_5.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5277,13 +3909,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_6.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5319,13 +3945,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_7.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5361,13 +3981,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_8.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5403,13 +4017,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_9.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5445,13 +4053,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_10.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5487,13 +4089,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_11.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5529,13 +4125,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Captain_Scare Run_12.png",
-                  "points": [
-                    {
-                      "name": "depart_flammes",
-                      "x": 65.5,
-                      "y": 48
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -5571,73 +4161,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "additive": false,
-      "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 70,
-      "emitterForceMax": 350,
-      "emitterForceMin": 100,
-      "flow": 100,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 100,
-      "name": "flamme",
-      "particleAlpha1": 255,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": -15,
-      "particleAngle2": 15,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 145,
-      "particleBlue2": 0,
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGreen1": 241,
-      "particleGreen2": 0,
-      "particleLifeTimeMax": 0.75,
-      "particleLifeTimeMin": 0.10000000149011612,
-      "particleRed1": 255,
-      "particleRed2": 255,
-      "particleSize1": 5,
-      "particleSize2": 100,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 0.05,
-      "rendererParam2": 0.75,
-      "rendererType": "Quad",
-      "tags": "",
-      "tank": 50,
-      "textureParticleName": "Flame.png",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 5,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Brightness",
-          "name": "Effect",
-          "doubleParameters": {
-            "brightness": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "Bounce",
-          "type": "Bounce::Bounce",
-          "OldX": 0,
-          "OldY": 0,
-          "OldForceAngle": 0,
-          "OldForceLength": 0,
-          "NormalAngle": 0,
-          "BounceCount": 0
         }
       ]
     },
@@ -5939,81 +4462,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "debug_text",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "TEST",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 200,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "player_health",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "100",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "StayOnScreen",
-          "type": "StayOnScreen::StayOnScreen",
-          "MarginTop": 0,
-          "MarginBottom": 0,
-          "MarginLeft": 0,
-          "MarginRight": 0
-        }
-      ],
-      "string": "Score : \n",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 200,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
       "bottomMargin": 15,
       "height": 32,
       "leftMargin": 0,
@@ -6080,11 +4528,43 @@
       "actions": [
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
             "",
-            "\"main_chrono\""
+            "\"salle_hbgd_1\"",
+            "-1240",
+            "-1060"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "hero",
+            "960",
+            "540",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "hero",
+            "=",
+            "27"
           ]
         }
       ]
@@ -6330,74 +4810,31 @@
               ]
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "curseur_et_lance_flamme",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "hero",
-                "MouseX",
-                "=",
-                "CursorX()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "hero",
-                "MouseY",
-                "=",
-                "CursorY()"
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "couloir_plafond_haut_1",
+                "hero",
                 "",
-                "\"Left\""
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "FireBullet::FireBullet::Fire"
+                "value": "SeparateFromObjects"
               },
               "parameters": [
                 "hero",
-                "FireBullet",
-                "hero.PointX(\"depart_flammes\")",
-                "hero.PointY(\"depart_flammes\")",
-                "flamme",
-                "hero.Angle()",
-                "550",
+                "couloir_plafond_haut_1",
                 ""
               ]
             }
@@ -6411,8 +4848,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "vampire",
-                "flamme",
+                "couloir_plafond_gauche_1",
+                "hero",
                 "",
                 "",
                 ""
@@ -6422,30 +4859,11 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "vampire",
-                "Animation",
-                "=",
-                "\"Fire\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "RotateTowardPosition"
+                "value": "SeparateFromObjects"
               },
               "parameters": [
                 "hero",
-                "hero.Variable(MouseX)",
-                "hero.Variable(MouseY)",
-                "0",
+                "couloir_plafond_gauche_1",
                 ""
               ]
             }
@@ -6459,327 +4877,918 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "mathieu_event",
+      "folded": true,
+      "name": "generation carte",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle haut",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "0.5",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "player_health",
-                "=",
-                "ToString(hero.Health::Health())"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "player_health",
-                "=",
-                "hero.X()",
-                "=",
-                "hero.Y() - 100"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score : \" + \nToString(hero.Variable(hero_score))"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "hero",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "10",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"IDLE\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"RUN\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "5",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Bounce::Bounce::BounceOff"
-              },
-              "parameters": [
-                "vampire",
-                "Bounce",
-                "hero",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetCooldownDurationOp"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "=",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "hero",
-                "hero_score",
-                "=",
-                "hero.Variable(hero_score) + 1 "
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "<=",
-                "0",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_haut",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "balise_haut"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "balise_haut",
+                        "Hasardisateur",
+                        "=",
+                        "RandomInRange(1,6)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_hb_1\"",
+                                "balise_haut.X()",
+                                "balise_haut.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_b_1\"",
+                                "balise_haut.X()",
+                                "balise_haut.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_b_1\"",
+                            "balise_haut.X()",
+                            "balise_haut.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            "balise_haut.X()",
+                            "balise_haut.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle bas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "vampire"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Dead Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "hero"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game over screen\"",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_bas",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "balise_bas"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "balise_bas",
+                        "Hasardisateur",
+                        "=",
+                        "RandomInRange(1,6)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_hb_1\"",
+                                "balise_bas.X()",
+                                "balise_bas.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_h_1\"",
+                                "balise_bas.X()",
+                                "balise_bas.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_h_1\"",
+                            "balise_bas.X()",
+                            "balise_bas.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            "balise_bas.X()",
+                            "balise_bas.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle gauche",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_gauche",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "balise_gauche"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "balise_gauche",
+                        "Hasardisateur",
+                        "=",
+                        "RandomInRange(1,6)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_gd_1\"",
+                                "balise_gauche.X()",
+                                "balise_gauche.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_d_1\"",
+                                "balise_gauche.X()",
+                                "balise_gauche.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_d_1\"",
+                            "balise_gauche.X()",
+                            "balise_gauche.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            "balise_gauche.X()",
+                            "balise_gauche.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle droite",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_droite",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "balise_droite"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "balise_droite",
+                        "Hasardisateur",
+                        "=",
+                        "RandomInRange(1,6)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_gd_1\"",
+                                "balise_droite.X()",
+                                "balise_droite.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_g_1\"",
+                                "balise_droite.X()",
+                                "balise_droite.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_g_1\"",
+                            "balise_droite.X()",
+                            "balise_droite.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            "balise_droite.X()",
+                            "balise_droite.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -6823,7 +5832,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Messages",
+      "name": "Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -6852,28 +5861,12 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "Bounce",
-      "type": "Bounce::Bounce"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
-      "name": "FireBullet",
-      "type": "FireBullet::FireBullet"
-    },
-    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
-      "name": "ObjectSpawner",
-      "type": "ObjectSpawner::ObjectSpawner"
     },
     {
       "name": "Opacity",
@@ -6886,14 +5879,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "StayOnScreen",
-      "type": "StayOnScreen::StayOnScreen"
-    },
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
