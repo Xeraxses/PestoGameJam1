@@ -1035,6 +1035,15 @@
           "UnlimitedCapacity": true
         },
         {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown",
+          "Up": "z",
+          "Left": "q",
+          "Right": "d",
+          "Down": "s",
+          "Topdown": "TopDownMovement"
+        },
+        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 5000,
@@ -5509,7 +5518,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "curseur_et_lance_flamme",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5600,6 +5608,15 @@
                 "=",
                 "\"Fire\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "vampire",
+                "\"vampire_hit_chrono\""
+              ]
             }
           ]
         },
@@ -5617,6 +5634,44 @@
                 "hero.Variable(MouseY)",
                 "0",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "vampire",
+                "\"vampire_hit_chrono\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "hero_score",
+                "=",
+                "hero.Variable(hero_score) + 1 "
               ]
             }
           ]
@@ -5759,7 +5814,7 @@
               "parameters": [
                 "vampire",
                 "hero",
-                "5",
+                "10",
                 "1"
               ]
             }
@@ -5896,23 +5951,31 @@
             },
             {
               "type": {
-                "value": "ModVarObjet"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "hero",
-                "hero_score",
-                "=",
-                "hero.Variable(hero_score) + 1 "
+                "",
+                "\"hit_chrono\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "Wait"
+                "value": "CompareTimer"
               },
               "parameters": [
+                "",
+                "\"hit_chrono\"",
+                ">=",
                 "3"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -5980,6 +6043,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Player_score",
+                "=",
+                "hero.Variable(hero_score)"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -5992,6 +6065,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -6087,6 +6165,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "RemapForTopdown",
+      "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
       "name": "Resizable",

@@ -49,7 +49,7 @@
       "persistentUuid": "f649b6b2-4e6c-4ad5-8e26-d4fcf41e9612",
       "width": 0,
       "x": 50,
-      "y": 37,
+      "y": 2,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,6 +66,21 @@
       "x": 658,
       "y": 786,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Debug_score_text",
+      "persistentUuid": "d3c6c554-eb5c-48a1-b5c3-14a4034e5f26",
+      "width": 0,
+      "x": 749,
+      "y": 649,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -135,9 +150,56 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Debug_score_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score : ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Debug_score_text",
+            "=",
+            "\"Score : \" + ToString(GlobalVariable(Player_score))"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -217,11 +279,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
