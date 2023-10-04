@@ -1,5 +1,5 @@
 {
-  "firstLayout": "generation_scene_1",
+  "firstLayout": "niveau_0",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -1672,7 +1672,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/generation_scene_1"
+      "referenceTo": "/layouts/niveau_0"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
