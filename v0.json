@@ -1734,6 +1734,12 @@
     {
       "folded": true,
       "name": "Player_score",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "nb_of_player",
       "type": "number",
       "value": 0
     }
@@ -1742,6 +1748,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/niveau_0_debug"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
