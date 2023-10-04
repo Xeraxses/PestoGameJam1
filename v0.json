@@ -1593,6 +1593,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/80d36287203659748c8c5fb3c075225705ebcaabd379cdde9f1a3c5b68ab7ab5_tiled_Ground1.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "Free Bird MINE.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Free Bird MINE.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -79,8 +79,8 @@
       "name": "PlayButton",
       "persistentUuid": "27d3bd7b-4efd-40ae-a407-de187224bba9",
       "width": 0,
-      "x": 817,
-      "y": 440,
+      "x": 808,
+      "y": 427,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,6 +294,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

@@ -179,160 +179,9 @@
       "name": "hero",
       "persistentUuid": "d4a41da8-cbd5-4cf9-b144-a2da213d5bd5",
       "width": 200,
-      "x": 527,
-      "y": 444,
+      "x": 1393,
+      "y": 441,
       "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 282,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "f0035192-1c58-4135-9381-0264018ba37d",
-      "width": 233,
-      "x": 849,
-      "y": 406,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a2bebbc0-bcb4-40df-895e-212b1640e53d",
-      "width": 0,
-      "x": 624,
-      "y": 695,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "d5ad5275-e8a8-450e-b503-1b16c5fd8f30",
-      "width": 0,
-      "x": 737,
-      "y": 680,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a3eed7d6-9059-48e7-8bfd-236bc773c9ee",
-      "width": 0,
-      "x": 452,
-      "y": 612,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "003b3ceb-a65d-47c9-9c86-732e1f8c84cc",
-      "width": 0,
-      "x": 526,
-      "y": 693,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "188ca5e0-ec66-489e-b2ae-146930523a26",
-      "width": 0,
-      "x": 758,
-      "y": 283,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "7fe0455b-8f4b-4e09-a512-5112cbc9ae55",
-      "width": 0,
-      "x": 819,
-      "y": 611,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "19fc9b81-b77a-4f19-9829-b67c002d0ee8",
-      "width": 0,
-      "x": 841,
-      "y": 401,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "44302de2-ab68-451b-be68-1ca52d3efa35",
-      "width": 0,
-      "x": 408,
-      "y": 520,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "15398001-fbde-4f94-a1b1-48226ea9ef3a",
-      "width": 0,
-      "x": 428,
-      "y": 414,
-      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,66 +197,6 @@
       "x": 480,
       "y": 318,
       "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "cfa4b26a-dc39-46a9-9093-f1f2449e3b4a",
-      "width": 0,
-      "x": 578,
-      "y": 263,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "e63bb811-7967-4930-a144-e797cca62d4c",
-      "width": 0,
-      "x": 665,
-      "y": 220,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "1f3f9164-e317-497e-9366-71c17cb3a9ab",
-      "width": 0,
-      "x": 1195,
-      "y": 532,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "5963d3c0-94e3-4c41-ae77-3daa7cf66f81",
-      "width": 0,
-      "x": 1060,
-      "y": 275,
-      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -453,216 +242,6 @@
       "x": 345,
       "y": 603,
       "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "951479be-b25f-4e79-bac5-1f2132391855",
-      "width": 0,
-      "x": 535,
-      "y": 622,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "fb23d08f-51c0-4699-92bf-bcb680010a06",
-      "width": 0,
-      "x": 626,
-      "y": 622,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "dde999be-eb87-4a5a-977e-195ad885778a",
-      "width": 0,
-      "x": 721,
-      "y": 579,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "ef4acc80-1ac4-4a6d-bb28-a116df472998",
-      "width": 0,
-      "x": 725,
-      "y": 480,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "9fd72e87-333a-4f01-8ab0-08e2d7e4e8cc",
-      "width": 0,
-      "x": 677,
-      "y": 385,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "d0d6016f-7ea1-4708-a7f0-e7c5a1fc16d8",
-      "width": 0,
-      "x": 583,
-      "y": 334,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "4c8ea874-72a3-4ee7-9cc8-8fdaeca23df7",
-      "width": 0,
-      "x": 476,
-      "y": 381,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "11cf520e-51af-4c82-abcd-88aa080d1e03",
-      "width": 0,
-      "x": 468,
-      "y": 504,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "0951ff72-da72-4f5e-8109-e2fc50210786",
-      "width": 0,
-      "x": 1325,
-      "y": 492,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "2f33d628-0748-4216-be63-f0951b0fb59c",
-      "width": 0,
-      "x": 1061,
-      "y": 413,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "a1c32baa-6b36-4888-92e3-442ff8704ace",
-      "width": 0,
-      "x": 1096,
-      "y": 500,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "828e937b-941a-476a-b14f-e2b7e9f1363b",
-      "width": 0,
-      "x": 1373,
-      "y": 358,
-      "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "769e5c2a-4344-4909-94d4-5d5a17872814",
-      "width": 0,
-      "x": 1286,
-      "y": 231,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "vampire",
-      "persistentUuid": "5e2e9f25-ebad-4fa4-ad5c-b26c631d2dac",
-      "width": 0,
-      "x": 1151,
-      "y": 216,
-      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1418,7 +997,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 10,
+          "Health": 100,
           "CurrentHealth": 0,
           "MaxHealth": 100,
           "DamageCooldown": 0,
@@ -6056,6 +5635,33 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Free Bird MINE.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -6126,12 +5732,34 @@
             },
             {
               "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SetOffsetX"
+              },
+              "parameters": [
+                "hero",
+                "ObjectSpawner",
+                "hero.X() + (500 * RandomWithStep(-1, 1, 2))",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SetOffsetY"
+              },
+              "parameters": [
+                "hero",
+                "ObjectSpawner",
+                "hero.Y() + (500 * RandomWithStep(-1, 1, 2))",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "AddForceVers"
               },
               "parameters": [
                 "vampire",
                 "hero",
-                "10",
+                "5",
                 "1"
               ]
             }
@@ -6198,16 +5826,6 @@
                 "Animation",
                 "=",
                 "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"RUN\""
               ]
             }
           ]
@@ -6278,6 +5896,17 @@
             },
             {
               "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "hero",
+                "hero_score",
+                "=",
+                "hero.Variable(hero_score) + 1 "
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -6293,17 +5922,6 @@
                 "Animation",
                 "=",
                 "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "hero",
-                "hero_score",
-                "=",
-                "hero.Variable(hero_score) + 1 "
               ]
             }
           ]
