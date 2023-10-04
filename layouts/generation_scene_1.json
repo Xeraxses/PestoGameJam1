@@ -4570,486 +4570,331 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "z"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "hero",
-            "-",
-            "15"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "s"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "hero",
-            "+",
-            "15"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "d"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "hero",
-            "+",
-            "15"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "q"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "hero",
-            "-",
-            "15"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_haut_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_haut_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_bas_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_bas_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "carreau_mur_droite_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "carreau_mur_droite_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_haut_droit_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_haut_droit_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_bas_droit_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_bas_droit_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_bas_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_bas_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "coin_mur_haut_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "coin_mur_haut_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "couloir_plafond_haut_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "couloir_plafond_haut_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "couloir_plafond_gauche_1",
-            "hero",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "hero",
-            "couloir_plafond_gauche_1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "generation salle haut",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "balise_haut",
-      "conditions": [],
-      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AjoutHasard"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "carreau_mur_haut_1",
+                "hero",
                 "",
-                "balise_haut"
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ModVarObjet"
+                "value": "SeparateFromObjects"
               },
               "parameters": [
-                "balise_haut",
-                "Hasardisateur",
-                "=",
-                "RandomInRange(1,6)"
+                "hero",
+                "carreau_mur_haut_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_bas_1",
+                "hero",
+                "",
+                "",
+                ""
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_bas_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_droite_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_droite_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "couloir_plafond_haut_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "couloir_plafond_haut_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "couloir_plafond_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "couloir_plafond_gauche_1",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "generation carte",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle haut",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "<",
-                    "8"
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_haut",
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -5057,225 +4902,226 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "AjoutHasard"
                       },
                       "parameters": [
-                        "balise_haut",
-                        "Hasardisateur",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_haut",
-                        "Hasardisateur",
-                        "<=",
-                        "3"
+                        "",
+                        "balise_haut"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_hb_1\"",
-                        "balise_haut.X()",
-                        "balise_haut.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "balise_haut",
                         "Hasardisateur",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_haut",
-                        "Hasardisateur",
-                        "<=",
-                        "6"
+                        "=",
+                        "RandomInRange(1,6)"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_b_1\"",
-                        "balise_haut.X()",
-                        "balise_haut.Y()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_hb_1\"",
+                                "balise_haut.X()",
+                                "balise_haut.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_haut",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_b_1\"",
+                                "balise_haut.X()",
+                                "balise_haut.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_b_1\"",
+                            "balise_haut.X()",
+                            "balise_haut.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            "balise_haut.X()",
+                            "balise_haut.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    ">=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"salle_b_1\"",
-                    "balise_haut.X()",
-                    "balise_haut.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "balise_bas",
-                    "balise_haut.X()",
-                    "balise_haut.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_bas",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_haut",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "+",
-                    "1"
                   ]
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "generation salle bas",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "balise_bas",
-      "conditions": [],
-      "actions": [],
-      "events": [
+          ],
+          "parameters": []
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "balise_bas"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "balise_bas",
-                "Hasardisateur",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle bas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "<",
-                    "8"
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_bas",
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -5283,225 +5129,226 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "AjoutHasard"
                       },
                       "parameters": [
-                        "balise_bas",
-                        "Hasardisateur",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_bas",
-                        "Hasardisateur",
-                        "<=",
-                        "3"
+                        "",
+                        "balise_bas"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_hb_1\"",
-                        "balise_bas.X()",
-                        "balise_bas.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "balise_bas",
                         "Hasardisateur",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_bas",
-                        "Hasardisateur",
-                        "<=",
-                        "6"
+                        "=",
+                        "RandomInRange(1,6)"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_h_1\"",
-                        "balise_bas.X()",
-                        "balise_bas.Y()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_hb_1\"",
+                                "balise_bas.X()",
+                                "balise_bas.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_bas",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_h_1\"",
+                                "balise_bas.X()",
+                                "balise_bas.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_h_1\"",
+                            "balise_bas.X()",
+                            "balise_bas.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            "balise_bas.X()",
+                            "balise_bas.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_haut",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_bas",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    ">=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"salle_h_1\"",
-                    "balise_bas.X()",
-                    "balise_bas.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "balise_haut",
-                    "balise_bas.X()",
-                    "balise_bas.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_haut",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_bas",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "+",
-                    "1"
                   ]
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "generation salle gauche",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "balise_gauche",
-      "conditions": [],
-      "actions": [],
-      "events": [
+          ],
+          "parameters": []
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "balise_gauche"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "balise_gauche",
-                "Hasardisateur",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle gauche",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "<",
-                    "8"
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_gauche",
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -5509,225 +5356,226 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "AjoutHasard"
                       },
                       "parameters": [
-                        "balise_gauche",
-                        "Hasardisateur",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_gauche",
-                        "Hasardisateur",
-                        "<=",
-                        "3"
+                        "",
+                        "balise_gauche"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_gd_1\"",
-                        "balise_gauche.X()",
-                        "balise_gauche.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "balise_gauche",
                         "Hasardisateur",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_gauche",
-                        "Hasardisateur",
-                        "<=",
-                        "6"
+                        "=",
+                        "RandomInRange(1,6)"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_d_1\"",
-                        "balise_gauche.X()",
-                        "balise_gauche.Y()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_gd_1\"",
+                                "balise_gauche.X()",
+                                "balise_gauche.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_gauche",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_d_1\"",
+                                "balise_gauche.X()",
+                                "balise_gauche.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_d_1\"",
+                            "balise_gauche.X()",
+                            "balise_gauche.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            "balise_gauche.X()",
+                            "balise_gauche.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    ">=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"salle_d_1\"",
-                    "balise_gauche.X()",
-                    "balise_gauche.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "balise_droite",
-                    "balise_gauche.X()",
-                    "balise_gauche.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_droite",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_gauche",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "+",
-                    "1"
                   ]
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "generation salle droite",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "balise_droite",
-      "conditions": [],
-      "actions": [],
-      "events": [
+          ],
+          "parameters": []
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "balise_droite"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "balise_droite",
-                "Hasardisateur",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "generation salle droite",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "<",
-                    "8"
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "balise_droite",
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -5735,166 +5583,215 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "AjoutHasard"
                       },
                       "parameters": [
-                        "balise_droite",
-                        "Hasardisateur",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_droite",
-                        "Hasardisateur",
-                        "<=",
-                        "3"
+                        "",
+                        "balise_droite"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_gd_1\"",
-                        "balise_droite.X()",
-                        "balise_droite.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "balise_droite",
                         "Hasardisateur",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "balise_droite",
-                        "Hasardisateur",
-                        "<=",
-                        "6"
+                        "=",
+                        "RandomInRange(1,6)"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"salle_g_1\"",
-                        "balise_droite.X()",
-                        "balise_droite.Y()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "<",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                "<=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_gd_1\"",
+                                "balise_droite.X()",
+                                "balise_droite.Y()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                ">=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "balise_droite",
+                                "Hasardisateur",
+                                "<=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"salle_g_1\"",
+                                "balise_droite.X()",
+                                "balise_droite.Y()"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "\"salle_g_1\"",
+                            "balise_droite.X()",
+                            "balise_droite.Y()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            "balise_droite.X()",
+                            "balise_droite.Y()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_gauche",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "balise_droite",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "nombre_de_salle",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    ">=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"salle_g_1\"",
-                    "balise_droite.X()",
-                    "balise_droite.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "balise_gauche",
-                    "balise_droite.X()",
-                    "balise_droite.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_gauche",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "balise_droite",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "nombre_de_salle",
-                    "+",
-                    "1"
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [
