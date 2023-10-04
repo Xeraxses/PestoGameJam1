@@ -116,21 +116,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "debug_text",
-      "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
-      "width": 0,
-      "x": 247,
-      "y": 41,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "player_health",
       "persistentUuid": "1b1f01ca-098d-4a3f-9463-da1ba1508c39",
       "width": 0,
@@ -865,12 +850,6 @@
           "name": "hero_nb",
           "type": "number",
           "value": 0
-        },
-        {
-          "folded": true,
-          "name": "hero_camera",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [],
@@ -5402,7 +5381,7 @@
       "string": "TEST",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 200,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -5455,6 +5434,10 @@
           "MarginBottom": 0,
           "MarginLeft": 0,
           "MarginRight": 0
+        },
+        {
+          "name": "SynchronizedObject",
+          "type": "THNK::SynchronizedObject"
         }
       ],
       "string": "Score : \n",
@@ -5546,34 +5529,49 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "THNK::UseLinkedObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "hero",
-                    ""
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": []
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
+                    "",
+                    "hero.Variable(hero_nb)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
                 {
                   "type": {
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "hero",
-                    "hero_camera",
+                    "PlayerState.Camera",
                     "True"
                   ]
                 }
               ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -5582,9 +5580,9 @@
                   "parameters": [
                     "",
                     "hero",
+                    "hero.X()",
                     "",
-                    "",
-                    ""
+                    "0"
                   ]
                 }
               ]
@@ -5943,9 +5941,54 @@
           "actions": [],
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].Y_position)",
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "hero",
+                    "",
+                    "",
+                    "hero.Variable(hero_nb)"
+                  ]
+                }
+              ]
             },
             {
               "colorB": 228,
@@ -5972,16 +6015,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "nb_of_player",
-                        "=",
-                        "GlobalVariable(nb_of_player) + 1"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -5990,16 +6023,6 @@
                         "RandomFloatInRange(600, 900)",
                         "540",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "hero",
-                        "hero_camera",
-                        "True"
                       ]
                     },
                     {
@@ -6021,6 +6044,16 @@
                         "hero_nb",
                         "=",
                         "GlobalVariable(nb_of_player)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nb_of_player",
+                        "=",
+                        "GlobalVariable(nb_of_player) + 1"
                       ]
                     },
                     {
@@ -6064,6 +6097,48 @@
                         "player_health",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "debug_text",
+                        "0",
+                        "41",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "debug_text",
+                        "=",
+                        "\"CLIENT \" + ToString(hero.Variable(hero_nb))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "THNK::LinkObjectToPlayer"
+                      },
+                      "parameters": [
+                        "",
+                        "debug_text",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "hero",
+                        "PlayerState[THNK::PickedPlayer()]",
+                        "True"
+                      ]
                     }
                   ]
                 },
@@ -6101,6 +6176,11 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": []
@@ -6110,7 +6190,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Message_processing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6121,6 +6200,7 @@
                   "actions": []
                 },
                 {
+                  "disabled": true,
                   "infiniteLoopWarning": true,
                   "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
@@ -6157,6 +6237,48 @@
                         "hero",
                         "moving_up",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "test_debug",
+                        "=",
+                        "hero.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "player_positions[hero.Variable(hero_nb)].X_position",
+                        "=",
+                        "hero.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "debug_text",
+                        "=",
+                        "ToString(GlobalVariable(player_positions[0].X_position)) + \" | \" + ToString(GlobalVariable(player_positions[1].X_position))+ \" | \" + ToString(GlobalVariable(player_positions[2].X_position)) + \" |picked : \" + THNK::PickedPlayer()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
+                        "",
+                        "hero.Variable(hero_nb)"
                       ]
                     }
                   ]
@@ -6532,6 +6654,71 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "THNK::UseLinkedObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "hero",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "player_positions[hero.Variable(hero_nb)].X_position",
+                    "=",
+                    "hero.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "player_positions[hero.Variable(hero_nb)].Y_position",
+                    "=",
+                    "hero.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "test_debug",
+                    "=",
+                    "5555"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "debug_text",
+                    "=",
+                    "ToString(GlobalVariable(test_debug))"
+                  ]
+                }
+              ]
             },
             {
               "colorB": 228,
