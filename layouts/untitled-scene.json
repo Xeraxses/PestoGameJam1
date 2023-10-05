@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2531414001298631,
+    "zoomFactor": 0.2144607843137266,
     "windowMask": false
   },
   "objectsGroups": [
@@ -257,8 +257,8 @@
       "name": "vampire",
       "persistentUuid": "f0035192-1c58-4135-9381-0264018ba37d",
       "width": 233,
-      "x": 849,
-      "y": 406,
+      "x": -623,
+      "y": 1177,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -272,8 +272,8 @@
       "name": "vampire",
       "persistentUuid": "a2bebbc0-bcb4-40df-895e-212b1640e53d",
       "width": 0,
-      "x": 624,
-      "y": 695,
+      "x": 2349,
+      "y": 502,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -287,8 +287,8 @@
       "name": "vampire",
       "persistentUuid": "d5ad5275-e8a8-450e-b503-1b16c5fd8f30",
       "width": 0,
-      "x": 737,
-      "y": 680,
+      "x": 2462,
+      "y": 487,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,8 +302,8 @@
       "name": "vampire",
       "persistentUuid": "a3eed7d6-9059-48e7-8bfd-236bc773c9ee",
       "width": 0,
-      "x": 452,
-      "y": 612,
+      "x": -509,
+      "y": -241,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -317,8 +317,8 @@
       "name": "vampire",
       "persistentUuid": "003b3ceb-a65d-47c9-9c86-732e1f8c84cc",
       "width": 0,
-      "x": 526,
-      "y": 693,
+      "x": 2251,
+      "y": 500,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,8 +332,8 @@
       "name": "vampire",
       "persistentUuid": "188ca5e0-ec66-489e-b2ae-146930523a26",
       "width": 0,
-      "x": 758,
-      "y": 283,
+      "x": 2524,
+      "y": -415,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -347,8 +347,8 @@
       "name": "vampire",
       "persistentUuid": "7fe0455b-8f4b-4e09-a512-5112cbc9ae55",
       "width": 0,
-      "x": 819,
-      "y": 611,
+      "x": -653,
+      "y": 1382,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -362,8 +362,8 @@
       "name": "vampire",
       "persistentUuid": "19fc9b81-b77a-4f19-9829-b67c002d0ee8",
       "width": 0,
-      "x": 841,
-      "y": 401,
+      "x": -631,
+      "y": 1172,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -377,8 +377,8 @@
       "name": "vampire",
       "persistentUuid": "44302de2-ab68-451b-be68-1ca52d3efa35",
       "width": 0,
-      "x": 408,
-      "y": 520,
+      "x": -553,
+      "y": -333,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -392,8 +392,8 @@
       "name": "vampire",
       "persistentUuid": "15398001-fbde-4f94-a1b1-48226ea9ef3a",
       "width": 0,
-      "x": 428,
-      "y": 414,
+      "x": -533,
+      "y": -439,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -407,8 +407,8 @@
       "name": "vampire",
       "persistentUuid": "dce0a08f-2858-4505-86ec-37e6b60f82fb",
       "width": 0,
-      "x": 480,
-      "y": 318,
+      "x": 2013,
+      "y": -115,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,8 +422,8 @@
       "name": "vampire",
       "persistentUuid": "cfa4b26a-dc39-46a9-9093-f1f2449e3b4a",
       "width": 0,
-      "x": 578,
-      "y": 263,
+      "x": 1375,
+      "y": -395,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -437,8 +437,8 @@
       "name": "vampire",
       "persistentUuid": "e63bb811-7967-4930-a144-e797cca62d4c",
       "width": 0,
-      "x": 665,
-      "y": 220,
+      "x": 1462,
+      "y": -438,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -452,8 +452,8 @@
       "name": "vampire",
       "persistentUuid": "1f3f9164-e317-497e-9366-71c17cb3a9ab",
       "width": 0,
-      "x": 1195,
-      "y": 532,
+      "x": 1479,
+      "y": 1376,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,8 +467,8 @@
       "name": "vampire",
       "persistentUuid": "5963d3c0-94e3-4c41-ae77-3daa7cf66f81",
       "width": 0,
-      "x": 1060,
-      "y": 275,
+      "x": -412,
+      "y": 1046,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -482,8 +482,8 @@
       "name": "vampire",
       "persistentUuid": "a0d318de-7492-490b-b5df-eac57c6f1959",
       "width": 0,
-      "x": 349,
-      "y": 401,
+      "x": -612,
+      "y": -452,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,8 +497,8 @@
       "name": "vampire",
       "persistentUuid": "642f912d-e2c9-4a6b-87e0-ac8b74f74774",
       "width": 0,
-      "x": 337,
-      "y": 500,
+      "x": -624,
+      "y": -353,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -512,8 +512,8 @@
       "name": "vampire",
       "persistentUuid": "557fd5bb-ddea-4a37-8c78-97e753b624b2",
       "width": 0,
-      "x": 345,
-      "y": 603,
+      "x": -616,
+      "y": -250,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -527,8 +527,8 @@
       "name": "vampire",
       "persistentUuid": "951479be-b25f-4e79-bac5-1f2132391855",
       "width": 0,
-      "x": 535,
-      "y": 622,
+      "x": 2238,
+      "y": 985,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -542,8 +542,8 @@
       "name": "vampire",
       "persistentUuid": "fb23d08f-51c0-4699-92bf-bcb680010a06",
       "width": 0,
-      "x": 626,
-      "y": 622,
+      "x": 2329,
+      "y": 985,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -557,8 +557,8 @@
       "name": "vampire",
       "persistentUuid": "dde999be-eb87-4a5a-977e-195ad885778a",
       "width": 0,
-      "x": 721,
-      "y": 579,
+      "x": 2487,
+      "y": -119,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -572,8 +572,8 @@
       "name": "vampire",
       "persistentUuid": "ef4acc80-1ac4-4a6d-bb28-a116df472998",
       "width": 0,
-      "x": 725,
-      "y": 480,
+      "x": 2491,
+      "y": -218,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,8 +587,8 @@
       "name": "vampire",
       "persistentUuid": "9fd72e87-333a-4f01-8ab0-08e2d7e4e8cc",
       "width": 0,
-      "x": 677,
-      "y": 385,
+      "x": 1474,
+      "y": -273,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -602,8 +602,8 @@
       "name": "vampire",
       "persistentUuid": "d0d6016f-7ea1-4708-a7f0-e7c5a1fc16d8",
       "width": 0,
-      "x": 583,
-      "y": 334,
+      "x": 2116,
+      "y": -99,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -617,8 +617,8 @@
       "name": "vampire",
       "persistentUuid": "4c8ea874-72a3-4ee7-9cc8-8fdaeca23df7",
       "width": 0,
-      "x": 476,
-      "y": 381,
+      "x": 726,
+      "y": -207,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -632,8 +632,8 @@
       "name": "vampire",
       "persistentUuid": "11cf520e-51af-4c82-abcd-88aa080d1e03",
       "width": 0,
-      "x": 468,
-      "y": 504,
+      "x": -395,
+      "y": 362,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -647,8 +647,8 @@
       "name": "vampire",
       "persistentUuid": "0951ff72-da72-4f5e-8109-e2fc50210786",
       "width": 0,
-      "x": 1325,
-      "y": 492,
+      "x": 1429,
+      "y": 1064,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -662,8 +662,8 @@
       "name": "vampire",
       "persistentUuid": "2f33d628-0748-4216-be63-f0951b0fb59c",
       "width": 0,
-      "x": 1061,
-      "y": 413,
+      "x": 897,
+      "y": 1396,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -677,8 +677,8 @@
       "name": "vampire",
       "persistentUuid": "a1c32baa-6b36-4888-92e3-442ff8704ace",
       "width": 0,
-      "x": 1096,
-      "y": 500,
+      "x": 562,
+      "y": 1271,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -707,8 +707,8 @@
       "name": "vampire",
       "persistentUuid": "769e5c2a-4344-4909-94d4-5d5a17872814",
       "width": 0,
-      "x": 1286,
-      "y": 231,
+      "x": 1833,
+      "y": 161,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -722,8 +722,8 @@
       "name": "vampire",
       "persistentUuid": "5e2e9f25-ebad-4fa4-ad5c-b26c631d2dac",
       "width": 0,
-      "x": 1151,
-      "y": 216,
+      "x": -321,
+      "y": 987,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -737,8 +737,8 @@
       "name": "debug_text",
       "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
       "width": 0,
-      "x": 247,
-      "y": 41,
+      "x": 197,
+      "y": 16,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -761,16 +761,76 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "8e897706-9c48-4451-a5a2-4ff5838cbed1",
+      "width": 0,
+      "x": 1651,
+      "y": -297,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "4dfe4d07-3952-4b1d-ac23-43aa4af292f5",
+      "width": 0,
+      "x": 2261,
+      "y": 184,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "22f7ac93-2de0-49d0-9061-5f81127a6701",
+      "width": 0,
+      "x": 1154,
+      "y": 1340,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "c54ec626-d27d-4d68-8681-e7e6d8bea017",
+      "width": 0,
+      "x": -146,
+      "y": 1180,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 265,
+      "height": 353,
       "layer": "",
-      "name": "Score",
-      "persistentUuid": "bdb1ac94-6f44-4dc4-b5ad-ee1795eac93b",
-      "width": 1173,
-      "x": -593,
-      "y": 1142,
-      "zOrder": 15,
+      "name": "vampire",
+      "persistentUuid": "8ae1eb4c-5036-4980-bbac-23857af48008",
+      "width": 236,
+      "x": -588,
+      "y": 463,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1426,12 +1486,6 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
-        {
-          "folded": true,
-          "name": "hero_score",
-          "type": "number",
-          "value": 0
-        },
         {
           "folded": true,
           "name": "MouseX",
@@ -5579,10 +5633,10 @@
       "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
       "destroyWhenNoParticles": true,
       "emitterAngleA": 0,
-      "emitterAngleB": 70,
-      "emitterForceMax": 350,
-      "emitterForceMin": 100,
-      "flow": 100,
+      "emitterAngleB": 180,
+      "emitterForceMax": 600,
+      "emitterForceMin": 300,
+      "flow": 400,
       "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 100,
       "name": "flamme",
@@ -5612,7 +5666,7 @@
       "rendererParam2": 0.75,
       "rendererType": "Quad",
       "tags": "",
-      "tank": 50,
+      "tank": 150,
       "textureParticleName": "Flame.png",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 5,
@@ -6095,6 +6149,298 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "mathieu_event",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "ToString(hero.Health::Health())"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "hero.X()",
+                "=",
+                "hero.Y() - 100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "hero",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "5",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "\"IDLE\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "\"RUN\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Bounce::Bounce::BounceOff"
+              },
+              "parameters": [
+                "vampire",
+                "Bounce",
+                "hero",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "<=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "vampire"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Dead Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6405,36 +6751,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "vampire",
-                "flamme",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "vampire",
-                "Animation",
-                "=",
-                "\"Fire\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -6450,336 +6766,148 @@
               ]
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "mathieu_event",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "0.5",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "player_health",
-                "=",
-                "ToString(hero.Health::Health())"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "player_health",
-                "=",
-                "hero.X()",
-                "=",
-                "hero.Y() - 100"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score : \" + \nToString(hero.Variable(hero_score))"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "hero",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "10",
-                "1"
-              ]
-            }
-          ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "mort_vampires",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "inverted": true,
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "flamme",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation",
+                    "=",
+                    "\"Fire\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Health",
+                    "<",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "vampire",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation",
+                    "=",
+                    "\"Fire\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"vampire_en_feu\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"vampire_en_feu\"",
+                        ">=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "vampire",
+                        "Animation",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"IDLE\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Run\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"RUN\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "5",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Bounce::Bounce::BounceOff"
-              },
-              "parameters": [
-                "vampire",
-                "Bounce",
-                "hero",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetCooldownDurationOp"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "=",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "hero",
-                "hero_score",
-                "=",
-                "hero.Variable(hero_score) + 1 "
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "<=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "vampire"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Dead Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "hero"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game over screen\"",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "parameters": []
@@ -6823,7 +6951,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Messages",
+      "name": "HUD",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -6886,10 +7014,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "StayOnScreen",
-      "type": "StayOnScreen::StayOnScreen"
     },
     {
       "name": "TopDownMovement",
