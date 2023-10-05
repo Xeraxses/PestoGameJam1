@@ -227,6 +227,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 997,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "bbe6221b-a884-48e4-95d7-3acf0b07335d",
+      "width": 703,
+      "x": 744,
+      "y": -91,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -940,6 +956,415 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Mort",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.03,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mort22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1007,11 +1432,11 @@
           "UnlimitedCapacity": true
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 999997,
           "deceleration": 999997,
           "maxSpeed": 2000,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown",
@@ -1024,13 +1449,249 @@
       ],
       "animations": [
         {
-          "name": "Idle",
+          "name": "Idle_droite",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.0313,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.01,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle7",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle_gauche",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.01,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprite_dune\\hero.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run_droite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run3",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run4",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run5",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprite_dune\\hero flipped.png",
@@ -1072,13 +1733,740 @@
                       }
                     ]
                   ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run6",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run2",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_droite",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_droite2",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_droite3",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_droite4",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_droite5",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "name": "Attack",
+          "name": "Run_gauche",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche13",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche14",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche12",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche11",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche10",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche7",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche5",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche4",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Run_gauche9",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack_droite",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1088,7 +2476,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Attack",
+                  "image": "assets\\Hit.png",
                   "points": [
                     {
                       "name": "point_lance_flamme",
@@ -1133,1324 +2521,72 @@
           ]
         },
         {
-          "name": "Run",
+          "name": "Attack_gauche",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack_gauche",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit_droite",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.0714,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_5.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_6.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_7.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_8.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_9.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_10.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_11.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_12.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_13.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Run_14.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Ground",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.3333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Ground_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Ground_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Ground_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Jump",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.25,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Jump_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Jump_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Jump_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Jump_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Fall",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.5,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Fall_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Fall_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Hit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_5.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_6.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_7.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Hit_8.png",
+                  "image": "assets\\Attack.png",
                   "points": [
                     {
                       "name": "point_lance_flamme",
@@ -2495,406 +2631,17 @@
           ]
         },
         {
-          "name": "Dead Ground",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.25,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Ground_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Ground_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Ground_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Ground_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dead Hit",
+          "name": "Hit_gauche",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.1667,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_5.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Dead Hit_6.png",
+                  "image": "Hit_gauche",
                   "points": [
                     {
                       "name": "point_lance_flamme",
@@ -2939,16 +2686,17 @@
           ]
         },
         {
-          "name": "Jump Anticipation",
+          "name": "Mort_droite",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Captain_Jump Anticipation.png",
+                  "image": "Mort_droite",
                   "points": [
                     {
                       "name": "point_lance_flamme",
@@ -2993,478 +2741,17 @@
           ]
         },
         {
-          "name": "Scare Run",
+          "name": "Mort_Gauche",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.0833,
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_1.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_2.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_3.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_4.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_5.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_6.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_7.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_8.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_9.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_10.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_11.png",
-                  "points": [
-                    {
-                      "name": "point_lance_flamme",
-                      "x": 20,
-                      "y": 29.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 1
-                      },
-                      {
-                        "x": 33,
-                        "y": 44
-                      },
-                      {
-                        "x": 5,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Captain_Scare Run_12.png",
+                  "image": "Mort_Gauche2",
                   "points": [
                     {
                       "name": "point_lance_flamme",
@@ -5517,6 +4804,18 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Boss",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "events": [
@@ -5643,6 +4942,27 @@
             "=",
             "CameraBorderBottom(\"\", 2)"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "hero",
+            "Animation",
+            "=",
+            "\"Idle_droite\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Leaderboards::DisplayLeaderboard"
+          },
+          "parameters": [
+            "",
+            "\"Score\"",
+            ""
+          ]
         }
       ]
     },
@@ -5663,294 +4983,610 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "vampire",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_haut_1",
-                "hero",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_haut_1",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "hero",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_bas_1",
-                "hero",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_bas_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_droite_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_droite_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_haut_droit_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_haut_droit_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_bas_droit_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_bas_droit_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_bas_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_bas_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_haut_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_haut_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_haut_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_haut_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_gauche_1",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "parameters": []
@@ -5960,6 +5596,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "controle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5969,6 +5606,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "deplacement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5984,39 +5622,95 @@
                     "hero",
                     "TopDownMovement"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "nb_lance_flamme",
-                    "=",
-                    "1"
-                  ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "lance_flamme",
-                    "=",
-                    "hero.PointX(\"point_lance_flamme\")",
-                    "=",
-                    "hero.PointY(\"point_lance_flamme\")"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_lance_flamme",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "lance_flamme",
+                        "=",
+                        "hero.PointX(\"point_lance_flamme\")",
+                        "=",
+                        "hero.PointY(\"point_lance_flamme\")"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug_text",
-                    "=",
-                    "ToString(GlobalVariable(force_max_lance_flamme))"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Idle_droite\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_droite\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Idle_gauche\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_gauche\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -6134,6 +5828,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TopDownMovementBehavior::SimulateLeftKey"
                   },
                   "parameters": [
@@ -6157,6 +5862,17 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "TopDownMovementBehavior::SimulateRightKey"
@@ -6240,27 +5956,6 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug_text",
-                    "=",
-                    "ToString(lance_flamme.Variable(nb_lances_flamme))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
                     "curseur",
                     "Animation",
                     "=",
@@ -6269,6 +5964,64 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Idle_droite\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Attack_droite\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Idle_gauche\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Attack_gauche\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -6447,7 +6200,7 @@
                     "hero",
                     "Animation",
                     "=",
-                    "\"Idle\""
+                    "\"Idle_droite\""
                   ]
                 }
               ]
@@ -6776,10 +6529,28 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "mort_vampires",
+      "folded": true,
+      "name": "vampires",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -6793,6 +6564,18 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Mort\""
               ]
             }
           ],
@@ -6832,6 +6615,246 @@
           ]
         },
         {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "0.5",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6850,11 +6873,21 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "Arreter"
+              },
+              "parameters": [
+                "vampire"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "vampire",
-                ""
+                "Animation",
+                "=",
+                "\"Mort\""
               ]
             },
             {
@@ -6868,9 +6901,37 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "vampire",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6936,7 +6997,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "mathieu_event_gab",
+      "name": "comportements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -7005,56 +7066,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_bas_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_haut_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_bas_droit_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_haut_droit_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -7065,6 +7076,18 @@
                 "hero",
                 "2500",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Mort\""
               ]
             }
           ],
@@ -7081,155 +7104,6 @@
                 "300",
                 "yes",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"IDLE\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "hero",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "debug_text",
-                "=",
-                "\"RUN\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "5",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetCooldownDurationOp"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "=",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hero",
-                "Animation",
-                "=",
-                "\"Idle\""
               ]
             }
           ]
@@ -7261,21 +7135,213 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "hero",
-                "Animation",
-                "=",
-                "\"Dead Hit\""
+                "TopDownMovement",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_droite\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_Gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_Gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Mort_Gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "hero",
+                    ""
+                  ]
+                }
               ]
             }
           ]
