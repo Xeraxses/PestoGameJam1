@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1591183884683863,
+    "zoomFactor": 0.17576384491805427,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1007,11 +1007,11 @@
           "UnlimitedCapacity": true
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 999997,
           "deceleration": 999997,
           "maxSpeed": 2000,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown",
@@ -3692,12 +3692,6 @@
       "variables": [
         {
           "folded": true,
-          "name": "nb_lances_flamme",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
           "name": "MouseY",
           "type": "string",
           "value": ""
@@ -5517,6 +5511,197 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "flammes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "MouseY",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "MouseX",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "KawaseBlur",
+          "name": "floutage",
+          "doubleParameters": {
+            "blur": 2,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 200,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 200,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 5000,
+          "deceleration": 1000000,
+          "maxSpeed": 1000,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown",
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "ignoreDefaultControls": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":500,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAADICAYAAAAeGRPoAAAAAXNSR0IArs4c6QAAEVFJREFUeF7t3UuyG7kRBVD1xDOvzuv06jzzxA52mOEnNkn8ElkA6ngqVgJ5EoUrPknuP375HwECBAgQILC9wB/bd6ABAgQIECBA4JdAdwgIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAgQIHCAg0A8YohYIECBAgIBAdwYIECBAgMABAgL9gCFqgQABAgQICHRngAABAhME/v2vf/znZ9m//f2f7tsJzkr+X8ABcxoIECAwQUCgT0BV8quAQHdACBAgMEFAoE9AVVKgOwMECBDIFhDo2eLW8w3dGSBAgMAEAYE+AVVJ39CdAQIECGQKvIb5Y21/KS5zAvdcyzf0e85d1wQITBJ4F+YCfRK2sr8JCHQHggABAkECn8L8U3nf2oPglflTQKA7CAQIXCIQ9WfM30I0MzBbw/wdeuZ+Lxm6RacKCPSpvIoTIPBJICPQs37UHRHmP50Eu/emR0Cg96h5hsCiAqt8W/3GE/1nzKUwnR2OpfVHjsrsvY/szbPrCQj09WZiRwS6BErBsko4nBLoJe+uIX54aJXZRfakVryAQI83VZFAukBNuKwSCicEeo33jENQO8OoP86Y0YOa8wQE+jxblQmkCNSGS20YzNx0dpg/eonuu9Z7luO3fqJ9Z/Wg7hwBgT7HVVUC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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAADICAYAAAAeGRPoAAAAAXNSR0IArs4c6QAAESRJREFUeF7t3b+OJUcVB+A7/Ml4CQI/gC3hBzHLIqfOvBYShhBLJDi1JZAMESlisXgRxOaIlBcAEQHSoL67d/Z6pvtWVf/vcz4Sr/Z2V9X5Tt3+dfeM8d3J/wgQIECAAIHDC9wdvgIFECBAgAABAieBbhMQIECAAIEAAgI9QBOVQIAAAQIEBLo9QIAAAQIEAggI9ABNVAIBAgQIEBDo9gABAgQIEAggINADNFEJBAgQIEBAoNsDBAgQIEAggIBAD9BEJRAgQIAAAYFuDxAgQIAAgQACAj1AE5VAgAABAgQEuj1AgAABAgQCCAj0AE1UAgECBAgQEOj2AAECBAgQCCAg0AM0UQkECBAgQECg2wMECBAgQCCAgEAP0EQlECBAgAABgW4PECBAgACBAAICPUATlUCAAAECBAS6PUCAAAECBAIICPQATVQCAQIECBAQ6PYAAQIECBAIICDQAzRRCQQIECBAQKDbAwQIECBAIICAQA/QRCUQIECAAAGBbg8QIECAAIEAAgI9QBOVQIAAAQIEBLo9QIAAAQIEAggI9ABNVAIBAgQIEBDo9gABAgQIEAggINADNFEJBAgQIEBAoNsDBAgQIEAggIBAD9BEJRAgQIAAAYFuDxAgQIAAgQACAj1AE5VAgAABAgQEuj1AgAABAgQCCAj0AE1UAgECBAgQEOj2AAECBAgQCCAg0AM0UQkECBAgQECg2wMECBAgQCCAgEAP0EQlECBAgAABgW4PECBAgACBAAICPUATlUCAAAECBAS6PUCAAAECBAIICPQATVQCAQIECBAQ6PYAAQIECBAIICDQAzRRCQQIECBAQKDbAwQIECBAIICAQA/QRCUQIECAAAGBbg8QIECAAIEAAgI9QBOVQIAAAQIEBLo9QIAAAQIEAggI9ABNVAIBAgQIEBDo9gABAgQIEAggINADNFEJBAgQIEBAoNsDBAgQIEAggIBAD9BEJRAgQIAAAYFuDxAgQIAAgQACAj1AE5VAgAABAgQEuj1AgAABAgQCCAj0AE1UAgEC4wTu7+/vH595d3fnujiO01kbC9i4GzfA9AQIbCPQF+bdSpYI9MdzLTHHNopm3ZOAQN9TN6yFAIFVBIbCfIlA9xZglZaapLsZpUCAAIEsAreC/GIw99OzQM+yu7avU6Bv3wMrILCaQPZXvwJ9ta1mog0EBPoG6KYksJVA1kCvCfK1XrcvMc9W+8m8+xIQ6Pvqh9UQWFQgY6DXhHnLa/baV+hr/tLdopvG4IcREOiHaZWFEpgusEWg72HOIbmWIO/GqAnp0g1E65zTu26ELAICPUun1UmgJ5CWDpfap9m5m1MK1ct8LfXX/mZ87XFz12w8AgLdHiCQQKDmyXJuhppQbQnU2vXVzNuN1TJ3aczrseay3upmqNbZcfsTEOj764kVEZhdYK6QaVlYKQTHPCWX5l9qztqn7trjSnUMvd5vuQmpmcMxsQQEeqx+qmYBgS1+Bjx3GWsHem2wtj4p33JZas7akC7N3xLGa/dr7v1mvG0EBPo27mbdWKA2pLd67Vm7vlrG2lCqHW/ouFKo1YzfEnxDT7KleW7NUVvDZYzW40tra+3VVnu0VIfP1xcQ6Oubm3EHArWBufbFcqkns9aQGNui2nArjd8S6q1zDo3dMk7Nz8xLNbZ+3rLuFr/WdTh+vwICfb+9sbIFBeYM9LnCsjTO2JuLUlBtEU5jW/s4qEq1jZ2ndN4WZn0hvdQNYKl+n+9TQKDvsy9WtbBATaDfuliODZKWi/JYgtbQ2yKcxta2l/PWNmt5Ou+MPKHvZaesuw6Bvq632XYgUPOku0SYjy29uziPvYEozdka/qXxfD6vQCmYPaHP63300QT60Tto/c0CpUBfKjybF+qENAKl4O6DEOZptkd1oQK9msqBUQQEepROxqtj6m/fj7kxiKeYtyKBnrf3h6h87NNy32vqJV9dHwLTIg8hMOX3LAT6IVq82CIF+mK0Bp4qMDbMu3mF91R9528pMHb/CvQtu7b93AJ9+x5YwRuBKQEOkcDeBf7772cPS/zu975eZLkCfRHWwwwq0Ee2qiZ8tv5y1ayxpvwprwBrxncMgS0ErgN26vxDAV2aY45gv/Wv0G19DZrq6vw2AYHe5nU+ujYo1/4y1a5rRMlOIRBCoBSwU4rsC+ea+eYK9dIve06pzbnHEBDojX1qCc01A71lXY0lO5zA4QVqgnVqkVs+pZfWvua1qLQWny8nINArbMeGZcuXaOwcFct3SAKBJQNrjifI6xYsudatWz3mKX1u3z6DlmvR1obmHy8g0At2U4K29CWaMvb4ljvzqAKRg/CoPXm87jFP6bXnTAn+0rUoin/2OgT6jR0wR+CO/ddPsm/MOervAnDKRfCyBkE6RzfyjFG751r3Ve24ntDz7LXHlQr0nt7PEeR5t9S4ylsvbuNmOTUF/FprGluL8/YpUBu8LfurdswhEU/o+9wrc68qRaAL6Lm3zfTxWi5m02czAoFtBcb8bP2y4qlh3o0j0Lft/1qzhw10Id6/hQTpWl8t8xD4psDjYK79Lk4JdEGeaxeGDPSIYV775c+1fVVLII/AlGC/KAn42PvlEuj33VuZDUqdfd4IYS68N9iJpiSwc4E5Al2w77zJE5d3Hejnobq/6FL2+k8Pc7z9sGfau9Pd6f7h3Os/X0Z8GPPNOENzXX1cVV6EEL8UKsyrWu4gAukEBHq6ljcX/BDoH3/y4vTRT399DuT33/nO6cPnH5z/fJ34P//Vy9MXnz0/T/Kzz18+mex8/P3p9MVnPz59+vkfT1/+4vn5uC+u/vmHl38+/eXv/+u/YXhzI/GDd759+tO7757u7r51evbqr8U3B5ECvSbYW7/YbhKavxdOIFAUGPsz8eLAlQe0Xgeuh/XqvRL5YIe9DfQXL85L70L5d199dfrw+Q/Pz9t3T57Kv/kXb0O/5/G956+6QP/4xYvTR5/+5uFdQHfb8Psvf/JA183/n3+9f/rHL/95+v6Xf0sZ6Gvto6Gwn3Kx6NY+101EyzrmmnMte/McW0CgH7t/EVf/JNC7In97DvSnT+jdwV0gv3mQPn34ow8e/ny6f/2S/fWAw+/mz4H+yYvzncOTH6C/Oa2b/+v33juP9OzVK4EeYOe1hG1LiN+iaZkzALESJgiM+dfKBPoEcKcuIvD2jfo5TG/+kPyS09cB+/qM6x+Gv/nh+ZPhroeummbaL+lFfA2/yA4w6GwCbiBmo5w8UGvY3rqJrH2LtXb/x9z4etU+eWvteoC34XwO4uvfVut9195XzOvfoet7Lh8O7uJT9xxqQn0ORWPsTWDu4KgNhrnnXdK19v8fvVtDqf7aQO/GKhmNeRMw5FRad995An3JXbf92KsE6/Zlvl2BkN9TN6xlqkApQOYMg76xxs4/te7S+S1P3DXB2Fdnazi33GQs0TdhXto1x/9coK/Yw9YvlJuPFZsTdKrHQVQTXkenqP2P8lxsWkyuPWsDvTR+7c3ClL60XnumzOXc7QTSBfqFeouwnPql2mLN221NMxPYt0DtjUOpCoFeEvJ5rUDaQO8DWjowpwZ6bVO3Pm5px63rMz+BMQJD/ynlpd+iZLnujOlJtHMEek9HlwokX6zTaaxtn93YsaJ9idWzf4GhMO9WXnqNP7U6152pgsc5X6AP9Ko2LK6/LKVzfLGW+2KU7Jeb2cgE9ivgmrPf3iyxMoG+hKoxdy2wdPiPuYg+XtPjMZZaszcfu96qkxc3Zi9OntQAmwkI9M3oTbyVwFLheF1P64W0FOiXsWuPGzq+z3ytm4et+p153tZ9mNkqQu0CPUIX1TBJoBTwYwOv5WLat4aap+fSHKXaOrix9bWi3/o5cutYj4+/1DBU7y2nGqOp61vz/NKeWHMt5lpXQKCv6222nQrUXtRrQvZSYsuFVaAPb4ypjn03Ldez1fa+7w1M7bkt++Z6vaXx+26SWrx2+nW0rJECAn0knNNiCpQuoH0X9e7vagN5SK32/NZX7pf5btW1xhP60BN0ae6acKrp2VzjPL5Zq5l76Aavpict4w/tzZjfVFX1CQh0+4LAI4Hai2gpjEpPho/ha8K65phbDa25caitv2XjCPSnP9oYuhFseUIf6kHNDUxL/xx7DAGBfow+WeXKAjWhVhPoQ09nfeVMDesaomyBPibYWnpfc2xpD7SMUdPj1hvJ2jEdt38Bgb7/HlnhxgK1v2hV8wq15el5TBiVqGoCvebJcWieklXppqX0ec2N0PUxUwxr+tkSxkNrKY3RcuNYunko7Q+fH1tAoB+7f1a/M4FSoO1huTWhuVUdY+atCd6l3EthXHtzURpnyo3JUrUbd38CAn1/PbGiAwuMCaS9llv7ND/n+sf4CfQ5O2CsIwsI9CN3z9oJLCiwp0DvytzrU2rp6brlNfiYG5oFt4ChDyYg0A/WMMslsJbAFoHe1bblE/cY2zkDfaj+vd7MjPFyznICAn05WyMTOLTAVoF+K9T3Gmw1oV679i3dD71hLf4k0G0CAgQGBWp+gW4pvqMH25Z2S/XEuPsWEOj77o/VEUgtcORQPPLaU2+6Axcv0A/cPEsnQGC/AgJ9v72JujKBHrWz6iJAgACBVAICPVW7FUuAAAECUQUEetTOqosAAQIEUgkI9FTtViwBAgQIRBUQ6FE7qy4CBAgQSCUg0FO1W7EECBAgEFVAoEftrLoIECBAIJWAQE/VbsUSIECAQFQBgR61s+oiQIAAgVQCAj1VuxVLgAABAlEFBHrUzqqLAAECBFIJCPRU7VYsAQIECEQVEOhRO6suAgQIEEglINBTtVuxBAgQIBBVQKBH7ay6CBAgQCCVgEBP1W7FEiBAgEBUAYEetbPqIkCAAIFUAgI9VbsVS4AAAQJRBQR61M6qiwABAgRSCQj0VO1WLAECBAhEFRDoUTurLgIECBBIJSDQU7VbsQQIECAQVUCgR+2suggQIEAglYBAT9VuxRIgQIBAVAGBHrWz6iJAgACBVAICPVW7FUuAAAECUQUEetTOqosAAQIEUgkI9FTtViwBAgQIRBUQ6FE7qy4CBAgQSCUg0FO1W7EECBAgEFVAoEftrLoIECBAIJWAQE/VbsUSIECAQFQBgR61s+oiQIAAgVQCAj1VuxVLgAABAlEFBHrUzqqLAAECBFIJCPRU7VYsAQIECEQVEOhRO6suAgQIEEglINBTtVuxBAgQIBBVQKBH7ay6CBAgQCCVgEBP1W7FEiBAgEBUAYEetbPqIkCAAIFUAgI9VbsVS4AAAQJRBQR61M6qiwABAgRSCQj0VO1WLAECBAhEFRDoUTurLgIECBBIJSDQU7VbsQQIECAQVUCgR+2suggQIEAglYBAT9VuxRIgQIBAVAGBHrWz6iJAgACBVAICPVW7FUuAAAECUQUEetTOqosAAQIEUgkI9FTtViwBAgQIRBUQ6FE7qy4CBAgQSCUg0FO1W7EECBAgEFVAoEftrLoIECBAIJWAQE/VbsUSIECAQFQBgR61s+oiQIAAgVQCAj1VuxVLgAABAlEFBHrUzqqLAAECBFIJCPRU7VYsAQIECEQVEOhRO6suAgQIEEglINBTtVuxBAgQIBBVQKBH7ay6CBAgQCCVgEBP1W7FEiBAgEBUAYEetbPqIkCAAIFUAgI9VbsVS4AAAQJRBQR61M6qiwABAgRSCQj0VO1WLAECBAhEFRDoUTurLgIECBBIJSDQU7VbsQQIECAQVUCgR+2suggQIEAglYBAT9VuxRIgQIBAVAGBHrWz6iJAgACBVAICPVW7FUuAAAECUQUEetTOqosAAQIEUgkI9FTtViwBAgQIRBUQ6FE7qy4CBAgQSCUg0FO1W7EECBAgEFXg/+wIOxR5yd+LAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"idle8\"],\"name\":\"idle\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "idle8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 19.5,
+                    "y": 97
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 155
+                      },
+                      {
+                        "x": 1,
+                        "y": 155
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blueu",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\idle14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 19.5,
+                    "y": 97
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 155
+                      },
+                      {
+                        "x": 1,
+                        "y": 155
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -5589,15 +5774,6 @@
           },
           "parameters": [
             "",
-            "\"delai_flamme_bleue\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PauseTimer"
-          },
-          "parameters": [
-            "",
             "\"flamme_bleue\""
           ]
         },
@@ -5643,6 +5819,15 @@
             "=",
             "CameraBorderBottom(\"\", 2)"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneBackground"
+          },
+          "parameters": [
+            "",
+            "\"0;0;0\""
+          ]
         }
       ]
     },
@@ -5663,294 +5848,610 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "vampire",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_haut_1",
-                "hero",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "vampire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_haut_1",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "hero",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_bas_1",
-                "hero",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "hero",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_bas_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carreau_mur_droite_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "carreau_mur_droite_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_haut_droit_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_haut_droit_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_bas_droit_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_bas_droit_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_bas_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_bas_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "coin_mur_haut_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "coin_mur_haut_gauche_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_haut_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_haut_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_gauche_1",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "parameters": []
@@ -6011,59 +6512,24 @@
                 },
                 {
                   "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "=",
+                    "hero.PointX(\"point_lance_flamme\")",
+                    "=",
+                    "hero.PointY(\"point_lance_flamme\")"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "debug_text",
                     "=",
                     "ToString(GlobalVariable(force_max_lance_flamme))"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ParticleSystem::ConeSprayAngle"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "=",
-                    "15"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::EmitterForceMin"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "+",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::EmitterForceMax"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "+",
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::SetFlow"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "-",
-                    "30"
                   ]
                 }
               ]
@@ -6223,6 +6689,46 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "MouseX",
+                    "=",
+                    "CursorX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "MouseY",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "curseur",
+                    "=",
+                    "MouseX()",
+                    "=",
+                    "MouseY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -6292,7 +6798,19 @@
                         "lance_flamme",
                         "lance_flamme.Variable(MouseX)",
                         "lance_flamme.Variable(MouseY)",
-                        "340",
+                        "1000",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "flammes.Variable(MouseX)",
+                        "flammes.Variable(MouseY)",
+                        "1000",
                         ""
                       ]
                     }
@@ -6369,7 +6887,69 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "nb_lance_flamme",
+                        "nb_flamme",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nb_flamme",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "flammes",
+                        "hero.PointX(\"point_lance_flamme\")",
+                        "hero.PointY(\"point_lance_flamme\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "Resizable",
+                        "90",
+                        "40"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "=",
+                        "hero.PointX(\"point_lance_flamme\")",
+                        "=",
+                        "hero.PointY(\"point_lance_flamme\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_flamme",
                         "=",
                         "1"
                       ]
@@ -6378,17 +6958,34 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "FireBullet::FireBullet::Fire"
+                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                       },
                       "parameters": [
-                        "lance_flamme",
-                        "FireBullet",
-                        "lance_flamme.PointX(\"depart_flammes\")",
-                        "lance_flamme.PointY(\"depart_flammes\")",
-                        "flamme",
-                        "lance_flamme.Angle()",
-                        "550",
+                        "flammes",
+                        "ShakeObject_PositionAngle",
+                        "",
+                        "4",
+                        "4",
+                        "0",
+                        "",
+                        "yes",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleTween"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "Tween",
+                        "\"elargissement flamme\"",
+                        "2",
+                        "2",
+                        "\"linear\"",
+                        "1000",
+                        "",
+                        "yes"
                       ]
                     }
                   ]
@@ -6420,10 +7017,29 @@
                 },
                 {
                   "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "flammes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "nb_lance_flamme",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "nb_flamme",
                     "=",
                     "0"
                   ]
@@ -6448,6 +7064,16 @@
                     "Animation",
                     "=",
                     "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "ShakeObject_PositionAngle",
+                    ""
                   ]
                 }
               ]
@@ -6509,11 +7135,30 @@
                 },
                 {
                   "type": {
-                    "value": "UnPauseTimer"
+                    "value": "RotateTowardPosition"
                   },
                   "parameters": [
+                    "flammes",
+                    "flammes.Variable(MouseX)",
+                    "flammes.Variable(MouseY)",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "Tween",
+                    "\"elargissement flamme\"",
+                    "4",
+                    "6",
+                    "\"linear\"",
+                    "1000",
                     "",
-                    "\"flamme_bleue\""
+                    "yes"
                   ]
                 },
                 {
@@ -6522,7 +7167,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"delai_flamme_bleue\""
+                    "\"flamme_bleue\""
                   ]
                 },
                 {
@@ -6538,138 +7183,17 @@
                 },
                 {
                   "type": {
-                    "value": "ParticleSystem::ConeSprayAngle"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "flamme",
-                    "+",
-                    "30"
+                    "flammes",
+                    "Animation",
+                    "=",
+                    "\"blueu\""
                   ]
                 }
               ],
               "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"delai_flamme_bleue\"",
-                        ">=",
-                        "0.3"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            "<",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::ParticleColor2"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "\"6;2;250\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::EmitterForceMax"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "+",
-                            "50"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::SetFlow"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "+",
-                            "50"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            "+",
-                            "50"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            ">=",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::ParticleColor2"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "\"6;2;250\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::EmitterForceMax"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "=",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::SetFlow"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "=",
-                            "650"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -6756,11 +7280,13 @@
                 },
                 {
                   "type": {
-                    "value": "RemoveTimer"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "",
-                    "\"delai_flamme_bleue\""
+                    "flammes",
+                    "Animation",
+                    "=",
+                    "\"idle\""
                   ]
                 }
               ]
@@ -6776,6 +7302,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "mort_vampires",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6789,7 +7316,7 @@
               },
               "parameters": [
                 "vampire",
-                "flamme",
+                "flammes",
                 "",
                 "",
                 ""
@@ -6936,6 +7463,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "mathieu_event_gab",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7577,12 +8105,20 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
       "name": "StayOnScreen",
       "type": "StayOnScreen::StayOnScreen"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
