@@ -1590,7 +1590,7 @@
         "alwaysLoaded": false,
         "file": "assets/sprite_dune/hero flipped.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/sprite_dune/hero flipped.png\",\"extension\":\".png\"}",
         "name": "assets\\sprite_dune\\hero flipped.png",
         "smoothed": true,
         "userAdded": false
@@ -1635,7 +1635,7 @@
         "alwaysLoaded": false,
         "file": "assets/Attack.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack.png\"}",
         "name": "Attack",
         "smoothed": true,
         "userAdded": false
@@ -2370,279 +2370,2062 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Black Square Decorated Button_Hovered.png",
+        "file": "assets/Attack.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Black Square Decorated Button_Hovered.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
-          "name": "Black Square Decorated Button_Hovered.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Black Square Decorated Button_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Black Square Decorated Button_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
-          "name": "Black Square Decorated Button_Idle.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Black Square Decorated Button_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Black Square Decorated Button_Pressed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af_Black Square Decorated Button_Pressed.png",
-          "name": "Black Square Decorated Button_Pressed.png"
-        }
-      },
-      {
-        "file": "assets/mononoki-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "mononoki-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
-          "name": "mononoki-Regular.ttf"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button With Gold Frame_Hovered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red Button With Gold Frame_Hovered.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/efae8667310d19ec644147356eb91a417f9558f93f4ea3648611fe5a79fb0f3a_Red Button With Gold Frame_Hovered.png",
-          "name": "Red Button With Gold Frame_Hovered.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button With Gold Frame_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red Button With Gold Frame_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4b95308670b04c19600672083409d5d39dde7096139d36a89e18111cc547835c_Red Button With Gold Frame_Idle.png",
-          "name": "Red Button With Gold Frame_Idle.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button With Gold Frame_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red Button With Gold Frame_Pressed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8914d295c54909f59b10d76edbd01797409a0f09119c3acd2576e3ce3cf378b9_Red Button With Gold Frame_Pressed.png",
-          "name": "Red Button With Gold Frame_Pressed.png"
-        }
-      },
-      {
-        "file": "assets/Roboto-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Roboto-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
-          "name": "Roboto-Regular.ttf"
-        }
-      },
-      {
-        "file": "assets/CaveatBrush-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Castles Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "95a29ad64dac1d147725f9a7e6e28396b918fa3b06113400dac1abd5c14dde47_tiled_Castles Background.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/95a29ad64dac1d147725f9a7e6e28396b918fa3b06113400dac1abd5c14dde47_tiled_Castles Background.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Background Colored Desert.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ee1549c41142908ab8c99a40d8c3d738125b65ff0e0e775bc09636908282fc3a_tiled_Background Colored Desert.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/ee1549c41142908ab8c99a40d8c3d738125b65ff0e0e775bc09636908282fc3a_tiled_Background Colored Desert.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Brick4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Renegade_Down Death.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "28dbd8221733a7dcd867c64216fd9cdee957f9c5134ce576c2ad1d44d9b41fd1_Renegade_Down Death.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Brawler Series/NES/28dbd8221733a7dcd867c64216fd9cdee957f9c5134ce576c2ad1d44d9b41fd1_Renegade_Down Death.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Fire Staff.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1cbe1ddbcb15b40b4ea1b5e6c523827da0fcdb15d377f9cf93471c21f2925d2c_Fire Staff.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Weapons/Staff/1cbe1ddbcb15b40b4ea1b5e6c523827da0fcdb15d377f9cf93471c21f2925d2c_Fire Staff.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Brick2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "Free Bird MINE2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Free Bird MINE2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Menu.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Dark/x128/194d9b26f5711f23390ca13abdcee6ae06a84c63e9d416c5ab7e8c4187d1c1b5_Menu.png",
-          "name": "Menu.png"
-        }
-      },
-      {
-        "file": "Flamethrower_Sound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Flamethrower_Sound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "OOF_minecraft.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "OOF_minecraft.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Lego Yoda Death.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Lego Yoda Death.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Attack2.png",
+        "metadata": "{\"localFilePath\":\"assets/Attack.png\",\"extension\":\".png\"}",
+        "name": "assets\\Attack.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image5.png",
+        "file": "assets/Hit.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\New image5.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack3",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image9.png",
+        "file": "assets/Attack4.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\New image9.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image7.png",
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run.png\"}",
+        "name": "Run",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run2.png\"}",
+        "name": "Run2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run3.png\"}",
+        "name": "Run3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run4.png\"}",
+        "name": "Run4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run5.png\"}",
+        "name": "Run5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run6.png\"}",
+        "name": "Run6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite.png\"}",
+        "name": "Run_droite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite2.png\"}",
+        "name": "Run_droite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite3.png\"}",
+        "name": "Run_droite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite4.png\"}",
+        "name": "Run_droite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite5.png\"}",
+        "name": "Run_droite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run_droite.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run_droite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run_droite2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run_droite2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run_droite3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run_droite3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run_droite4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run_droite4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run_droite5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run_droite5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Run6.png\",\"extension\":\".png\"}",
+        "name": "assets\\Run6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_gauche",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche2.png\"}",
+        "name": "Run_gauche2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche3.png\"}",
+        "name": "Run_gauche3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche4.png\"}",
+        "name": "Run_gauche4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche5.png\"}",
+        "name": "Run_gauche5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche6.png\"}",
+        "name": "Run_gauche6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche7.png\"}",
+        "name": "Run_gauche7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche8.png\"}",
+        "name": "Run_gauche8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche9.png\"}",
+        "name": "Run_gauche9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche10.png\"}",
+        "name": "Run_gauche10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche11.png\"}",
+        "name": "Run_gauche11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_gauche12.png\"}",
+        "name": "Run_gauche12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_gauche13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_gauche14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_gauche14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hit.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\New image7.png",
+        "name": "assets\\Hit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hit_gauche.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit_gauche",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack_gauche.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack_gauche",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort.png\"}",
+        "name": "Mort",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort2.png\"}",
+        "name": "Mort2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort3.png\"}",
+        "name": "Mort3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort4.png\"}",
+        "name": "Mort4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort5.png\"}",
+        "name": "Mort5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort6.png\"}",
+        "name": "Mort6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort7.png\"}",
+        "name": "Mort7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort13.png\"}",
+        "name": "Mort13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort14.png\"}",
+        "name": "Mort14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort15.png\"}",
+        "name": "Mort15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort16.png\"}",
+        "name": "Mort16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort17.png\"}",
+        "name": "Mort17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort18.png\"}",
+        "name": "Mort18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort19.png\"}",
+        "name": "Mort19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort20.png\"}",
+        "name": "Mort20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort21.png\"}",
+        "name": "Mort21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort22.png\"}",
+        "name": "Mort22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Attack_gauche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort_droite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort_droite.png\"}",
+        "name": "Mort_droite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort_droite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mort_droite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort_Gauche.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Mort_Gauche.png\"}",
+        "name": "Mort_Gauche",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort_Gauche2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort_Gauche2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle12.png\"}",
+        "name": "Idle10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle13.png\"}",
+        "name": "Idle11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Idle12.png\",\"extension\":\".png\"}",
+        "name": "assets\\Idle12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/carreau_sol_1/carreau_sol_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\carreau_sol_1\\carreau_sol_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/carreau_sol_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\carreau_sol_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flammes_idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/flammes_idle.png\",\"extension\":\".png\"}",
+        "name": "assets\\flammes_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flammes_blueu.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/flammes_blueu.png\",\"extension\":\".png\"}",
+        "name": "assets\\flammes_blueu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/New image11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\New image11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/New image12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\New image12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/coin_mur_bas_gauche_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\coin_mur_bas_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/coin_mur_haut_droit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\coin_mur_haut_droit_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/coin_mur_bas_droit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\coin_mur_bas_droit_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/coin_mur_haut_gauche_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\coin_mur_haut_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/carreau_mur_haut_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\carreau_mur_haut_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/carreau_mur_droite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\carreau_mur_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/carreau_mur_bas_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\carreau_mur_bas_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/carreau_mur_gauche_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\carreau_mur_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/porte_haut_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\porte_haut_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/porte_bas_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\porte_bas_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/porte_gauche_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\porte_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/porte_droite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\porte_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/couloir_plafond_haut_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\couloir_plafond_haut_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map/couloir_plafond_gauche_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map\\couloir_plafond_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Monster_Fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Monster_Fire_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vampire/Mort_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\vampire\\Mort_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Idle_droite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Idle_droite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Idle_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Idle_gauche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Mort_droite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Mort_droite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Mort_Gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Mort_Gauche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Hit_droite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Hit_droite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Hit_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Hit_gauche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Attack_droite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Attack_droite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Attack_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Attack_gauche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Idle12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_droite_12.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_droite_12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Fire_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Bleue_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Bleue_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Bleue_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Bleue_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/curseur/Bleue_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\curseur\\Bleue_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lance_flamme.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lance_flamme.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_droite_avec_lance_flamme",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_droite_avec_lance_flamme2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme3.png\"}",
+        "name": "Run_droite_avec_lance_flamme3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme4.png\"}",
+        "name": "Run_droite_avec_lance_flamme4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme5.png\"}",
+        "name": "Run_droite_avec_lance_flamme5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme6.png\"}",
+        "name": "Run_droite_avec_lance_flamme6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme7.png\"}",
+        "name": "Run_droite_avec_lance_flamme7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme8.png\"}",
+        "name": "Run_droite_avec_lance_flamme8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme9.png\"}",
+        "name": "Run_droite_avec_lance_flamme9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme10.png\"}",
+        "name": "Run_droite_avec_lance_flamme10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme11.png\"}",
+        "name": "Run_droite_avec_lance_flamme11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme12.png\"}",
+        "name": "Run_droite_avec_lance_flamme12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme13.png\"}",
+        "name": "Run_droite_avec_lance_flamme13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme14.png\"}",
+        "name": "Run_droite_avec_lance_flamme14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_12.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme10.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme11.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme12.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme13.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme14.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2657,16 +4440,6 @@
         "userAdded": true
       },
       {
-        "file": "Sneaky Snitch.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sneaky Snitch.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "file": "Flamethrower_Sound.mp3",
         "kind": "audio",
         "metadata": "",
@@ -2674,17 +4447,7 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "mob_dying_sound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "mob_dying_sound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "userAdded": true
       },
       {
         "file": "Lego Yoda Death.mp3",
@@ -2694,7 +4457,7 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2734,15 +4497,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/menu/tiled_Brick2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\menu\\tiled_Brick2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/menu/Black Square Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -2769,46 +4523,13 @@
         "userAdded": true
       },
       {
-        "file": "assets/Kenney Rocket Square.ttf",
-        "kind": "font",
+        "alwaysLoaded": false,
+        "file": "assets/menu/tiled_Brick2.png",
+        "kind": "image",
         "metadata": "",
-        "name": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Roboto-Bold.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "Sneaky Snitch.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sneaky Snitch.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "surprise.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "surprise.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "name": "assets\\menu\\tiled_Brick2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
