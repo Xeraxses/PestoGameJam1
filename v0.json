@@ -1734,141 +1734,6 @@
     {
       "folded": true,
       "name": "Player_score",
-      "type": "array",
-      "children": []
-    },
-    {
-      "folded": true,
-      "name": "nb_of_player",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "player_positions",
-      "type": "array",
-      "children": [
-        {
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "X_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "Y_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "player_nb",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "X_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "Y_position",
-              "type": "number",
-              "value": 491
-            },
-            {
-              "folded": true,
-              "name": "player_nb",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "X_position",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Y_position",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "player_nb",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "X_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "Y_position",
-              "type": "number",
-              "value": 489
-            },
-            {
-              "folded": true,
-              "name": "player_nb",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "X_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "Y_position",
-              "type": "number",
-              "value": 500
-            },
-            {
-              "folded": true,
-              "name": "player_nb",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "name": "test_debug",
       "type": "number",
       "value": 0
     }
@@ -1880,27 +1745,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/niveau_0_debug"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/niveau_0"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-screen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/multiplayerquickstart"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/thnk_local"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
