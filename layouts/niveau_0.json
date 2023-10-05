@@ -191,8 +191,8 @@
       "name": "Boss",
       "persistentUuid": "39ee3689-aa07-46a7-bdb8-9d5b921c8609",
       "width": 0,
-      "x": 903,
-      "y": 624,
+      "x": 1149,
+      "y": 574,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -2763,6 +2763,1040 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Run_droite_avec_lance_flamme",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run_gauche_avec_lance_flamme",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 21.5,
+                      "y": 30.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3892,6 +4926,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -3912,7 +4947,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 46,
                         "y": 35
                       },
                       {
@@ -3924,7 +4959,7 @@
                         "y": 155
                       },
                       {
-                        "x": 1,
+                        "x": 46,
                         "y": 155
                       }
                     ]
@@ -3940,6 +4975,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -3960,7 +4996,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 46,
                         "y": 35
                       },
                       {
@@ -3972,7 +5008,7 @@
                         "y": 155
                       },
                       {
-                        "x": 1,
+                        "x": 46,
                         "y": 155
                       }
                     ]
@@ -4783,6 +5819,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4891,6 +5928,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4906,17 +5944,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Run_gauche\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TopDownMovementBehavior::SimulateLeftKey"
                   },
                   "parameters": [
@@ -4924,9 +5951,68 @@
                     "TopDownMovement"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_lance_flamme",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_gauche_avec_lance_flamme\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_lance_flamme",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_gauche\""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4958,6 +6044,64 @@
                   "parameters": [
                     "hero",
                     "TopDownMovement"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_lance_flamme",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_droite_avec_lance_flamme\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_lance_flamme",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hero",
+                        "Animation",
+                        "=",
+                        "\"Run_droite\""
+                      ]
+                    }
                   ]
                 }
               ]

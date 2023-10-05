@@ -3092,7 +3092,7 @@
         "alwaysLoaded": false,
         "file": "assets/flammes_idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/flammes_idle.png\",\"extension\":\".png\"}",
         "name": "assets\\flammes_idle.png",
         "smoothed": true,
         "userAdded": false
@@ -3101,7 +3101,7 @@
         "alwaysLoaded": false,
         "file": "assets/flammes_blueu.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/flammes_blueu.png\",\"extension\":\".png\"}",
         "name": "assets\\flammes_blueu.png",
         "smoothed": true,
         "userAdded": true
@@ -3868,6 +3868,564 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\lance_flamme.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_droite_avec_lance_flamme",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run_droite_avec_lance_flamme2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme3.png\"}",
+        "name": "Run_droite_avec_lance_flamme3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme4.png\"}",
+        "name": "Run_droite_avec_lance_flamme4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme5.png\"}",
+        "name": "Run_droite_avec_lance_flamme5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme6.png\"}",
+        "name": "Run_droite_avec_lance_flamme6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme7.png\"}",
+        "name": "Run_droite_avec_lance_flamme7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme8.png\"}",
+        "name": "Run_droite_avec_lance_flamme8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme9.png\"}",
+        "name": "Run_droite_avec_lance_flamme9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme10.png\"}",
+        "name": "Run_droite_avec_lance_flamme10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme11.png\"}",
+        "name": "Run_droite_avec_lance_flamme11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme12.png\"}",
+        "name": "Run_droite_avec_lance_flamme12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme13.png\"}",
+        "name": "Run_droite_avec_lance_flamme13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run_droite_avec_lance_flamme14.png\"}",
+        "name": "Run_droite_avec_lance_flamme14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_12.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_droite_avec_lance_flamme/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hero\\Run_droite_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme3.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme4.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme5.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme6.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme7.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme8.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme9.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme10.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme11.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme12.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme13.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/hero/Run_gauche_avec_lance_flamme/Run_droite_avec_lance_flamme14.png\",\"extension\":\".png\"}",
+        "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
         "smoothed": true,
         "userAdded": true
       }
