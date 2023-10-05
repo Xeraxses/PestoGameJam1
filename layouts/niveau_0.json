@@ -493,7 +493,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -510,7 +529,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -539,7 +577,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -556,7 +613,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -573,7 +649,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -590,7 +685,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -607,7 +721,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -624,7 +757,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -641,7 +793,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -658,7 +829,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -675,7 +865,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -692,7 +901,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -722,7 +950,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -739,7 +986,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -756,7 +1022,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -773,7 +1058,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -790,7 +1094,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -807,7 +1130,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -824,7 +1166,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -841,7 +1202,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -858,7 +1238,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -875,7 +1274,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -892,7 +1310,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 65
+                      },
+                      {
+                        "x": 79,
+                        "y": 116.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 116.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3429,6 +3866,8 @@
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 5000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -3438,9 +3877,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 1000,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": true,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         },
         {
@@ -3467,10 +3904,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 19,
+                    "y": 98.5
                   },
                   "customCollisionMask": [
                     [
@@ -3515,10 +3952,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 19,
+                    "y": 98.5
                   },
                   "customCollisionMask": [
                     [
@@ -3549,6 +3986,12 @@
     }
   ],
   "events": [
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -3684,6 +4127,15 @@
             "\"Score\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SceneBackground"
+          },
+          "parameters": [
+            "",
+            "\"0;0;0\""
+          ]
         }
       ]
     },
@@ -3708,6 +4160,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "vampire",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4325,7 +4778,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "deplacement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4371,63 +4823,17 @@
                         "=",
                         "hero.PointY(\"point_lance_flamme\")"
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                        "value": "SetCenter"
                       },
                       "parameters": [
-                        "hero",
-                        "Animation",
+                        "flammes",
                         "=",
-                        "\"Idle_droite\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "hero",
-                        "Animation",
+                        "hero.PointX(\"point_lance_flamme\")",
                         "=",
-                        "\"Run_droite\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "hero",
-                        "Animation",
-                        "=",
-                        "\"Idle_gauche\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "hero",
-                        "Animation",
-                        "=",
-                        "\"Run_gauche\""
+                        "hero.PointY(\"point_lance_flamme\")"
                       ]
                     }
                   ]
@@ -4506,7 +4912,7 @@
                     "hero",
                     "Animation",
                     "=",
-                    "\"Idle_gauche\""
+                    "\"Run_gauche\""
                   ]
                 },
                 {
@@ -4542,7 +4948,7 @@
                     "hero",
                     "Animation",
                     "=",
-                    "\"Idle_droite\""
+                    "\"Run_droite\""
                   ]
                 },
                 {
@@ -4555,6 +4961,60 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "hero",
+                    "q"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "hero",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -4564,7 +5024,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "curseur_et_lance_flammes_gab",
+          "folded": true,
+          "name": "curseur_et_lance_flamme",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -4610,6 +5071,46 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "MouseX",
+                    "=",
+                    "CursorX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "MouseY",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "curseur",
+                    "=",
+                    "MouseX()",
+                    "=",
+                    "MouseY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -4622,6 +5123,27 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "debug_text",
+                    "=",
+                    "ToString(lance_flamme.Variable(nb_lances_flamme))"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -4716,7 +5238,19 @@
                         "lance_flamme",
                         "lance_flamme.Variable(MouseX)",
                         "lance_flamme.Variable(MouseY)",
-                        "340",
+                        "1000",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "flammes.Variable(MouseX)",
+                        "flammes.Variable(MouseY)",
+                        "1000",
                         ""
                       ]
                     }
@@ -4793,7 +5327,69 @@
                         "value": "VarGlobal"
                       },
                       "parameters": [
-                        "nb_lance_flamme",
+                        "nb_flamme",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nb_flamme",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "flammes",
+                        "hero.PointX(\"point_lance_flamme\")",
+                        "hero.PointY(\"point_lance_flamme\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "Resizable",
+                        "90",
+                        "40"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "=",
+                        "hero.PointX(\"point_lance_flamme\")",
+                        "=",
+                        "hero.PointY(\"point_lance_flamme\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "nb_flamme",
                         "=",
                         "1"
                       ]
@@ -4802,17 +5398,34 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "FireBullet::FireBullet::Fire"
+                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                       },
                       "parameters": [
-                        "lance_flamme",
-                        "FireBullet",
-                        "lance_flamme.PointX(\"depart_flammes\")",
-                        "lance_flamme.PointY(\"depart_flammes\")",
-                        "flamme",
-                        "lance_flamme.Angle()",
-                        "550",
+                        "flammes",
+                        "ShakeObject_PositionAngle",
+                        "",
+                        "4",
+                        "4",
+                        "0",
+                        "",
+                        "yes",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleTween"
+                      },
+                      "parameters": [
+                        "flammes",
+                        "Tween",
+                        "\"elargissement flamme\"",
+                        "2",
+                        "2",
+                        "\"linear\"",
+                        "1000",
+                        "",
+                        "yes"
                       ]
                     }
                   ]
@@ -4844,10 +5457,29 @@
                 },
                 {
                   "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "flammes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "nb_lance_flamme",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "nb_flamme",
                     "=",
                     "0"
                   ]
@@ -4873,10 +5505,21 @@
                     "=",
                     "\"Idle_droite\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "ShakeObject_PositionAngle",
+                    ""
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4933,11 +5576,30 @@
                 },
                 {
                   "type": {
-                    "value": "UnPauseTimer"
+                    "value": "RotateTowardPosition"
                   },
                   "parameters": [
+                    "flammes",
+                    "flammes.Variable(MouseX)",
+                    "flammes.Variable(MouseY)",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "flammes",
+                    "Tween",
+                    "\"elargissement flamme\"",
+                    "4",
+                    "6",
+                    "\"linear\"",
+                    "1000",
                     "",
-                    "\"flamme_bleue\""
+                    "yes"
                   ]
                 },
                 {
@@ -4946,7 +5608,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"delai_flamme_bleue\""
+                    "\"flamme_bleue\""
                   ]
                 },
                 {
@@ -4962,138 +5624,17 @@
                 },
                 {
                   "type": {
-                    "value": "ParticleSystem::ConeSprayAngle"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "flamme",
-                    "+",
-                    "30"
+                    "flammes",
+                    "Animation",
+                    "=",
+                    "\"blueu\""
                   ]
                 }
               ],
               "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"delai_flamme_bleue\"",
-                        ">=",
-                        "0.3"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            "<",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::ParticleColor2"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "\"6;2;250\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::EmitterForceMax"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "+",
-                            "50"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::SetFlow"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "+",
-                            "50"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            "+",
-                            "50"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "force_max_lance_flamme",
-                            ">=",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::ParticleColor2"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "\"6;2;250\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::EmitterForceMax"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "=",
-                            "GlobalVariable(cst_force_max)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ParticleSystem::SetFlow"
-                          },
-                          "parameters": [
-                            "flamme",
-                            "=",
-                            "650"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -5180,11 +5721,13 @@
                 },
                 {
                   "type": {
-                    "value": "RemoveTimer"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "",
-                    "\"delai_flamme_bleue\""
+                    "flammes",
+                    "Animation",
+                    "=",
+                    "\"idle\""
                   ]
                 }
               ]
@@ -5231,7 +5774,7 @@
               },
               "parameters": [
                 "vampire",
-                "flamme",
+                "flammes",
                 "",
                 "",
                 ""
@@ -5781,6 +6324,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
