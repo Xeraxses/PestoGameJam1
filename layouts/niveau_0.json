@@ -969,7 +969,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 50,
+          "Health": 5,
           "CurrentHealth": 0,
           "MaxHealth": 10000,
           "DamageCooldown": 0,
@@ -1007,11 +1007,11 @@
           "UnlimitedCapacity": true
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 999997,
           "deceleration": 999997,
           "maxSpeed": 2000,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown",
@@ -5644,13 +5644,25 @@
             "CameraBorderBottom(\"\", 2)"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Player_score",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "colorB": 228,
@@ -6176,7 +6188,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "curseur_et_lance_flamme",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6867,6 +6878,16 @@
                 "5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Player_score",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -6936,6 +6957,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "mathieu_event_gab",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7275,7 +7297,17 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game over screen\"",
+                ""
               ]
             }
           ]
