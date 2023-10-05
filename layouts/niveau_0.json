@@ -230,15 +230,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 997,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "vampire",
-      "persistentUuid": "bbe6221b-a884-48e4-95d7-3acf0b07335d",
-      "width": 703,
-      "x": 744,
-      "y": -91,
+      "name": "Boss",
+      "persistentUuid": "39ee3689-aa07-46a7-bdb8-9d5b921c8609",
+      "width": 0,
+      "x": 903,
+      "y": 624,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -4815,7 +4814,57 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Idle12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 617,
+                        "y": 310
+                      },
+                      {
+                        "x": 617,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4880,15 +4929,6 @@
             "Resizable",
             "160",
             "180"
-          ]
-        },
-        {
-          "type": {
-            "value": "PauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"delai_flamme_bleue\""
           ]
         },
         {
@@ -4987,7 +5027,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "vampire",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5716,53 +5755,6 @@
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ParticleSystem::ConeSprayAngle"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "=",
-                    "15"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::EmitterForceMin"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "+",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::EmitterForceMax"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "+",
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::SetFlow"
-                  },
-                  "parameters": [
-                    "flamme",
-                    "-",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5893,7 +5885,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "curseur_et_lance_flamme",
+          "name": "curseur_et_lance_flammes_gab",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -6997,6 +6989,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "comportements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
