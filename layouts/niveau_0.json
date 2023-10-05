@@ -113,142 +113,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 10,
-      "height": 252,
-      "layer": "",
-      "name": "carreau_mur_haut_1",
-      "persistentUuid": "3e44cf2d-ca5c-4976-809e-843fb074c763",
-      "width": 3198,
-      "x": -666,
-      "y": -720,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2006,
-      "layer": "",
-      "name": "carreau_mur_droite_1",
-      "persistentUuid": "13e19e89-a81d-4aee-9dee-d9cf0dd68e05",
-      "width": 250,
-      "x": 2530,
-      "y": -470,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 252,
-      "layer": "",
-      "name": "carreau_mur_bas_1",
-      "persistentUuid": "67c7f69e-a93c-4157-acab-a0259d58113b",
-      "width": 3199,
-      "x": -669,
-      "y": 1533,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2007,
-      "layer": "",
-      "name": "carreau_mur_gauche_1",
-      "persistentUuid": "3ac383e5-0c21-4625-8cc8-3625330b24dc",
-      "width": 251,
-      "x": -916,
-      "y": -473,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 249,
-      "layer": "",
-      "name": "coin_mur_haut_droit_1",
-      "persistentUuid": "9bca5ec4-83d6-45d7-a717-a082f6793a27",
-      "width": 255,
-      "x": 2531,
-      "y": -719,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 251,
-      "layer": "",
-      "name": "coin_mur_bas_droit_1",
-      "persistentUuid": "c45405eb-5936-454c-91ef-a02fdd7fd23c",
-      "width": 251,
-      "x": 2530,
-      "y": 1534,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 252,
-      "layer": "",
-      "name": "coin_mur_bas_gauche_1",
-      "persistentUuid": "5418bda9-1b98-489b-92b8-c5adf453c811",
-      "width": 250,
-      "x": -916,
-      "y": 1533,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 250,
-      "layer": "",
-      "name": "coin_mur_haut_gauche_1",
-      "persistentUuid": "549b011b-0001-46e3-8661-56ff3ff5f96b",
-      "width": 250,
-      "x": -916,
-      "y": -716,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "debug_text",
       "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
       "width": 0,
-      "x": 40,
-      "y": -397,
+      "x": -1691,
+      "y": -781,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,25 +134,9 @@
       "name": "player_health",
       "persistentUuid": "1b1f01ca-098d-4a3f-9463-da1ba1508c39",
       "width": 0,
-      "x": 17,
-      "y": -150,
+      "x": -1325,
+      "y": -213,
       "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 208,
-      "layer": "",
-      "name": "hero",
-      "persistentUuid": "423b75f4-cbc9-43e9-9b77-76c6841d6371",
-      "width": 183,
-      "x": 915,
-      "y": 526,
-      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -294,8 +150,8 @@
       "name": "BlueFlatBar",
       "persistentUuid": "aa757535-05f7-4174-a131-ef1f40ad2fd0",
       "width": 917,
-      "x": -549,
-      "y": 1209,
+      "x": -1862,
+      "y": 713,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -4932,6 +4788,17 @@
         },
         {
           "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "hero",
+            "Resizable",
+            "200",
+            "220"
+          ]
+        },
+        {
+          "type": {
             "value": "ChangePlan"
           },
           "parameters": [
@@ -4947,6 +4814,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "mathieu_event",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5289,6 +5157,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "curseur_et_lance_flamme",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5302,7 +5171,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "hero",
+                "lance_flamme",
                 "MouseX",
                 "=",
                 "CursorX()"
@@ -5313,41 +5182,10 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "hero",
+                "lance_flamme",
                 "MouseY",
                 "=",
                 "CursorY()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::Fire"
-              },
-              "parameters": [
-                "hero",
-                "FireBullet",
-                "hero.PointX(\"depart_flammes\")",
-                "hero.PointY(\"depart_flammes\")",
-                "flamme",
-                "hero.Angle()",
-                "550",
-                ""
               ]
             }
           ]
@@ -5391,9 +5229,9 @@
                 "value": "RotateTowardPosition"
               },
               "parameters": [
-                "hero",
-                "hero.Variable(MouseX)",
-                "hero.Variable(MouseY)",
+                "lance_flamme",
+                "lance_flamme.Variable(MouseX)",
+                "lance_flamme.Variable(MouseY)",
                 "0",
                 ""
               ]
@@ -5653,6 +5491,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "controle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5846,6 +5685,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6025,6 +5865,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6298,6 +6139,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "curseur_et_lance_flamme",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6388,6 +6230,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "mort_vampires",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6400,40 +6243,6 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "couloir_plafond_haut_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::Fire"
-              },
-              "parameters": [
-                "hero",
-                "FireBullet",
-                "hero.PointX(\"depart_flammes\")",
-                "hero.PointY(\"depart_flammes\")",
-                "flamme",
-                "hero.Angle()",
-                "550",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
                 "vampire",
                 "flamme",
                 "",
@@ -6443,122 +6252,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "vampire",
-                "Animation",
-                "=",
-                "\"Fire\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "hero",
-                "hero.Variable(MouseX)",
-                "hero.Variable(MouseY)",
-                "0",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_haut_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_haut_1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "couloir_plafond_gauche_1",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "hero",
-                "couloir_plafond_gauche_1",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "mathieu_event",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "0.5",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "Health::Health::Hit"
@@ -6570,6 +6263,17 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Fire\""
               ]
             },
             {
