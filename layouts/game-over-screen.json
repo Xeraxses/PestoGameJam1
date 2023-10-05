@@ -362,18 +362,6 @@
           "parameters": [
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Lego Yoda Death.mp3",
-            "",
-            "0",
-            ""
-          ]
         }
       ]
     },

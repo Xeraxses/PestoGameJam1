@@ -2645,6 +2645,26 @@
         "name": "assets\\New image7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "mob_dying_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mob_dying_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sneaky Snitch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sneaky Snitch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

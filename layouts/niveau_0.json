@@ -6002,6 +6002,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "controle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6985,28 +6986,18 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Player_score%5",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
-                    "OOF_minecraft.mp3",
-                    "",
-                    "0",
+                    "mob_dying_sound.mp3",
+                    "2",
+                    "50",
+                    "25",
                     ""
                   ]
                 }
@@ -7434,6 +7425,19 @@
                 "Animation",
                 "=",
                 "\"Dead Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Lego Yoda Death.mp3",
+                "3",
+                "30",
+                "30",
+                ""
               ]
             },
             {

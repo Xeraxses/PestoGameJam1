@@ -271,8 +271,8 @@
       "behaviors": [],
       "string": "Jean-Michel était un mineur ordinaire... ",
       "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 100,
+      "textAlignment": "center",
+      "characterSize": 125,
       "color": {
         "b": 0,
         "g": 0,
@@ -365,6 +365,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Sneaky Snitch.mp3",
+            "no",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
@@ -391,7 +403,7 @@
             "",
             "JeanMichelEstUnMineur",
             "hero_intro.X() + 100",
-            "hero_intro.Y() - 50",
+            "hero_intro.Y() - 75",
             ""
           ]
         },
@@ -457,7 +469,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "1"
+            "2"
           ]
         },
         {
@@ -475,7 +487,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "1"
+            "2"
           ]
         },
         {
@@ -512,7 +524,7 @@
           "parameters": [
             "",
             "QuandToutACoup",
-            "hero_intro.X()",
+            "hero_intro.X() - 500",
             "hero_intro.Y() - 400",
             ""
           ]

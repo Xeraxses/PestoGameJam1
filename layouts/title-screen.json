@@ -156,9 +156,54 @@
       "name": "hero_Intro",
       "persistentUuid": "bd105c3c-e90d-4726-aba1-3932beea91ce",
       "width": 86,
-      "x": 588,
-      "y": 311,
+      "x": 457,
+      "y": 429,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "credits",
+      "persistentUuid": "b81161c2-f911-4da4-a5ce-d9e1a79e49c6",
+      "width": 0,
+      "x": 465,
+      "y": 295,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "2de123db-78ad-4526-8cbc-0650e69c9248",
+      "width": 0,
+      "x": 108,
+      "y": 833,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "f27f70c0-5cbc-4dd0-ae98-f7a34ba83da4",
+      "width": 0,
+      "x": 1781,
+      "y": 835,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -191,7 +236,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "PlayButton",
+      "name": "credits",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -219,14 +264,14 @@
           "PressedEffect": ""
         }
       ],
-      "string": "JOUE !!!",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
+      "string": "PESTO Industrie du Jeu Vidéo \nMathieu CHAMPION, Gabriel CHAN, Jean-Eudes RASCOUSSIER",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 1,
+        "g": 1,
+        "r": 17
       }
     },
     {
@@ -930,7 +975,7 @@
         {
           "name": "RectangleMovement",
           "type": "RectangleMovement::RectangleMovement",
-          "Width": 100,
+          "Width": 1000,
           "Height": 1,
           "Clockwise": true,
           "HorizontalEdgeDuration": 4,
@@ -940,7 +985,7 @@
           "Progress": 1,
           "OldX": 1,
           "OldY": 1,
-          "Easing": "linear",
+          "Easing": "easeInOutSine",
           "InitialPosition": "Top-left corner",
           "ToogleClockwise": false
         }
