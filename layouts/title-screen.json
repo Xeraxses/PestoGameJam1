@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 61,
   "disableInputWhenNotFocused": true,
   "mangledName": "Title_32Screen",
   "name": "Title Screen",
-  "r": 255,
+  "r": 63,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 255,
+  "v": 61,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -28,29 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 613,
+      "height": 1470,
       "layer": "",
-      "name": "MenuPopupBackground",
-      "persistentUuid": "f4978da4-f19d-47a6-8dc6-4eff1cebbef4",
-      "width": 1045,
-      "x": 469,
-      "y": 315,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1079,
-      "layer": "",
-      "name": "NewTiledSprite",
+      "name": "Fond_Menu",
       "persistentUuid": "19d43c4a-6ab4-4eff-92bd-23cc016317ce",
-      "width": 1922,
-      "x": 0,
-      "y": -1,
+      "width": 2655,
+      "x": -384,
+      "y": -197,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,8 +48,8 @@
       "name": "Title",
       "persistentUuid": "a1dcba46-5d92-4e7e-a1aa-d32f4e38de15",
       "width": 0,
-      "x": 67,
-      "y": 113,
+      "x": 342,
+      "y": 156,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,76 +64,107 @@
       "name": "Bouton_jouer",
       "persistentUuid": "7ec488b4-9ab7-4985-ad79-a96d78bf6f3d",
       "width": 569,
-      "x": 711,
-      "y": 440,
+      "x": 645,
+      "y": 556,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "8f3a805d-9dd7-491f-962c-38af43f06c37",
+      "width": 0,
+      "x": 107,
+      "y": 43,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "cd7e1e90-2d49-47b4-b482-5d6d6f9479ca",
+      "width": 0,
+      "x": 1763,
+      "y": 22,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "73dd4888-acb8-420a-9e71-318e30c41640",
+      "width": 0,
+      "x": 101,
+      "y": 397,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "9cdb331c-320e-4e6f-a4c3-c813d1b98f0c",
+      "width": 0,
+      "x": 1780,
+      "y": 460,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 101,
+      "layer": "",
+      "name": "Bouton_quitter",
+      "persistentUuid": "45689eb9-aeeb-4c07-be41-e3be2bcbcfbe",
+      "width": 564,
+      "x": 644,
+      "y": 685,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "layer": "",
+      "name": "hero_Intro",
+      "persistentUuid": "bd105c3c-e90d-4726-aba1-3932beea91ce",
+      "width": 86,
+      "x": 588,
+      "y": 311,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "e7b765db6c7009558318e8ba11f6d705387517b0fa8d16ba62833933b829f3d1",
-      "name": "MenuPopupBackground",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Menu Popup Background.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 4,
-                        "y": 3
-                      },
-                      {
-                        "x": 146,
-                        "y": 3
-                      },
-                      {
-                        "x": 146,
-                        "y": 96
-                      },
-                      {
-                        "x": 4,
-                        "y": 96
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "bold": false,
@@ -163,13 +178,13 @@
       "effects": [],
       "behaviors": [],
       "string": "MINE DESTRUCTOR 3000",
-      "font": "",
+      "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 150,
       "color": {
         "b": 0,
         "g": 0,
-        "r": 0
+        "r": 255
       }
     },
     {
@@ -277,6 +292,709 @@
           "width": 288
         }
       }
+    },
+    {
+      "assetStoreId": "1d520e09dda1f2a1eae840a3133286acfff11151176c0eb2718d9f6a186d13c3",
+      "name": "Bouton_quitter",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Gold Frame_Hovered.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 288
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Gold Frame_Idle.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 288
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "QUITTER",
+          "font": "Roboto-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Gold Frame_Pressed.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 288
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Fond_Menu",
+      "tags": "",
+      "texture": "5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "7a5c6bb49498751a07b3acdd7a6d6ce31efb0ef1344ec74d6040297d9cb7372d",
+      "name": "Menu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
+      "name": "Monster",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 200,
+          "Height": 200,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 2,
+          "VerticalEdgeDuration": 2,
+          "Left": 1,
+          "Top": 1,
+          "Progress": 1,
+          "OldX": 1,
+          "OldY": 1,
+          "Easing": "linear",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hero_Intro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 100,
+          "Height": 1,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 4,
+          "VerticalEdgeDuration": 1,
+          "Left": 1,
+          "Top": 1,
+          "Progress": 1,
+          "OldX": 1,
+          "OldY": 1,
+          "Easing": "linear",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "animation_intro",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Attack2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 40,
+                        "y": 1
+                      },
+                      {
+                        "x": 40,
+                        "y": 44
+                      },
+                      {
+                        "x": 0,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -331,7 +1049,31 @@
           },
           "parameters": [
             "",
-            "\"niveau_0\"",
+            "\"Intro\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Bouton_quitter",
+            "ButtonFSM"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
             ""
           ]
         }
@@ -407,6 +1149,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "Resizable",

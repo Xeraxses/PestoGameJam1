@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1079,
+      "height": 1428,
       "layer": "",
-      "name": "NewTiledSprite",
+      "name": "Fond_Game_Over",
       "persistentUuid": "a436b461-5c00-4874-b86f-5575d59ea004",
-      "width": 1915,
-      "x": -2,
-      "y": 4,
+      "width": 2667,
+      "x": -344,
+      "y": -220,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +48,8 @@
       "name": "GameOverTitle",
       "persistentUuid": "f649b6b2-4e6c-4ad5-8e26-d4fcf41e9612",
       "width": 0,
-      "x": 50,
-      "y": 2,
+      "x": 37,
+      "y": -35,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,7 +116,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "T MORT \nRIP CHACAL",
+      "string": "GAME OVER",
       "font": "",
       "textAlignment": "center",
       "characterSize": 300,
@@ -317,6 +317,18 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Fond_Game_Over",
+      "tags": "",
+      "texture": "4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -348,6 +360,18 @@
             "value": "MontreSouris"
           },
           "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Lego Yoda Death.mp3",
+            "",
+            "0",
             ""
           ]
         }
@@ -404,6 +428,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

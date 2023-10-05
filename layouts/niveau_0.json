@@ -5652,12 +5652,42 @@
           "actions": [
             {
               "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Score",
+                "CameraBorderTop(\"\", 2)",
+                "CameraBorderBottom(\"\", 2)",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ModVarGlobal"
               },
               "parameters": [
                 "Player_score",
                 "=",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Free Bird MINE2.mp3",
+                "yes",
+                "0",
+                ""
               ]
             }
           ]
@@ -5981,6 +6011,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "deplacement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6285,6 +6316,32 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Flamethrower_Sound.mp3",
+                        "1",
+                        "yes",
+                        "30",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "inverted": true,
                         "value": "KeyPressed"
                       },
@@ -6461,6 +6518,30 @@
                     "\"Idle\""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -6555,6 +6636,17 @@
                     "flamme",
                     "+",
                     "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "100"
                   ]
                 }
               ],
@@ -6889,6 +6981,37 @@
                 "1"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Player_score%5",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "OOF_minecraft.mp3",
+                    "",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -6957,7 +7080,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "mathieu_event_gab",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7021,6 +7143,28 @@
                 "hero.CenterX() - 1500",
                 "=",
                 "hero.Y() + 950"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score : \" + ToString(GlobalVariable(Player_score))"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "hero.CenterX() + 100",
+                "=",
+                "hero.Y() + 900"
               ]
             }
           ]
@@ -7499,6 +7643,17 @@
           ]
         }
       ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "bruitages",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
       "parameters": []
     }
   ],

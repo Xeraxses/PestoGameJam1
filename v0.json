@@ -2467,6 +2467,184 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
           "name": "Roboto-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Castles Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "95a29ad64dac1d147725f9a7e6e28396b918fa3b06113400dac1abd5c14dde47_tiled_Castles Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/95a29ad64dac1d147725f9a7e6e28396b918fa3b06113400dac1abd5c14dde47_tiled_Castles Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Background Colored Desert.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ee1549c41142908ab8c99a40d8c3d738125b65ff0e0e775bc09636908282fc3a_tiled_Background Colored Desert.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/ee1549c41142908ab8c99a40d8c3d738125b65ff0e0e775bc09636908282fc3a_tiled_Background Colored Desert.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brick4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Renegade_Down Death.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "28dbd8221733a7dcd867c64216fd9cdee957f9c5134ce576c2ad1d44d9b41fd1_Renegade_Down Death.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Brawler Series/NES/28dbd8221733a7dcd867c64216fd9cdee957f9c5134ce576c2ad1d44d9b41fd1_Renegade_Down Death.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire Staff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1cbe1ddbcb15b40b4ea1b5e6c523827da0fcdb15d377f9cf93471c21f2925d2c_Fire Staff.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Weapons/Staff/1cbe1ddbcb15b40b4ea1b5e6c523827da0fcdb15d377f9cf93471c21f2925d2c_Fire Staff.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brick2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Free Bird MINE2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Free Bird MINE2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Dark/x128/194d9b26f5711f23390ca13abdcee6ae06a84c63e9d416c5ab7e8c4187d1c1b5_Menu.png",
+          "name": "Menu.png"
+        }
+      },
+      {
+        "file": "Flamethrower_Sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Flamethrower_Sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "OOF_minecraft.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "OOF_minecraft.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lego Yoda Death.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lego Yoda Death.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Attack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image7.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2505,10 +2683,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/intro"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
