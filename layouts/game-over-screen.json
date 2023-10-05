@@ -26,22 +26,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1079,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "a436b461-5c00-4874-b86f-5575d59ea004",
-      "width": 1915,
-      "x": -2,
-      "y": 4,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",

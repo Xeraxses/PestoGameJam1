@@ -42,22 +42,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1079,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "19d43c4a-6ab4-4eff-92bd-23cc016317ce",
-      "width": 1922,
-      "x": 0,
-      "y": -1,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
