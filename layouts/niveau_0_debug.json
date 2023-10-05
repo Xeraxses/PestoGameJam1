@@ -934,6 +934,14 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 300,
+          "MarginBottom": 300,
+          "MarginLeft": 300,
+          "MarginRight": 300
+        },
+        {
           "name": "SynchronizedObject",
           "type": "THNK::SynchronizedObject"
         },
@@ -5508,6 +5516,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Client",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5530,59 +5539,27 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "SetCameraCenterX"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
-                    "",
+                    "player_health",
                     "=",
-                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
-                    "",
-                    "hero.Variable(hero_nb)"
+                    "ToString(hero.Health::Health())"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "infiniteLoopWarning": true,
-              "type": "BuiltinCommonInstructions::While",
-              "whileConditions": [
+                },
                 {
                   "type": {
-                    "value": "ObjectVariableAsBoolean"
+                    "value": "MettreXY"
                   },
                   "parameters": [
-                    "hero",
-                    "PlayerState.Camera",
-                    "True"
-                  ]
-                }
-              ],
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "hero",
+                    "player_health",
+                    "=",
                     "hero.X()",
-                    "",
-                    "0"
+                    "=",
+                    "hero.Y() - 100"
                   ]
                 }
               ]
@@ -5853,7 +5830,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
@@ -5886,12 +5863,18 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "MouseButtonReleased"
                       },
                       "parameters": [
                         "",
                         "Left"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -5921,6 +5904,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Serveur",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5941,38 +5925,6 @@
           "actions": [],
           "events": [
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
-                    "",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "GlobalVariable(player_positions[hero.Variable(hero_nb)].Y_position)",
-                    "",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -5986,6 +5938,34 @@
                     "",
                     "",
                     "hero.Variable(hero_nb)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "hero",
+                    "TopDownMovement"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "player_health",
+                    "=",
+                    "hero.X()",
+                    "=",
+                    "hero.Y() - 100"
                   ]
                 }
               ]
@@ -6072,38 +6052,6 @@
                       },
                       "parameters": [
                         "",
-                        "player_health",
-                        "hero.X()",
-                        "hero.Y() - 100",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "player_health",
-                        "=",
-                        "ToString(hero.Variable(hero_nb))"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "THNK::LinkObjectToPlayer"
-                      },
-                      "parameters": [
-                        "",
-                        "player_health",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
                         "debug_text",
                         "0",
                         "41",
@@ -6138,6 +6086,46 @@
                         "hero",
                         "PlayerState[THNK::PickedPlayer()]",
                         "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "player_health",
+                            "hero.X()",
+                            "hero.Y() - 100",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "player_health",
+                            "=",
+                            "ToString(hero.Health::Health())"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "THNK::LinkObjectToPlayer"
+                          },
+                          "parameters": [
+                            "",
+                            "player_health",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -6200,7 +6188,6 @@
                   "actions": []
                 },
                 {
-                  "disabled": true,
                   "infiniteLoopWarning": true,
                   "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
@@ -6237,48 +6224,6 @@
                         "hero",
                         "moving_up",
                         "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "test_debug",
-                        "=",
-                        "hero.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "player_positions[hero.Variable(hero_nb)].X_position",
-                        "=",
-                        "hero.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "debug_text",
-                        "=",
-                        "ToString(GlobalVariable(player_positions[0].X_position)) + \" | \" + ToString(GlobalVariable(player_positions[1].X_position))+ \" | \" + ToString(GlobalVariable(player_positions[2].X_position)) + \" |picked : \" + THNK::PickedPlayer()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCameraCenterX"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "GlobalVariable(player_positions[hero.Variable(hero_nb)].X_position)",
-                        "",
-                        "hero.Variable(hero_nb)"
                       ]
                     }
                   ]
@@ -6656,71 +6601,6 @@
               "parameters": []
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "THNK::UseLinkedObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "hero",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "player_positions[hero.Variable(hero_nb)].X_position",
-                    "=",
-                    "hero.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "player_positions[hero.Variable(hero_nb)].Y_position",
-                    "=",
-                    "hero.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "test_debug",
-                    "=",
-                    "5555"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug_text",
-                    "=",
-                    "ToString(GlobalVariable(test_debug))"
-                  ]
-                }
-              ]
-            },
-            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
@@ -6862,6 +6742,89 @@
                         "hero.Angle()",
                         "550",
                         ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "curseur_et_lance_flamme",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "hero",
+                        "MouseX",
+                        "=",
+                        "CursorX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "hero",
+                        "MouseY",
+                        "=",
+                        "CursorY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "hero",
+                        "hero.Variable(MouseX)",
+                        "hero.Variable(MouseY)",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "vampire",
+                        "flamme",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "vampire",
+                        "Animation",
+                        "=",
+                        "\"Fire\""
                       ]
                     }
                   ]
