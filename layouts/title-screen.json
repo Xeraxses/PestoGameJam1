@@ -296,7 +296,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Hovered.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Hovered.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -306,7 +306,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Idle.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Idle.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -331,7 +331,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Pressed.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Pressed.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -360,7 +360,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Hovered.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Hovered.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -370,7 +370,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Idle.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Idle.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -395,7 +395,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Gold Frame_Pressed.png",
+          "texture": "assets\\menu\\Red Button With Gold Frame_Pressed.png",
           "tiled": false,
           "topMargin": 0,
           "width": 288
@@ -407,73 +407,12 @@
       "height": 32,
       "name": "Fond_Menu",
       "tags": "",
-      "texture": "5ac44054e7176a6af4aa0ad6f3b0fab91a318ac1a10d39186306a15c2a0e521b_tiled_Brick4.png",
+      "texture": "assets\\menu\\tiled_Brick4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "7a5c6bb49498751a07b3acdd7a6d6ce31efb0ef1344ec74d6040297d9cb7372d",
-      "name": "Menu",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Menu.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 128,
-                        "y": 0
-                      },
-                      {
-                        "x": 128,
-                        "y": 128
-                      },
-                      {
-                        "x": 0,
-                        "y": 128
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -514,7 +453,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Monster_Idle_1.png",
+                  "image": "assets\\vampire\\Monster_Idle_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -530,27 +469,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 14,
+                        "y": 38
                       },
                       {
                         "x": 77,
-                        "y": 37
+                        "y": 38
                       },
                       {
                         "x": 77,
-                        "y": 118
+                        "y": 117
                       },
                       {
-                        "x": 13,
-                        "y": 118
+                        "x": 14,
+                        "y": 117
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Monster_Idle_2.png",
+                  "image": "assets\\vampire\\Monster_Idle_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -566,392 +505,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 37
+                        "x": 14,
+                        "y": 38
                       },
                       {
                         "x": 77,
-                        "y": 37
+                        "y": 38
                       },
                       {
                         "x": 77,
-                        "y": 118
+                        "y": 117
                       },
                       {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Fire",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Monster_Fire_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 37
-                      },
-                      {
-                        "x": 77,
-                        "y": 118
-                      },
-                      {
-                        "x": 13,
-                        "y": 118
+                        "x": 14,
+                        "y": 117
                       }
                     ]
                   ]
@@ -1001,7 +568,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Attack2.png",
+                  "image": "assets\\hero\\Attack_droite.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1017,19 +584,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 4,
                         "y": 1
                       },
                       {
-                        "x": 40,
+                        "x": 32,
                         "y": 1
                       },
                       {
-                        "x": 40,
+                        "x": 32,
                         "y": 44
                       },
                       {
-                        "x": 0,
+                        "x": 4,
                         "y": 44
                       }
                     ]

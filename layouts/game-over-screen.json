@@ -212,7 +212,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Hovered.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Hovered.png",
           "tiled": true,
           "topMargin": 16,
           "width": 192
@@ -222,7 +222,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Idle.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Idle.png",
           "tiled": true,
           "topMargin": 16,
           "width": 192
@@ -247,7 +247,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Pressed.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Pressed.png",
           "tiled": true,
           "topMargin": 22,
           "width": 192
@@ -276,7 +276,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Hovered.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Hovered.png",
           "tiled": true,
           "topMargin": 16,
           "width": 192
@@ -286,7 +286,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Idle.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Idle.png",
           "tiled": true,
           "topMargin": 16,
           "width": 192
@@ -311,7 +311,7 @@
           "height": 64,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Black Square Decorated Button_Pressed.png",
+          "texture": "assets\\menu\\Black Square Decorated Button_Pressed.png",
           "tiled": true,
           "topMargin": 22,
           "width": 192
@@ -323,7 +323,7 @@
       "height": 32,
       "name": "Fond_Game_Over",
       "tags": "",
-      "texture": "4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
+      "texture": "assets\\menu\\tiled_Brick2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],

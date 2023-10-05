@@ -5673,24 +5673,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "Free Bird MINE2.mp3",
-                "yes",
-                "0",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -6343,6 +6325,32 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Flamethrower_Sound.mp3",
+                        "1",
+                        "yes",
+                        "30",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "inverted": true,
                         "value": "KeyPressed"
                       },
@@ -6649,6 +6657,17 @@
                     "=",
                     "100"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "100"
+                  ]
                 }
               ],
               "events": [
@@ -6880,7 +6899,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "mort_vampires",
+      "name": "vampires",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -6936,6 +6955,245 @@
           ]
         },
         {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "0.5",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6986,7 +7244,43 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "mob_dying_sound.mp3",
+                    "2",
+                    "",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -6999,6 +7293,16 @@
                     "50",
                     "25",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Player_score",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -7071,7 +7375,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "mathieu_event_gab",
+      "name": "comportements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -7138,74 +7442,24 @@
             },
             {
               "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "hero.CenterX() + 150",
+                "=",
+                "hero.Y() + 900"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextObject::String"
               },
               "parameters": [
                 "Score",
                 "=",
                 "\"Score : \" + ToString(GlobalVariable(Player_score))"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "hero.CenterX() + 100",
-                "=",
-                "hero.Y() + 900"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_bas_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_haut_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_bas_droit_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_haut_droit_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
               ]
             }
           ]
@@ -7442,10 +7696,15 @@
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "1"
+                "",
+                "Lego Yoda Death.mp3",
+                "3",
+                "",
+                "75",
+                ""
               ]
             },
             {
@@ -7457,6 +7716,14 @@
                 "\"Game over screen\"",
                 ""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": ""
+            },
+            {
+              "type": ""
             }
           ]
         }

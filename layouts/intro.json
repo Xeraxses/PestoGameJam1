@@ -95,7 +95,7 @@
       "height": 32,
       "name": "Sol",
       "tags": "",
-      "texture": "assets\\New image5.png",
+      "texture": "assets\\map\\carreau_sol_1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -107,7 +107,7 @@
       "height": 32,
       "name": "Mur_Haut",
       "tags": "",
-      "texture": "assets\\New image9.png",
+      "texture": "assets\\map\\carreau_mur_haut_1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -119,7 +119,7 @@
       "height": 32,
       "name": "Mur_Bas",
       "tags": "",
-      "texture": "assets\\New image7.png",
+      "texture": "assets\\map\\carreau_mur_bas_1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -147,7 +147,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\sprite_dune\\hero flipped.png",
+                  "image": "assets\\hero\\Idle_droite.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -195,7 +195,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\sprite_dune\\hero attack flipped.png",
+                  "image": "assets\\hero\\Attack_droite.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -248,7 +248,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Jean-Michel était un mineur ordinaire... ",
-      "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+      "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -270,13 +270,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Jean-Michel était un mineur ordinaire... ",
-      "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+      "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
       "textAlignment": "center",
       "characterSize": 125,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 255
+        "b": 2,
+        "g": 2,
+        "r": 211
       }
     },
     {
@@ -308,7 +308,43 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Monster_Idle_1.png",
+                  "image": "assets\\vampire\\Monster_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 38
+                      },
+                      {
+                        "x": 77,
+                        "y": 38
+                      },
+                      {
+                        "x": 77,
+                        "y": 117
+                      },
+                      {
+                        "x": 14,
+                        "y": 117
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\vampire\\Monster_Idle_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -403,7 +439,7 @@
             "",
             "JeanMichelEstUnMineur",
             "hero_intro.X() + 100",
-            "hero_intro.Y() - 75",
+            "hero_intro.Y() - 175",
             ""
           ]
         },
@@ -541,6 +577,19 @@
         },
         {
           "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "surprise.mp3",
+            "2",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Create"
           },
           "parameters": [
@@ -573,6 +622,54 @@
             "hero_intro.X() + 250",
             "hero_intro.Y() + 150",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "hero_intro",
+            "hero_intro.X() - 1000000",
+            "hero_intro.Y()",
+            "500",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "hero_intro",
+            "hero_intro.X() +  1000000",
+            "hero_intro.Y()",
+            "500",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "hero_intro"
           ]
         },
         {
@@ -642,6 +739,55 @@
           },
           "parameters": [
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "QuandToutACoup",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "QuandToutACoup",
+            "200",
+            "200",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Text::SetFontSize"
+          },
+          "parameters": [
+            "QuandToutACoup",
+            "-",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "QuandToutACoup",
+            "=",
+            "\"Jean-Michel a du nettoyage à \nfaire avant le prochain shift !\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3.2"
           ]
         },
         {
