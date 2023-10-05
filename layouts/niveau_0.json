@@ -1,0 +1,6069 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "niveau_950",
+  "name": "niveau_0",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.22916801610748874,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2002,
+      "layer": "",
+      "locked": true,
+      "name": "carreau_sol_1",
+      "persistentUuid": "eba8db4e-5753-48d4-9818-983766a56cae",
+      "sealed": true,
+      "width": 3196,
+      "x": -665,
+      "y": -469,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 252,
+      "layer": "",
+      "name": "carreau_mur_haut_1",
+      "persistentUuid": "3e44cf2d-ca5c-4976-809e-843fb074c763",
+      "width": 3198,
+      "x": -666,
+      "y": -720,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2006,
+      "layer": "",
+      "name": "carreau_mur_droite_1",
+      "persistentUuid": "13e19e89-a81d-4aee-9dee-d9cf0dd68e05",
+      "width": 250,
+      "x": 2530,
+      "y": -470,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 252,
+      "layer": "",
+      "name": "carreau_mur_bas_1",
+      "persistentUuid": "67c7f69e-a93c-4157-acab-a0259d58113b",
+      "width": 3199,
+      "x": -669,
+      "y": 1533,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2007,
+      "layer": "",
+      "name": "carreau_mur_gauche_1",
+      "persistentUuid": "3ac383e5-0c21-4625-8cc8-3625330b24dc",
+      "width": 251,
+      "x": -916,
+      "y": -473,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 249,
+      "layer": "",
+      "name": "coin_mur_haut_droit_1",
+      "persistentUuid": "9bca5ec4-83d6-45d7-a717-a082f6793a27",
+      "width": 255,
+      "x": 2531,
+      "y": -719,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 251,
+      "layer": "",
+      "name": "coin_mur_bas_droit_1",
+      "persistentUuid": "c45405eb-5936-454c-91ef-a02fdd7fd23c",
+      "width": 251,
+      "x": 2530,
+      "y": 1534,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 252,
+      "layer": "",
+      "name": "coin_mur_bas_gauche_1",
+      "persistentUuid": "5418bda9-1b98-489b-92b8-c5adf453c811",
+      "width": 250,
+      "x": -916,
+      "y": 1533,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 250,
+      "layer": "",
+      "name": "coin_mur_haut_gauche_1",
+      "persistentUuid": "549b011b-0001-46e3-8661-56ff3ff5f96b",
+      "width": 250,
+      "x": -916,
+      "y": -716,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "debug_text",
+      "persistentUuid": "5f7e2c8e-e64d-40b2-967f-503cfc0db24f",
+      "width": 0,
+      "x": 40,
+      "y": -397,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "player_health",
+      "persistentUuid": "1b1f01ca-098d-4a3f-9463-da1ba1508c39",
+      "width": 0,
+      "x": 17,
+      "y": -150,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 208,
+      "layer": "",
+      "name": "hero",
+      "persistentUuid": "423b75f4-cbc9-43e9-9b77-76c6841d6371",
+      "width": 183,
+      "x": 915,
+      "y": 526,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 135,
+      "layer": "",
+      "name": "BlueFlatBar",
+      "persistentUuid": "aa757535-05f7-4174-a131-ef1f40ad2fd0",
+      "width": 917,
+      "x": -549,
+      "y": 1209,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "carreau_sol_1",
+      "tags": "",
+      "texture": "New image5",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "carreau_mur_haut_1",
+      "tags": "",
+      "texture": "New image7",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "coin_mur_haut_droit_1",
+      "tags": "",
+      "texture": "New image11",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 3,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "coin_mur_bas_droit_1",
+      "tags": "",
+      "texture": "New image12",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 3,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "coin_mur_bas_gauche_1",
+      "tags": "",
+      "texture": "New image13",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 3,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "coin_mur_haut_gauche_1",
+      "tags": "",
+      "texture": "New image14",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 3,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "carreau_mur_droite_1",
+      "tags": "",
+      "texture": "New image8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "carreau_mur_bas_1",
+      "tags": "",
+      "texture": "New image9",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "carreau_mur_gauche_1",
+      "tags": "",
+      "texture": "New image10",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "5ef0f8768c00ccc57567b0aa6961439937e4d4b24e4ee7ab58764ec06b86533c",
+      "name": "vampire",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "vampire_nb",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "vampire_health",
+          "type": "number",
+          "value": 10
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0,
+          "BounceCount": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 50,
+          "CurrentHealth": 0,
+          "MaxHealth": 0,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 10,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Monster_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Monster_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ed74b0bbec772fac8ebac986ade5096a96cfe1e45b5337a530597095853522aa",
+      "name": "hero",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "MouseX",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "MouseY",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 50,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 3,
+          "OffsetX": 150,
+          "OffsetY": 150,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 5,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 5000,
+          "deceleration": 1000000,
+          "maxSpeed": 1000,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown",
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "ignoreDefaultControls": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0313,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprite_dune\\hero flipped.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1429,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0714,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_7.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_8.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_9.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_10.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_11.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_12.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_13.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Run_14.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Ground_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Ground_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Ground_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Jump_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Jump_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Jump_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Jump_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Fall_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Fall_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_7.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Hit_8.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dead Ground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Ground_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Ground_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Ground_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Ground_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dead Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Dead Hit_6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump Anticipation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Jump Anticipation.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scare Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0833,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_1.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_2.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_3.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_4.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_5.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_6.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_7.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_8.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_9.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_10.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_11.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Captain_Scare Run_12.png",
+                  "points": [
+                    {
+                      "name": "point_lance_flamme",
+                      "x": 20,
+                      "y": 29.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 1
+                      },
+                      {
+                        "x": 33,
+                        "y": 44
+                      },
+                      {
+                        "x": 5,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "e0e1f77822dfd9eddb5cc6d2daa30b5becf2abead007761e7901065568d800d6",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 70,
+      "emitterForceMax": 800,
+      "emitterForceMin": 550,
+      "flow": 400,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "flamme",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -15,
+      "particleAngle2": 15,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 145,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 241,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 0.45,
+      "particleLifeTimeMin": 0.10000000149011612,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 5,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0,
+      "rendererParam2": 0.75,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": 150,
+      "textureParticleName": "Flame.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debug_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "TEST",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 200,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "player_health",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "50",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 76,
+        "g": 238,
+        "r": 27
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "vampire_health",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "100",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 75,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lance_flamme",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "nb_lances_flamme",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "MouseY",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "MouseX",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 200,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 200,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 5000,
+          "deceleration": 1000000,
+          "maxSpeed": 1000,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown",
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "ignoreDefaultControls": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprite_dune\\lance_flamme.png",
+                  "points": [
+                    {
+                      "name": "depart_flammes",
+                      "x": 38.5,
+                      "y": 15
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 11
+                      },
+                      {
+                        "x": 39,
+                        "y": 11
+                      },
+                      {
+                        "x": 39,
+                        "y": 18
+                      },
+                      {
+                        "x": 0,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "0a398f1656e34f64758c909a71ca17cd69fd41bd251d89ff5a640303c4279f50",
+      "name": "BlueFlatBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 100,
+        "InitialValue": 100
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "100/100",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "curseur",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bleue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bleue2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bleue3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bleue",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bleue4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 15
+                      },
+                      {
+                        "x": 56,
+                        "y": 59
+                      },
+                      {
+                        "x": 8,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"main_chrono\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"flamme_bleue\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "curseur",
+            "MouseX()",
+            "MouseY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "curseur",
+            "Resizable",
+            "130",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "mathieu_event",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "ToString(hero.Health::Health())"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "hero.X() + 15",
+                "=",
+                "hero.Y() - 100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_haut_droit_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_bas_droit_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_bas_gauche_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "2500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "2",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "\"IDLE\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "\"RUN\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Bounce::Bounce::BounceOff"
+              },
+              "parameters": [
+                "vampire",
+                "Bounce",
+                "hero",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "<=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "vampire"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Dead Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "collisions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_haut_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_haut_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_bas_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_bas_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carreau_mur_droite_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "carreau_mur_droite_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_droit_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_droit_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_bas_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_bas_gauche_1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "hero",
+                "coin_mur_haut_gauche_1",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "controle",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_lance_flamme",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "lance_flamme",
+                "=",
+                "hero.PointX(\"point_lance_flamme\")",
+                "=",
+                "hero.PointY(\"point_lance_flamme\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::ConeSprayAngle"
+              },
+              "parameters": [
+                "flamme",
+                "=",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::EmitterForceMin"
+              },
+              "parameters": [
+                "flamme",
+                "+",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::EmitterForceMax"
+              },
+              "parameters": [
+                "flamme",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::SetFlow"
+              },
+              "parameters": [
+                "flamme",
+                "-",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "ToString(GlobalVariable(force_max_lance_flamme))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "z"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "q"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hero",
+                "Animation",
+                "=",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "ToString(lance_flamme.Variable(nb_lances_flamme))"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "curseur",
+                "Animation",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "nb_lance_flamme",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "nb_lance_flamme",
+                    "=",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "lance_flamme",
+                    "hero.PointX(\"point_lance_flamme\") - 65",
+                    "hero.PointY(\"point_lance_flamme\") - 35",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lance_flamme",
+                    "Resizable",
+                    "130",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "nb_lance_flamme",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "lance_flamme",
+                    "FireBullet",
+                    "lance_flamme.PointX(\"depart_flammes\")",
+                    "lance_flamme.PointY(\"depart_flammes\")",
+                    "flamme",
+                    "lance_flamme.Angle()",
+                    "550",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "lance_flamme",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "nb_lance_flamme",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "curseur",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+              },
+              "parameters": [
+                "BlueFlatBar",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleColor2"
+              },
+              "parameters": [
+                "flamme",
+                "\"6;2;250\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "ToString(GlobalVariable(force_max_lance_flamme))"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "lance_flamme",
+                "lance_flamme.Variable(MouseX)",
+                "lance_flamme.Variable(MouseY)",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"flamme_bleue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "curseur",
+                "Animation",
+                "=",
+                "\"Bleue\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"flamme_bleue\"",
+                    ">=",
+                    "0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "BlueFlatBar",
+                    "-",
+                    "TimerElapsedTime(\"flamme_bleue\")*30",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"flamme_bleue\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "force_max_lance_flamme",
+                    "<",
+                    "GlobalVariable(cst_force_max)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ParticleSystem::EmitterForceMax"
+                  },
+                  "parameters": [
+                    "flamme",
+                    "+",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::SetFlow"
+                  },
+                  "parameters": [
+                    "flamme",
+                    "+",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "force_max_lance_flamme",
+                    "+",
+                    "50"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "force_max_lance_flamme",
+                    ">=",
+                    "GlobalVariable(cst_force_max)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ParticleSystem::EmitterForceMax"
+                  },
+                  "parameters": [
+                    "flamme",
+                    "=",
+                    "GlobalVariable(cst_force_max)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::SetFlow"
+                  },
+                  "parameters": [
+                    "flamme",
+                    "=",
+                    "430"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "force_max_lance_flamme",
+                "=",
+                "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"flamme_bleue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "curseur",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "curseur_et_lance_flamme",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "lance_flamme",
+                "MouseX",
+                "=",
+                "CursorX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "lance_flamme",
+                "MouseY",
+                "=",
+                "CursorY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "curseur",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "lance_flamme",
+                "lance_flamme.Variable(MouseX)",
+                "lance_flamme.Variable(MouseY)",
+                "340",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "mort_vampires",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "vampire",
+                "flamme",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Fire\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "vampire",
+                "Health",
+                "max(10, GlobalVariable(force_max_lance_flamme)/100 - 7)",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "vampire"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "vampire",
+                "Health",
+                "<",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "BlueFlatBar",
+                "+",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "vampire",
+                "Animation",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"vampire_en_feu\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"vampire_en_feu\"",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 8042920,
+      "ambientLightColorR": 16,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "HUD",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}
