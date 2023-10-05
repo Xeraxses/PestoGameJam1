@@ -1993,7 +1993,20 @@
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "80d36287203659748c8c5fb3c075225705ebcaabd379cdde9f1a3c5b68ab7ab5_tiled_Ground1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
   "objectsGroups": [],
   "variables": [],
   "layouts": [

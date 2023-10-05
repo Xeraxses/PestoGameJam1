@@ -1,6 +1,6 @@
 {
   "associatedLayout": "niveau_0",
-  "name": "salle_d_1",
+  "name": "salle_4_1",
   "instances": [
     {
       "angle": 0,
@@ -252,22 +252,6 @@
       "x": 4050,
       "y": 1710,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
-      "layer": "",
-      "name": "balise_droite",
-      "persistentUuid": "5cf8f1f8-34b4-497b-ae9f-c900ba0be231",
-      "width": 100,
-      "x": 4400,
-      "y": 0,
-      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
