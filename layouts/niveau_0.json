@@ -967,7 +967,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort35",
+                  "image": "Mort45",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1003,7 +1003,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort36",
+                  "image": "Mort46",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1039,7 +1039,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort37",
+                  "image": "Mort47",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1075,7 +1075,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort38",
+                  "image": "Mort48",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1111,7 +1111,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort39",
+                  "image": "Mort49",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1147,7 +1147,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort40",
+                  "image": "Mort50",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1183,7 +1183,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort41",
+                  "image": "Mort51",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1219,7 +1219,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort42",
+                  "image": "Mort52",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1255,7 +1255,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort43",
+                  "image": "Mort53",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1291,7 +1291,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort44",
+                  "image": "Mort54",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

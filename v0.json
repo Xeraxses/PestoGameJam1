@@ -5853,6 +5853,96 @@
         "name": "Mort44",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort48",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort49",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort50",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort51",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort52",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort53",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort54",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
