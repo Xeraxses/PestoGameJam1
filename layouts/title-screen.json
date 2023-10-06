@@ -638,6 +638,18 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Sneaky Snitch.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },

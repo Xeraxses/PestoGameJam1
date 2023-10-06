@@ -4530,6 +4530,16 @@
         "name": "assets\\menu\\tiled_Brick2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sneaky Snitch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sneaky Snitch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
