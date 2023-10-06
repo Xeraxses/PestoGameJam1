@@ -188,12 +188,57 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "debug_text",
-      "persistentUuid": "2b8aff72-6bf0-496a-89ce-6df957d1df3d",
+      "name": "Commandes",
+      "persistentUuid": "a351fb61-0b3b-466f-a2dd-8de0a47d224b",
       "width": 0,
-      "x": 136,
-      "y": 269,
+      "x": 350,
+      "y": 491,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "eff313a6-c078-487e-a602-f68e1c630ae9",
+      "width": 0,
+      "x": 450,
+      "y": 251,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "35dc234e-b29d-4351-9641-a78171c766bb",
+      "width": 0,
+      "x": 814,
+      "y": 160,
       "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "vampire",
+      "persistentUuid": "83c3a35d-b5f1-48a0-b467-a2f650b3ea56",
+      "width": 0,
+      "x": 1205,
+      "y": 276,
+      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -239,12 +284,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
-          "OffsetX": 150,
-          "OffsetY": 150,
+          "SpawnPeriod": 0.1,
+          "OffsetX": -250,
+          "OffsetY": 350,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 100,
+          "MaxQuantity": 50,
           "SpawnerCapacity": 0,
           "UnlimitedCapacity": true
         }
@@ -264,12 +309,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
-          "OffsetX": 150,
-          "OffsetY": 150,
+          "SpawnPeriod": 0.1,
+          "OffsetX": -250,
+          "OffsetY": -250,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 100,
+          "MaxQuantity": 50,
           "SpawnerCapacity": 0,
           "UnlimitedCapacity": true
         }
@@ -289,12 +334,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
-          "OffsetX": 150,
-          "OffsetY": 150,
+          "SpawnPeriod": 0.1,
+          "OffsetX": 250,
+          "OffsetY": -250,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 100,
+          "MaxQuantity": 50,
           "SpawnerCapacity": 0,
           "UnlimitedCapacity": true
         }
@@ -314,12 +359,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
-          "OffsetX": 150,
-          "OffsetY": 150,
+          "SpawnPeriod": 0.1,
+          "OffsetX": 250,
+          "OffsetY": 250,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 100,
+          "MaxQuantity": 50,
           "SpawnerCapacity": 0,
           "UnlimitedCapacity": true
         }
@@ -922,7 +967,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort24",
+                  "image": "Mort35",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -958,7 +1003,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort25",
+                  "image": "Mort36",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -994,7 +1039,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort26",
+                  "image": "Mort37",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1030,7 +1075,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort27",
+                  "image": "Mort38",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1066,7 +1111,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort28",
+                  "image": "Mort39",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1102,7 +1147,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort29",
+                  "image": "Mort40",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1138,7 +1183,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort30",
+                  "image": "Mort41",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1174,7 +1219,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort31",
+                  "image": "Mort42",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1210,7 +1255,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort32",
+                  "image": "Mort43",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1246,43 +1291,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mort33",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9.5,
-                        "y": 65
-                      },
-                      {
-                        "x": 79.5,
-                        "y": 65
-                      },
-                      {
-                        "x": 79,
-                        "y": 116.5
-                      },
-                      {
-                        "x": 9,
-                        "y": 116.5
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Mort34",
+                  "image": "Mort44",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3896,9 +3905,9 @@
       "textAlignment": "left",
       "characterSize": 200,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -4204,9 +4213,9 @@
       "textAlignment": "left",
       "characterSize": 200,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 243,
+        "g": 243,
+        "r": 247
       }
     },
     {
@@ -8011,6 +8020,28 @@
         "debugMode": false,
         "texture": ""
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Commandes",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pour se déplacer : z q s d  \nClique pour tuer les vampires !",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 80,
+      "color": {
+        "b": 248,
+        "g": 248,
+        "r": 248
+      }
     }
   ],
   "events": [
@@ -9977,42 +10008,202 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "vampires",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                "value": "VarGlobal"
               },
               "parameters": [
-                "coin_mur_haut_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
+                "Player_score",
+                ">=",
+                "3"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          ],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "coin_mur_haut_gauche_1",
-                "ObjectSpawner",
-                "vampire",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "hero",
+                    "2500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "Animation",
+                    "=",
+                    "\"Mort\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MagneticEffect::MagneticEffect::Attraction"
+                  },
+                  "parameters": [
+                    "vampire",
+                    "MagneticEffect",
+                    "hero",
+                    "12800",
+                    "300",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(hero.X(), hero.Y(), 960, 540)",
+                    ">",
+                    "3200"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "coin_mur_haut_droit_1",
+                        "hero",
+                        "GlobalVariable(distance_spawn)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                      },
+                      "parameters": [
+                        "coin_mur_haut_droit_1",
+                        "ObjectSpawner",
+                        "vampire",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "coin_mur_bas_droit_1",
+                        "hero",
+                        "GlobalVariable(distance_spawn)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                      },
+                      "parameters": [
+                        "coin_mur_bas_droit_1",
+                        "ObjectSpawner",
+                        "vampire",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "coin_mur_bas_gauche_1",
+                        "hero",
+                        "GlobalVariable(distance_spawn)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                      },
+                      "parameters": [
+                        "coin_mur_bas_gauche_1",
+                        "ObjectSpawner",
+                        "vampire",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "coin_mur_haut_gauche_1",
+                        "hero",
+                        "GlobalVariable(distance_spawn)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                      },
+                      "parameters": [
+                        "coin_mur_haut_gauche_1",
+                        "ObjectSpawner",
+                        "vampire",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -10593,50 +10784,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "vampire",
-                "hero",
-                "2500",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "vampire",
-                "Animation",
-                "=",
-                "\"Mort\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MagneticEffect::MagneticEffect::Attraction"
-              },
-              "parameters": [
-                "vampire",
-                "MagneticEffect",
-                "hero",
-                "12800",
-                "300",
-                "yes",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "Health::Health::Health"
               },
               "parameters": [
@@ -11117,6 +11264,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "colision_boss\n",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11485,6 +11633,16 @@
                 "<",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Player_score",
+                "=",
+                "100"
+              ]
             }
           ],
           "actions": [
@@ -11505,8 +11663,8 @@
               "parameters": [
                 "",
                 "Boss",
-                "1460",
-                "200",
+                "700",
+                "300",
                 ""
               ]
             },
@@ -11593,6 +11751,16 @@
                 "hero.CenterX() - 250",
                 "=",
                 "hero.Y() - 750"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug_text",
+                "=",
+                "ToString(GlobalVariable(nb_boss)) + \" \n \" + ToString(GlobalVariable(nb_boss_total))"
               ]
             }
           ]
@@ -12218,7 +12386,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12271,6 +12438,39 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                "=",
+                "GlobalVariable(nb_boss_total) + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Player_score",
+                "+",
+                "1000"
               ]
             }
           ]
@@ -12284,1181 +12484,6 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "boss_event_add",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "colision_boss\n",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_haut_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_haut_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_bas_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_bas_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_droite_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_droite_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_haut_droit_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_haut_droit_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_bas_droit_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_bas_droit_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_bas_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_bas_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_haut_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_haut_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "couloir_plafond_haut_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "couloir_plafond_haut_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "couloir_plafond_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "couloir_plafond_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Boss",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Boss",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "nb_boss",
-                "<",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "nb_boss",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Boss",
-                "1460",
-                "200",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "pv_boss",
-                "hero.CenterX() + 1500",
-                "hero.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "pv_boss",
-                "Scale",
-                "=",
-                "4.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetHealth"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                "GlobalVariable(pv_boss)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetHealthRegenDelayOp"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                "=",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetHealthRegenRateOp"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                "=",
-                "5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "splited",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "pv_boss",
-                "=",
-                "hero.CenterX() - 250",
-                "=",
-                "hero.Y() - 750"
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                ">",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MagneticEffect::MagneticEffect::Attraction"
-              },
-              "parameters": [
-                "Boss",
-                "MagneticEffect",
-                "hero",
-                "12800",
-                "200",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Health",
-                    "<=",
-                    "500",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "nb_boss",
-                    "<=",
-                    "GlobalVariable(nb_boss_total)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Animation",
-                    "=",
-                    "\"attaque_special\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "boss_mode",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Boss",
-                        "Boss.PointX(\"Fusion_1\")",
-                        "Boss.PointY(\"Fusion_1\")",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "nb_boss",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::SetHealth"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "Health",
-                        "GlobalVariable(pv_boss)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                      },
-                      "parameters": [
-                        "pv_boss",
-                        "=",
-                        "pv_boss.MaxValue()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "boss_mode",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "hero",
-                    "1000",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "boss_mode",
-                    "<",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Animation",
-                    "=",
-                    "\"Fureur\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "ObjectSpawner",
-                        "0.5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "boss_mode",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "boss_mode",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Animation",
-                    "=",
-                    "\"Idle_rapide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "ObjectSpawner",
-                    "vampire",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "hero",
-                    "1000",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "ObjectSpawner",
-                    "2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Animation",
-                    "=",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "ObjectSpawner",
-                    "vampire",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "boss_mode",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Boss",
-                "hero",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "15",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetCooldownDurationOp"
-              },
-              "parameters": [
-                "hero",
-                "Health",
-                "=",
-                "0.5",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Idle_droite\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Hit_droite\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Idle_droite\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Run_droite\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Hit_droite\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Run_droite\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Idle_gauche\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Hit_gauche\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Idle_gauche\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Run_gauche\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Hit_gauche\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Animation",
-                    "=",
-                    "\"Idle_gauche\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Boss",
-                "flammes",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                "10",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "pv_boss",
-                "-",
-                "10",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Boss",
-                "Health",
-                "<",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Boss",
-                "Animation",
-                "=",
-                "\"mort\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Boss",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "lumiere_JE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
