@@ -5435,6 +5435,222 @@
         "name": "attaque_special9",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/attaque_special8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\attaque_special8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Fureur6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\Fureur6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/mort/Mort_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Boss\\mort\\Mort_11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

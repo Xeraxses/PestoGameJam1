@@ -4768,6 +4768,184 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
+      "name": "flammes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "MouseY",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "MouseX",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 200,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 200,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 5000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 1000000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 1000,
+          "movementAngleOffset": 0,
+          "rotateObject": true,
+          "viewpoint": "TopDown"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\flammes_idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 19,
+                    "y": 98.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 46,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 155
+                      },
+                      {
+                        "x": 46,
+                        "y": 155
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blueu",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\flammes_blueu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 19,
+                    "y": 98.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 46,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 35
+                      },
+                      {
+                        "x": 403,
+                        "y": 155
+                      },
+                      {
+                        "x": 46,
+                        "y": 155
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
       "name": "Boss",
       "tags": "",
       "type": "Sprite",
@@ -6553,7 +6731,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur",
+                  "image": "assets\\Boss\\Fureur.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6600,7 +6778,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur2",
+                  "image": "assets\\Boss\\Fureur2.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6647,7 +6825,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur3",
+                  "image": "assets\\Boss\\Fureur3.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6694,7 +6872,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur4",
+                  "image": "assets\\Boss\\Fureur4.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6741,7 +6919,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur5",
+                  "image": "assets\\Boss\\Fureur5.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6788,7 +6966,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fureur6",
+                  "image": "assets\\Boss\\Fureur6.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6848,7 +7026,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special",
+                  "image": "assets\\Boss\\attaque_special.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6895,7 +7073,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special2",
+                  "image": "assets\\Boss\\attaque_special2.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6942,7 +7120,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special3",
+                  "image": "assets\\Boss\\attaque_special3.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -6989,7 +7167,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special4",
+                  "image": "assets\\Boss\\attaque_special4.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7036,7 +7214,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special5",
+                  "image": "assets\\Boss\\attaque_special5.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7083,7 +7261,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special6",
+                  "image": "assets\\Boss\\attaque_special6.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7130,7 +7308,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special7",
+                  "image": "assets\\Boss\\attaque_special7.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7177,54 +7355,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attaque_special9",
-                  "points": [
-                    {
-                      "name": "Fusion_1",
-                      "x": 433,
-                      "y": 19
-                    },
-                    {
-                      "name": "Fusion_2",
-                      "x": 95.5,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 116,
-                        "y": 310
-                      },
-                      {
-                        "x": 620,
-                        "y": 310
-                      },
-                      {
-                        "x": 620,
-                        "y": 950
-                      },
-                      {
-                        "x": 116,
-                        "y": 950
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "attaque_special8",
+                  "image": "assets\\Boss\\attaque_special8.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7284,7 +7415,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_2.png",
+                  "image": "assets\\Boss\\mort\\Mort_2.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7331,7 +7462,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_3.png",
+                  "image": "assets\\Boss\\mort\\Mort_3.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7378,7 +7509,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_4.png",
+                  "image": "assets\\Boss\\mort\\Mort_4.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7425,7 +7556,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_5.png",
+                  "image": "assets\\Boss\\mort\\Mort_5.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7472,7 +7603,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_6.png",
+                  "image": "assets\\Boss\\mort\\Mort_6.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7519,7 +7650,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_7.png",
+                  "image": "assets\\Boss\\mort\\Mort_7.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7566,7 +7697,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_8.png",
+                  "image": "assets\\Boss\\mort\\Mort_8.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7613,7 +7744,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_9.png",
+                  "image": "assets\\Boss\\mort\\Mort_9.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7660,7 +7791,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_10.png",
+                  "image": "assets\\Boss\\mort\\Mort_10.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7707,7 +7838,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\morrt\\Mort_11.png",
+                  "image": "assets\\Boss\\mort\\Mort_11.png",
                   "points": [
                     {
                       "name": "Fusion_1",
@@ -7748,184 +7879,6 @@
                       {
                         "x": 116,
                         "y": 950
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "flammes",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "MouseY",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "folded": true,
-          "name": "MouseX",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "FireBullet",
-          "type": "FireBullet::FireBullet",
-          "FireCooldown": 0,
-          "HasJustFired": false,
-          "FiringArc": 45,
-          "BulletQuantity": 1,
-          "AngleVariance": 0,
-          "RotateBullet": true,
-          "AmmoQuantity": 0,
-          "ShotsPerReload": 0,
-          "ReloadDuration": 1,
-          "MaxAmmo": 200,
-          "ShotsBeforeNextReload": 0,
-          "TotalShotsFired": 0,
-          "TotalBulletsCreated": 0,
-          "StartingAmmo": 200,
-          "TotalReloadsCompleted": 0,
-          "UnlimitedAmmo": true,
-          "ReloadInProgress": false,
-          "HeatIncreasePerShot": 0,
-          "HeatLevel": 0,
-          "AutomaticReloading": true,
-          "OverheatDuration": 0,
-          "LinearCoolingRate": 0.1,
-          "ExponentialCoolingRate": 0.3,
-          "BulletLayer": "",
-          "RandomizedAngle": 0,
-          "BulletSpeedVariance": 0
-        },
-        {
-          "name": "ShakeObject_PositionAngle",
-          "type": "ShakeObject::ShakeObject_PositionAngle"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 5000,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 1000000,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 1000,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "viewpoint": "TopDown"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\flammes_idle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 19,
-                    "y": 98.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 46,
-                        "y": 35
-                      },
-                      {
-                        "x": 403,
-                        "y": 35
-                      },
-                      {
-                        "x": 403,
-                        "y": 155
-                      },
-                      {
-                        "x": 46,
-                        "y": 155
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "blueu",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\flammes_blueu.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 19,
-                    "y": 98.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 46,
-                        "y": 35
-                      },
-                      {
-                        "x": 403,
-                        "y": 35
-                      },
-                      {
-                        "x": 403,
-                        "y": 155
-                      },
-                      {
-                        "x": 46,
-                        "y": 155
                       }
                     ]
                   ]
@@ -8174,367 +8127,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "boss",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_haut_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_haut_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_bas_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_bas_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "carreau_mur_droite_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "carreau_mur_droite_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_haut_droit_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_haut_droit_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_bas_droit_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_bas_droit_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_bas_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_bas_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "coin_mur_haut_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "coin_mur_haut_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "couloir_plafond_haut_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "couloir_plafond_haut_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "couloir_plafond_gauche_1",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "couloir_plafond_gauche_1",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Boss",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Boss",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "Boss",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -11245,10 +10837,371 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "boss",
+      "name": "boss_event_add",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "colision_boss\n",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
