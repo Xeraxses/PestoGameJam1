@@ -4786,7 +4786,21 @@
           "value": ""
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "KawaseBlur",
+          "name": "floutage",
+          "doubleParameters": {
+            "blur": 4,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "FireBullet",
@@ -4855,7 +4869,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\flammes_idle.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "centre_lumiere",
+                      "x": 244,
+                      "y": 93
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4904,7 +4924,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\flammes_blueu.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "centre_lumiere",
+                      "x": 244,
+                      "y": 93
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -7955,6 +7981,36 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "lumiere_joueur",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 400,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "lumiere_flamme",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 800,
+        "color": "211;146;75",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "events": [
@@ -9258,6 +9314,18 @@
                     "Animation",
                     "=",
                     "\"Fire\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "nb_flamme",
+                    "lumiere_flamme",
+                    "flammes.PointX(\"centre_lumiere\")",
+                    "flammes.PointY(\"centre_lumiere\")",
+                    "\"Lighting\""
                   ]
                 }
               ],
@@ -12215,6 +12283,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "boss_event_add",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13384,6 +13453,174 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "lumiere_JE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "lumiere_joueur",
+                "hero.CenterX()",
+                "hero.CenterY()",
+                "\"Lighting\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "hero",
+                "lumiere_joueur"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "lumiere_joueur",
+                "=",
+                "hero.CenterX()",
+                "=",
+                "hero.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_flamme",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "lumiere_flamme",
+                "=",
+                "flammes.PointX(\"centre_lumiere\")",
+                "=",
+                "flammes.PointY(\"centre_lumiere\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "nb_flamme",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "nb_flamme",
+                    "lumiere_flamme",
+                    "flammes.PointX(\"centre_lumiere\")",
+                    "flammes.PointY(\"centre_lumiere\")",
+                    "\"Lighting\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "lumiere_flamme",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -13445,6 +13682,22 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
