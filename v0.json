@@ -3362,7 +3362,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_1.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_1.png",
         "smoothed": true,
         "userAdded": true
@@ -3371,7 +3371,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_2.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_2.png",
         "smoothed": true,
         "userAdded": false
@@ -3380,7 +3380,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_3.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_3.png",
         "smoothed": true,
         "userAdded": false
@@ -3389,7 +3389,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_4.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_4.png",
         "smoothed": true,
         "userAdded": false
@@ -3398,7 +3398,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_5.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_5.png",
         "smoothed": true,
         "userAdded": false
@@ -3407,7 +3407,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_6.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_6.png",
         "smoothed": true,
         "userAdded": false
@@ -3416,7 +3416,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_7.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_7.png",
         "smoothed": true,
         "userAdded": false
@@ -3425,7 +3425,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_8.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_8.png",
         "smoothed": true,
         "userAdded": false
@@ -3434,7 +3434,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_9.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_9.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_9.png",
         "smoothed": true,
         "userAdded": false
@@ -3443,7 +3443,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_10.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_10.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_10.png",
         "smoothed": true,
         "userAdded": false
@@ -3452,7 +3452,7 @@
         "alwaysLoaded": false,
         "file": "assets/vampire/Mort_11.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/vampire/Mort_11.png\",\"extension\":\".png\"}",
         "name": "assets\\vampire\\Mort_11.png",
         "smoothed": true,
         "userAdded": false
@@ -4428,6 +4428,1013 @@
         "name": "assets\\hero\\Run_gauche_avec_lance_flamme\\Run_droite_avec_lance_flamme14.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle12.png\"}",
+        "name": "Idle12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle29.png\"}",
+        "name": "Idle29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle30.png\"}",
+        "name": "Idle30",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle31.png\"}",
+        "name": "Idle31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle32.png\"}",
+        "name": "Idle32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle33.png\"}",
+        "name": "Idle33",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle34.png\"}",
+        "name": "Idle34",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle35.png\"}",
+        "name": "Idle35",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle36.png\"}",
+        "name": "Idle36",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle37.png\"}",
+        "name": "Idle37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle38.png\"}",
+        "name": "Idle38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle39.png\"}",
+        "name": "Idle39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle40.png\"}",
+        "name": "Idle40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle41.png\"}",
+        "name": "Idle41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle42.png\"}",
+        "name": "Idle42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle43.png\"}",
+        "name": "Idle43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle44.png\"}",
+        "name": "Idle44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle45.png\"}",
+        "name": "Idle45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle46.png\"}",
+        "name": "Idle46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_12.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_13.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_14.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_15.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_15.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_16.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_16.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_17.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_17.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle/Idle_18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle/Idle_18.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle\\Idle_18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/morrt/Mort_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/morrt/Mort_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\morrt\\Mort_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mort34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mort34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fureur6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_4.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_5.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_6.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_7.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_8.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_9.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_10.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_11.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_12.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_13.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_14.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_15.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_15.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_16.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_16.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_17.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_17.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss/Idle_rapide/Idle_18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Boss/Idle_rapide/Idle_18.png\",\"extension\":\".png\"}",
+        "name": "assets\\Boss\\Idle_rapide\\Idle_18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fureur6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fureur6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special.png\"}",
+        "name": "attaque_special",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special2.png\"}",
+        "name": "attaque_special2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special3.png\"}",
+        "name": "attaque_special3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special4.png\"}",
+        "name": "attaque_special4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special5.png\"}",
+        "name": "attaque_special5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special6.png\"}",
+        "name": "attaque_special6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special7.png\"}",
+        "name": "attaque_special7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special8.png\"}",
+        "name": "attaque_special8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attaque_special9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attaque_special9.png\"}",
+        "name": "attaque_special9",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4443,15 +5450,26 @@
     },
     {
       "folded": true,
-      "name": "force_max_lance_flamme",
+      "name": "nb_boss",
       "type": "number",
-      "value": 1200
+      "value": 0
     },
     {
       "folded": true,
-      "name": "cst_force_max",
+      "name": "pv_boss",
       "type": "number",
-      "value": 1500
+      "value": 1000
+    },
+    {
+      "folded": true,
+      "name": "boss_mode",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "nb_boss_total",
+      "type": "number",
+      "value": 3
     }
   ],
   "layouts": [
