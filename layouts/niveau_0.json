@@ -8042,15 +8042,75 @@
         "g": 248,
         "r": 248
       }
+    },
+    {
+      "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
+      "name": "pv_hero",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 50,
+        "InitialValue": 50
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Green Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Green Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
     }
   ],
   "events": [
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -8195,6 +8255,54 @@
             "",
             "\"0;0;0\""
           ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "pv_hero",
+            "960",
+            "540",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "pv_hero",
+            "Scale",
+            "=",
+            "4.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "pv_hero",
+            "=",
+            "CameraBorderBottom(\"\", 2)",
+            "=",
+            "CameraBorderBottom(\"\", 2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "boss_sound.mp3",
+            "1",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -8224,6 +8332,35 @@
                 "0"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "pv_hero",
+            "=",
+            "hero.CenterX() + 800",
+            "=",
+            "hero.CenterY() + 950"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "pv_hero",
+            "=",
+            "hero.Health::Health()",
+            ""
           ]
         }
       ]
@@ -8852,7 +8989,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "controle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8862,7 +8998,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "deplacement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9217,6 +9352,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "curseur_et_lance_flamme",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10689,7 +10825,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "comportements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10750,7 +10885,7 @@
               "parameters": [
                 "BlueFlatBar",
                 "=",
-                "hero.CenterX() - 1500",
+                "hero.CenterX() - 1800",
                 "=",
                 "hero.Y() + 950"
               ]
@@ -10772,7 +10907,7 @@
               "parameters": [
                 "Score",
                 "=",
-                "hero.CenterX() + 100",
+                "hero.CenterX() - 300",
                 "=",
                 "hero.Y() + 900"
               ]
@@ -11254,7 +11389,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "boss_event_add",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11641,7 +11775,7 @@
               "parameters": [
                 "Player_score",
                 "=",
-                "100"
+                "500"
               ]
             }
           ],
@@ -11734,6 +11868,205 @@
                 "splited",
                 "False"
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Commandes",
+                "=",
+                "\"RETOURNE AU CENTRE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Commandes",
+                "=",
+                "hero.CenterX()",
+                "=",
+                "hero.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "DistanceBetweenPositions(hero.CenterX(), hero.CenterY(), 960, 540)",
+                "<=",
+                "500"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "animation_boss",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "DARKSOULS.mp3",
+                "2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "vampire"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Boss"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::ActivateShield"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "99999999",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MagneticEffect::MagneticEffect::Attraction"
+              },
+              "parameters": [
+                "Boss",
+                "MagneticEffect",
+                "hero",
+                "12800",
+                "200",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MagneticEffect::MagneticEffect::Attraction"
+              },
+              "parameters": [
+                "vampire",
+                "MagneticEffect",
+                "hero",
+                "12800",
+                "300",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "hero",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetShieldPointsOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "animation_boss",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "MagneticEffect::MagneticEffect::Attraction"
+              },
+              "parameters": [
+                "Boss",
+                "MagneticEffect",
+                "hero",
+                "12800",
+                "200",
+                "yes",
+                ""
+              ]
             }
           ]
         },
@@ -11766,7 +12099,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11782,22 +12114,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "MagneticEffect::MagneticEffect::Attraction"
-              },
-              "parameters": [
-                "Boss",
-                "MagneticEffect",
-                "hero",
-                "12800",
-                "200",
-                "yes",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",

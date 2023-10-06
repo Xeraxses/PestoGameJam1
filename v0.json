@@ -5943,6 +5943,49 @@
         "name": "Mort54",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
+          "name": "Flat Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "file": "Carpenter Brut - Roller Mobster.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Carpenter Brut - Roller Mobster.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "boss_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "boss_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "DARKSOULS.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DARKSOULS.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5984,6 +6027,12 @@
       "name": "distance_spawn",
       "type": "number",
       "value": 2300
+    },
+    {
+      "folded": true,
+      "name": "animation_boss",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
