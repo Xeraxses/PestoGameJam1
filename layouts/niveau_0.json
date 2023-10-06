@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1591183884683863,
+    "zoomFactor": 0.2616774116992164,
     "windowMask": false
   },
   "objectsGroups": [
@@ -188,27 +188,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Boss",
-      "persistentUuid": "39ee3689-aa07-46a7-bdb8-9d5b921c8609",
+      "name": "debug_text",
+      "persistentUuid": "2b8aff72-6bf0-496a-89ce-6df957d1df3d",
       "width": 0,
-      "x": 1149,
-      "y": 574,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "coin_mur_bas_droit_1",
-      "persistentUuid": "980b333e-19b2-4daa-92d7-a151671525ce",
-      "width": 0,
-      "x": 1648,
-      "y": -246,
-      "zOrder": 51,
+      "x": 136,
+      "y": 269,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -937,7 +922,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_1.png",
+                  "image": "Mort24",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -973,7 +958,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_2.png",
+                  "image": "Mort25",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1009,7 +994,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_3.png",
+                  "image": "Mort26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1045,7 +1030,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_4.png",
+                  "image": "Mort27",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1081,7 +1066,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_5.png",
+                  "image": "Mort28",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1117,7 +1102,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_6.png",
+                  "image": "Mort29",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1153,7 +1138,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_7.png",
+                  "image": "Mort30",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1189,7 +1174,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_8.png",
+                  "image": "Mort31",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1225,7 +1210,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_9.png",
+                  "image": "Mort32",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1261,7 +1246,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_10.png",
+                  "image": "Mort33",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1297,7 +1282,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\vampire\\Mort_11.png",
+                  "image": "Mort34",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4783,68 +4768,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Boss",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Boss\\Idle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 116,
-                        "y": 310
-                      },
-                      {
-                        "x": 617,
-                        "y": 310
-                      },
-                      {
-                        "x": 617,
-                        "y": 950
-                      },
-                      {
-                        "x": 116,
-                        "y": 950
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "flammes",
       "tags": "",
       "type": "Sprite",
@@ -5019,6 +4942,3019 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Boss",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 20,
+          "CurrentHealth": 0,
+          "MaxHealth": 0,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "MagneticEffect",
+          "type": "MagneticEffect::MagneticEffect",
+          "Speed": 48,
+          "Distance": 128,
+          "IsAttracted": false
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 2,
+          "OffsetX": 111,
+          "OffsetY": 328,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 100,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.117,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_1.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_2.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_3.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_4.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_5.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_6.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_7.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_8.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_9.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_10.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_11.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_12.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_13.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_14.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_15.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_16.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_17.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle\\Idle_18.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle_rapide",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.0294,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_1.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_2.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_3.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_4.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_5.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_6.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_7.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_8.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_9.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_10.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_11.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_12.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_13.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_14.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_15.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_16.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_17.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Idle_rapide\\Idle_18.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fureur",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur2.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur3.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur4.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur5.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\Fureur6.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attaque_special",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special2.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special3.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special4.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special5.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special6.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special7.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\attaque_special8.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mort",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_2.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_3.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_4.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_5.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_6.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_7.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_8.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_9.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_10.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Boss\\mort\\Mort_11.png",
+                  "points": [
+                    {
+                      "name": "Fusion_1",
+                      "x": 433,
+                      "y": 19
+                    },
+                    {
+                      "name": "Fusion_2",
+                      "x": 95.5,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 310
+                      },
+                      {
+                        "x": 620,
+                        "y": 950
+                      },
+                      {
+                        "x": 116,
+                        "y": 950
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "pv_boss",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 1000,
+        "InitialValue": 1000,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "rightMargin": 11,
+          "texture": "Copper Bar Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 96
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 8,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 3,
+          "height": 8,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "10000/10000",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 8,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
     }
   ],
   "events": [
@@ -5829,6 +8765,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "controle",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6887,7 +9824,7 @@
                       "parameters": [
                         "BlueFlatBar",
                         "-",
-                        "TimerElapsedTime(\"flamme_bleue\")*30",
+                        "TimerElapsedTime(\"flamme_bleue\")*40",
                         ""
                       ]
                     },
@@ -6978,6 +9915,24 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "coin_mur_haut_gauche_1",
+                "ObjectSpawner",
+                "vampire",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -7030,7 +9985,7 @@
               "parameters": [
                 "vampire",
                 "Health",
-                "max(10, GlobalVariable(force_max_lance_flamme)/100 - 7)",
+                "10",
                 "",
                 "",
                 ""
@@ -7339,7 +10294,7 @@
               "parameters": [
                 "BlueFlatBar",
                 "+",
-                "5",
+                "2",
                 ""
               ]
             }
@@ -7475,6 +10430,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "comportements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8069,6 +11025,2357 @@
                         "-1060 - (Variable(largeur_carte) - Variable(j_tableau)) * 3200"
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "boss_event_add",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "colision_boss\n",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                "<",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Boss",
+                "1460",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "pv_boss",
+                "hero.CenterX() + 1500",
+                "hero.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "pv_boss",
+                "Scale",
+                "=",
+                "4.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "GlobalVariable(pv_boss)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealthRegenDelayOp"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealthRegenRateOp"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "=",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "splited",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "pv_boss",
+                "=",
+                "hero.CenterX() - 250",
+                "=",
+                "hero.Y() - 750"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                ">",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MagneticEffect::MagneticEffect::Attraction"
+              },
+              "parameters": [
+                "Boss",
+                "MagneticEffect",
+                "hero",
+                "12800",
+                "200",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Health",
+                    "<=",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "nb_boss",
+                    "<=",
+                    "GlobalVariable(nb_boss_total)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"attaque_special\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Boss",
+                        "Boss.PointX(\"Fusion_1\")",
+                        "Boss.PointY(\"Fusion_1\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nb_boss",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetHealth"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Health",
+                        "GlobalVariable(pv_boss)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "pv_boss",
+                        "=",
+                        "pv_boss.MaxValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "boss_mode",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "hero",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Fureur\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "ObjectSpawner",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "boss_mode",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Idle_rapide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "vampire",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "hero",
+                    "1000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "vampire",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Boss",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "15",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "0.5",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Boss",
+                "flammes",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "10",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "pv_boss",
+                "-",
+                "10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "<",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"mort\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "boss_event_add",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "colision_boss\n",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_bas_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_bas_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "carreau_mur_droite_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "carreau_mur_droite_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_droit_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_droit_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_bas_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_bas_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "coin_mur_haut_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "coin_mur_haut_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_haut_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_haut_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "couloir_plafond_gauche_1",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "couloir_plafond_gauche_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Boss",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                "<",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "nb_boss",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Boss",
+                "1460",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "pv_boss",
+                "hero.CenterX() + 1500",
+                "hero.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "pv_boss",
+                "Scale",
+                "=",
+                "4.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "GlobalVariable(pv_boss)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealthRegenDelayOp"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealthRegenRateOp"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "=",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "splited",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "pv_boss",
+                "=",
+                "hero.CenterX() - 250",
+                "=",
+                "hero.Y() - 750"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                ">",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MagneticEffect::MagneticEffect::Attraction"
+              },
+              "parameters": [
+                "Boss",
+                "MagneticEffect",
+                "hero",
+                "12800",
+                "200",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Health",
+                    "<=",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "nb_boss",
+                    "<=",
+                    "GlobalVariable(nb_boss_total)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"attaque_special\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Boss",
+                        "Boss.PointX(\"Fusion_1\")",
+                        "Boss.PointY(\"Fusion_1\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nb_boss",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetHealth"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Health",
+                        "GlobalVariable(pv_boss)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "pv_boss",
+                        "=",
+                        "pv_boss.MaxValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "boss_mode",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "hero",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Fureur\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "ObjectSpawner",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "boss_mode",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Idle_rapide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "vampire",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "hero",
+                    "1000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SetSpawnPeriod"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "ObjectSpawner",
+                    "vampire",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "boss_mode",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Boss",
+                "hero",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "15",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetCooldownDurationOp"
+              },
+              "parameters": [
+                "hero",
+                "Health",
+                "=",
+                "0.5",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_droite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_droite\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Run_gauche\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Hit_gauche\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Animation",
+                    "=",
+                    "\"Idle_gauche\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Boss",
+                "flammes",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "10",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "pv_boss",
+                "-",
+                "10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "<",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"mort\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Boss",
+                    ""
                   ]
                 }
               ]
